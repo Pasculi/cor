@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="transporte.css">
+  <title>Transporte</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="dwdm">
+      <h3>DWDM PRAT</h3>
+      <ul>
+        <li>Anydesk COR (en puesto 2) ID 956683736 / clave: telsur2020</li>
+        <li>Gestor prat escritorio remoto (172.19.12.202) / TELEDUCTOS\cor2020, pass: Passw0rd / Gestor TNMS /
+          cor2/Part.2021</li>
+      </ul>
+      ************************************************************************************************
+
+    </div>
+    <div class="pwmanager">
+      <h3>Infraestructura Escritorio remoto PowerManager2</h3>
+      <p>172.19.32.5</p>
+      <p>MVCFIBERHOME\COR / cor2020</p>
+    </div>
+    <div class="dwdm-prat">
+      Zabbixs para DWDM Larga Distancia y PRAT
+      ZBB01http://zbb01.server.cl/zabbix/zabbix.php?action=dashboard.view
+      coringenieros/Cor.2020
+    </div>
+    <div class="prat">
+      DWDM PRAT
+    </div>
+    <div class="dwdmHuawei">
+      <h3>DWDM Huawei</h3>
+      <a href="https://172.27.49.18:31943/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252Fnmsnetworkmgrwebsite%252Fv1%252Fwebswing%252Findexforwebswing.html#page=QWN0aW9uJTNEY29tLmh1YXdlaS51MjAwMC51bml0ZWRtZ3IudG9wby5hY3Rpb24uRG9XZWJUb3BvQWN0aW9u/"
+        target="_blank">Red DWDM Huawei</a>
+    </div>
+    <p>OperadorCor / Changeme_2023</p>
+
+    <div class="broker">
+      <h3>SERVICE BROKER</h3>
+      puerto: 127.0.0.1:1234 <br>
+      destino: Localhost:28484<br>
+      sesión ssh: 172.60.0.73<br>
+      root/ Br^k3r14 <br>
+      <a href="http://127.0.0.1:1234/" target="_blank">http://127.0.0.1:1234/</a>
+      <br>
+      guest/(sin password)
+    </div>
+    <div class="ewsd">
+      <h3>Aplicativo EWSD
+        RADMIN</h3>
+      <ul>
+        <li>CSTR - 172.19.5.116 => cncp*2023#</li>
+        <li>CNCP - 172.19.5.117 => cstr*2023#</li>
+        <li>CYHQ - 172.19.5.115 => cyhq*2023#</li>
+        <li>OSRN - 172.19.5.113 => osrn*2023#</li>
+        <li>PMTT - 172.19.5.114 => pmtt*2023#</li>
+        <li>TMCO - 172.19.5.112 => tmco*2023#</li>
+        <li>VLDV - 172.19.5.111 => vldv*2023#</li>
+      </ul>
+    </div>
+    <div class="ama">
+      <h4>Realizar el AMA</h4>
+      <h4>Limpiar páginas de centrales ESWD, esto se hace todas las mañanas:</h4>  
+      <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>verificar que el IA.ICAMA fue liberado o no.> ver "copyarea
+          bytes=0"</span>
+      </p>
+      <p>DISPFILE:FILE=AMA.; <span>EL VALOR DE LAS PAGINAS COPIADAS DEBE COINCIDIR CON EL IA.ICAMA</span> </p>
+        <p></p> RELCYCFILE:FILE=IA.ICAMA; <span>liberar AMA</span>  </p>
+        <h4>Proceso del AMA, esto se hace todas las tardes:</h4>
+        <p>equipos/archivos/RESUMEN_AMA_mes_año <span>sacar datos de la correlación por cada día y zona, para ordenarse. Ver que disco este liberado</span>  </p><br>
+        <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>los 2 copyarea pages y bytes en 0 </span> </p> 
+        <h4>Ver disco montado en centrales <span>de no ser así se deberá montar</span> </h4>
+        <p>DISPMO:MOD=0; <span>nombre (AMADIA) y estado NORM=1</span>  </p>
+        <p><h4>Revisar estado de los discos</h4>  <br>STATSSP;<span>MOD-0 y 1 en ACT</span> </p>
+        <p><h4>Revisar secuencia de los archivos</h4><br>DISPFILE:FILE=AMA.; <span>para ve si corresponde la numeración de orden del archivo de teams, debe ser el siguiente</span> </p>
+        <h4>iniciaizacion de disco</h4> <br>
+        INITMO<br>
+        VSN=AMADIA<br>
+        CD=EBC<br>
+        MOD=0; <span>Iniciar y que se ejecute el comando</span> </p>
+        <br>
+        <h4>Aplicativos AMA</h4>
+        <p>Escritorio Remoto:172.16.67.252 => userewsd/passw0rd </p>
+        <ul>
+          <li>FLASH2 GUI:</li>
+          <ul>
+            <li>crear los respaldos -dejar online (presionar botón gris)</li>
+            <li>crear los backup (presionar botón "create backup" y guardar con el archivo del día anterior cambiando solo el número de registro al actual)
+            </li>
+          </ul>
+        <li>Arsenal Image mountaner</li>
+            <ul>
+              <li>escoger "mount image", aplicar "ver todos los archivos" y escoger uno por uno los archivos de los sitios.</li>
+              <li>marcar 512, write original y removable</li>
+            </ul>
+        <li> WINDISKUS</li>
+          <ul>
+            <li>
+              escoger cada sitio
+            </li>
+            <li>file groups, archivo AMA</li>
+            <li>escoger y apretar file/copy/to pc y "yes all" Cambiar extensión de los archivos</li>
+            <li>disco C/usuarios/userewsd</li>
+            <li>dejarlos en "SRC"</li>
+          </ul>
+        <li>
+          LNP: <a href="http://lnpcp.cnt.telsur.cl/LNP/main.php">Acceder</a>
+        </li>
+        <ul>
+          <li>CDR/cargar archivos</li>
+          <li>cargar directo los archivos, copiar del escritorio remoto al local</li>
+          <li>ver traducidos y sacar datos del registro 84 y tasabilidad</li>
+        </ul>
+      </ul>
+    </div>
+</body>
+
+</html>
