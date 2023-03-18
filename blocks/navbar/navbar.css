@@ -1,0 +1,6 @@
+.navbar{
+    max-width: fit-content;
+    border:2px solid red;
+    margin: auto;
+    margin-top:50px;
+}

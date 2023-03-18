@@ -1,0 +1,16 @@
+:root{
+    --color-blue:#214070;
+    --color-blueligth:#5A7EBE;
+    --color-orange:#fd7e14;
+    --color-verde:#128170;
+    --background-color-primary:#fff;
+    --background-color-secondary:#EEF2F9;
+
+}
+*{
+    font-family: 'Poppins',
+sans-serif;
+}
+body{
+    background-color:var(--color-white) ;
+}

@@ -1,126 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/sytle.css" />
-  <title>Checklist</title>
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <img
-        src="https://play-lh.googleusercontent.com/gfbwc_dgFLhVpn1khTa4To4JnPDnYD61d6AcNtldUFV9It204mDAWOZGDwETOvyKJaZ3"
-        alt="logo-Telsur-GTD">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>CMC</title>
+  </head>
+  <body class="root">
+    <div class="container">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="images/Telsur_logo_2019.png"
+          alt="Logo GTD Telsur"
+        />
+        <h1 class="header__title">Sitema de gestión CMC</h1>
+      </header>
+      <nav class="navbar">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item">
+            Datos e Internet
+            <ul class="navbar__submenu">
+              <li class="navbar__submenu__item">Procedimientos</li>
+              <li class="navbar__submenu__item">Links</li>
+              <li class="navbar__submenu__item">Corta palos</li>
+            </ul>
+          </li>
+          <li class="navbar__menu__item">
+            Televisión
+            <ul class="navbar__submenu">
+              <li class="navbar__submenu__item">
+                <a href="dhcp.html">DHCP</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__menu__item">
+            Transporte
+            <ul class="navbar__submenu">
+              <li class="navbar__submenu__item">
+                <a href="transporte.html">DWDM</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="titulo">
-      <h1>IPTV</h1>
-    </div>
-  </header>
-  <h1 onclick=handleClick()>Chequeo de Televisión</h1>
-  <div class="container">
-
-    <div class="canales">
-      <fieldset>
-        <legend class="italic">CHECKLIST DIARIO TV</legend>
-        <div class="etiquetas">
-          <label for="canales">Chequeo de todos los Canales</label><br />
-          <label for="radios">Chequeo Radios en producción</label><br />
-          <label for="portal">Chequeo Portal Interactivo</label><br />
-          <label for="epg">Chequeo Funcional ITVManager - Reporte EPG - Server APP</label><br />
-          <label for="incognito">Chequeo Funcional JIMC Incognito</label><br />
-        </div>
-        <div class="estado">
-          <input name="canales" checked="checked" type="radio" id="canales" />OK<input name="canales"
-            type="radio" />NOK<br />
-          <input name="radios" checked="checked" type="radio" />OK<input name="radios" type="radio" />NOK<br />
-          <input name="portal" checked="checked" type="radio" />OK<input name="portal" type="radio" />NOK<br />
-          <input name="epg" checked="checked" type="radio" />OK<input name="epg" type="radio" />NOK<br />
-          <input name="incognito" checked="checked" type="radio" />OK<input name="incognito" type="radio" />NOK<br />
-        </div>
-      </fieldset>
-    </div>
-    <br />
-    <div class="canales">
-      <fieldset>
-        <legend class="italic">REBOOT Y REFLASH STB</legend>
-        <div class="etiquetas">
-          <label for="J56">J56</label><br />
-          <label for="Entone-520X">Entone-520X</label><br />
-          <label for="A110">A110</label><br />
-          <label for="A139">A139</label><br />
-          <label for="A540">A540</label><br />
-          <label for="A7x">A7x</label><br />
-        </div>
-        <div class="estado">
-          <input name="J56" type="checkbox" />OK<input name="J56" type="checkbox" />NOK<br />
-          <input name="Entone-520X" type="checkbox" />OK<input name="Entone-520X" type="checkbox" />NOK<br />
-          <input name="A110" type="checkbox" />OK<input name="A110" type="checkbox" />NOK<br />
-          <input name="A139" type="checkbox" />OK<input name="A139" type="checkbox" />NOK<br />
-          <input name="A540" type="checkbox" />OK<input name="A540" type="checkbox" />NOK<br />
-          <input name="A7x" checked="checked" type="checkbox" />OK<input name="A7x" type="checkbox" />NOK<br />
-        </div>
-      </fieldset>
-    </div>
-    <br />
-
-
-    <div class="canales">
-      <fieldset>
-        <legend class="italic">CHECKLIST DIARIO TV TURNO TARDE</legend>
-        <div class="etiquetas">
-          <label for="evertz">Vigilancia Evertz</label><br />
-          <label for="titan">Chequeo ingreso TITAN - Envivio Muse - DCM VLDV y DCM CYHQ</label><br />
-
-        </div>
-        <div class="estado">
-          <input name="evertz" checked="checked" type="radio" />OK<input name="evertz" type="radio" />NOK<br />
-          <input name="titan" checked="checked" type="radio" />OK<input name="titan" type="radio" />NOK<br />
-        </div>
-      </fieldset>
-    </div>
-
-    <div class="canales dia-medio">
-      <fieldset id="textArea">
-        <legend class="italic">CHECKLIST DE TELEVISIÓN DIA POR MEDIO L-M-V-D</legend>
-        <div class="etiquetas">
-          <label for="hd">Señales HD</label><br />
-          <label for="sap">Audios SAP</label><br />
-          <label for="sub">Subtitulos</label><br />
-
-        </div>
-        <div class="estado">
-          <input name="hd" checked="checked" type="radio" />OK<input name="hd" type="radio" />NOK<br />
-          <input name="sap" checked="checked" type="radio" />OK<input name="sap" type="radio" />NOK<br />
-          <input name="sub" checked="checked" type="radio" />OK<input name="sub" type="radio" />NOK<br />
-        </div>
-      </fieldset>
-    </div>
-
-  </div>
-  <br />
-  <h1>Checklist DHCP</h1>
-  <div id="tabla_dhcp">
-    
-    <!-- Aqui se renderizan la tabla -->
-
-
-  </div>
-  <br />
-  <footer>
-    <code>Desarrollado por Jorge R. Sepúlveda Turpie - Especialista de Monitoreo y Control</code>
-  </footer>
-  <br />
-  <br />
-  
-  <script src="./js/script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -1,0 +1,6 @@
+.navbar__menu {
+    display   : flex;
+    list-style: none;
+    margin: auto;
+border:2px solid rgb(94, 255, 0);
+}
