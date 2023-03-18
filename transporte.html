@@ -54,6 +54,7 @@
     <div class="ewsd">
       <h3>Aplicativo EWSD
         RADMIN</h3>
+        <h4>Ingresar en comndo: OMT0 y ↲ enter </h4>
       <ul>
         <li>CSTR - 172.19.5.116 => cncp*2023#</li>
         <li>CNCP - 172.19.5.117 => cstr*2023#</li>
@@ -72,33 +73,45 @@
       </p>
       <p>DISPFILE:FILE=AMA.; <span>EL VALOR DE LAS PAGINAS COPIADAS DEBE COINCIDIR CON EL IA.ICAMA</span> </p>
         <p></p> RELCYCFILE:FILE=IA.ICAMA; <span>liberar AMA</span>  </p>
+        <!-- Proceso AMA en la Tarde -->
+        <a href="https://teams.microsoft.com/_#/FileBrowserTabApp/General?threadId=19:c39b2e86d7504cbfbe580d3099b08677@thread.skype&ctx=channel">Registro AMA</a>
         <h4>Proceso del AMA, esto se hace todas las tardes:</h4>
-        <p>equipos/archivos/RESUMEN_AMA_mes_año <span>sacar datos de la correlación por cada día y zona, para ordenarse. Ver que disco este liberado</span>  </p><br>
-        <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>los 2 copyarea pages y bytes en 0 </span> </p> 
-        <h4>Ver disco montado en centrales <span>de no ser así se deberá montar</span> </h4>
-        <p>DISPMO:MOD=0; <span>nombre (AMADIA) y estado NORM=1</span>  </p>
+        <p>equipos/archivos/RESUMEN_AMA_mes_año <span>sacar datos de la correlación por cada día y zona, para ordenarse. Ver que disco este liberado</span>  </p>
+        <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>los 2 copyarea pages y bytes en 0 </span> </p>
+        <h4>Ver disco montado en centrales</h4> <span>de no ser así se deberá montar</span>        <p>DISPMO:MOD=0; <span>nombre (AMADIA) y estado NORM=1</span>  </p>
         <p><h4>Revisar estado de los discos</h4>  <br>STATSSP;<span>MOD-0 y 1 en ACT</span> </p>
         <p><h4>Revisar secuencia de los archivos</h4><br>DISPFILE:FILE=AMA.; <span>para ve si corresponde la numeración de orden del archivo de teams, debe ser el siguiente</span> </p>
-        <h4>iniciaizacion de disco</h4> <br>
+        <h4>Iniciaizacion de disco</h4> <br>
         INITMO<br>
         VSN=AMADIA<br>
         CD=EBC<br>
         MOD=0; <span>Iniciar y que se ejecute el comando</span> </p>
         <br>
-        <h4>Aplicativos AMA</h4>
-        <p>Escritorio Remoto:172.16.67.252 => userewsd/passw0rd </p>
+        <h4>Sacar el Ama</h4>
+        <p>TRANSFILE:FILE=AMA.649.PMTT/IA.ICAMA,VSNR=AMADIA;<span> saca el archivo AMA, comando debe ser aceptado. Se debe anotar el registro  y hora del RECORDS.</span> </p>
+        <p>TRANSFILE:FILE=AMA.649.PMTT,VSNS=AMADIA,MODE=CRD;<span>comando debe ser aceptado, archivo AMA se paso al disco</span> </p>
+        <h4>En caso que el disco este montado en "otro"</h4>
+        <p>CONFMOD:MOD=0,OST=MBL;</p>
+        <p>CONFMOD:MOD=0,OST=ACT;</p>
+        <p>INITMO</p>
+        <p>VSN=AMADIA</p>
+        <p>CD=EBC</p>
+        <p>MOD=0;</p>
+
+      <h3>Aplicativos AMA</h3>
+        <p>Escritorio Remoto:172.16.67.252 => userewsd / Passw0rd </p>
         <ul>
           <li>FLASH2 GUI:</li>
           <ul>
             <li>crear los respaldos -dejar online (presionar botón gris)</li>
             <li>crear los backup (presionar botón "create backup" y guardar con el archivo del día anterior cambiando solo el número de registro al actual)
             </li>
-          </ul>
+          </ul><br>
         <li>Arsenal Image mountaner</li>
             <ul>
               <li>escoger "mount image", aplicar "ver todos los archivos" y escoger uno por uno los archivos de los sitios.</li>
               <li>marcar 512, write original y removable</li>
-            </ul>
+            </ul><br>
         <li> WINDISKUS</li>
           <ul>
             <li>
@@ -108,7 +121,7 @@
             <li>escoger y apretar file/copy/to pc y "yes all" Cambiar extensión de los archivos</li>
             <li>disco C/usuarios/userewsd</li>
             <li>dejarlos en "SRC"</li>
-          </ul>
+          </ul><br>
         <li>
           LNP: <a href="http://lnpcp.cnt.telsur.cl/LNP/main.php">Acceder</a>
         </li>
