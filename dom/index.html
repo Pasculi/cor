@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link class="luz" rel="stylesheet" href="style.css" />
+    
     <title>DOM</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        
+      <h1 class="titulo"></h1>
+      <button type="button" class="btn btn-primary">Haz click sobre mi</button>
+      <p class="number"></p>
+      <form id="create-course">
+        <div class="form-group">
+            <input type="text" class="form-control" name="nombre" id="input-form" placeholder="Título">
+            <input type="text" class="form-control" name="nombre" id="description-form" placeholder="Descripción">
+            <h1 class="titulo"></h1>
+            <div class="from-group">
+                <label for="">
+                    <input type="checkbox" name="premium" id="checkbox">Premium
+                </label>
+              </div><br>
+      <button type="submit" class="btn btn-warning">agregar</button>
+      <button type="button" class="btn btn-danger">borrar</button>
+      <button type="submit" class="btn btn-info">información</button>
+      <div class="cursos-details"></div>
+        </div>
+
+      </form><br>
+     
+      
     </div>
 
     <script src="./script.js"></script>
-    
-</body>
+  </body>
 </html>

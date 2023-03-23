@@ -88,18 +88,14 @@ const DHCP = [
     penddingUpdate: 0,
     estado: true,
     licenciasDhcp: 377000,
-  }
-]
+  },
+];
 
-function copiar(e) {
-  let temp = document.createElement
-}
+const container = document.querySelector("#tabla_dhcp");
+const tabla = document.createElement("table");
+tabla.classList.add("dhcps");
 
-const container = document.querySelector('#tabla_dhcp');
-const tabla = document.createElement('table')
-tabla.classList.add('dhcps')
-/* tabla.setAttribute('onClick', document.execCommand('copy','true')); */
-container.appendChild(tabla)
+container.appendChild(tabla);
 tabla.innerHTML = `
 <tr>
 <th>Zonal</th>
@@ -111,80 +107,79 @@ tabla.innerHTML = `
 <th>Porcentaje de Uso</th>
 </tr>
 
-`
+`;
 
-const tablaDhcp = DHCP.map(data => {
-  let row = document.createElement('tr')
-  tabla.appendChild(row)
-  let celda1 = document.createElement('td');
-  let celda2 = document.createElement('td');
+const tablaDhcp = DHCP.map((data) => {
+  let row = document.createElement("tr");
+  tabla.appendChild(row);
+  let celda1 = document.createElement("td");
+  let celda2 = document.createElement("td");
   //--------------------------Creamos el enlace-------------------------------------
-  let a = document.createElement('a');
+  let a = document.createElement("a");
   a.href = `http://${data.dhcpPrimario}:8080/jimc/`;
-  a.setAttribute('target', '_blank');
-  a.classList.add('enlace');
+  a.setAttribute("target", "_blank");
+  a.classList.add("enlace");
   let atexto = document.createTextNode(data.dhcpPrimario);
   a.appendChild(atexto);
   celda2.appendChild(a);
   //-----------------------------Fin de enlace----------------------------------------
-  let celda3 = document.createElement('td');
-  let inputEstado = document.createElement('input');
-  
-  inputEstado.setAttribute('id', data.id);
-  inputEstado.classList.add('pendding');
+  let celda3 = document.createElement("td");
+  let inputEstado = document.createElement("input");
+
+  inputEstado.setAttribute("id", data.id);
+  inputEstado.classList.add("pendding");
   celda3.appendChild(inputEstado);
-  celda3.addEventListener('input', valorInputEstado);
+  celda3.addEventListener("input", valorInputEstado);
 
-
-
-  let celda4 = document.createElement('td');
-  celda4.classList.add('status');
+  let celda4 = document.createElement("td");
+  celda4.classList.add("status");
 
   //Validar corerectamente el if la entrada de datos
 
   function valorInputEstado(e) {
-    let inputValue = (e.target.value);
+    let inputValue = e.target.value;
     if (inputValue < 0 || isNaN(inputValue)) {
-      celda4.innerHTML = 'Ingrese solo numeros mayor 0 igual a 0';
-      celda4.style.color='red';
-    } else if(inputValue == 0) {
-      celda4.innerHTML = 'Ok';
-      celda4.style.color='black';
-    }else{
-      celda4.innerHTML = 'Se realiza flush';
-      celda4.style.color='black';
+      celda4.innerHTML = "Ingrese solo numeros mayor 0 igual a 0";
+      celda4.style.color = "red";
+    } else if (inputValue == 0) {
+      celda4.innerHTML = "Ok";
+      celda4.style.color = "black";
+    } else {
+      celda4.innerHTML = "Se realiza flush";
+      celda4.style.color = "black";
     }
   }
 
-  let celda5 = document.createElement('td');
+  let celda5 = document.createElement("td");
 
+  let celda6 = document.createElement("td");
+  let inputLicencias = document.createElement("input");
 
-  let celda6 = document.createElement('td');
-  let inputLicencias = document.createElement('input');
-
-  inputLicencias.classList.add('licenciasDhcp')
-  inputLicencias.classList.add('pendding');
+  inputLicencias.classList.add("licenciasDhcp");
+  inputLicencias.classList.add("pendding");
   celda6.appendChild(inputLicencias);
-  celda6.addEventListener('input', valorInputLicencias);
+  celda6.addEventListener("input", valorInputLicencias);
 
   function valorInputLicencias(e) {
     let dato = parseInt(e.target.value);
-    console.log(dato)
-    let result = (dato * 100) / data.licenciasDhcp
-    celda7.innerHTML = (`${result.toPrecision(3)}%`)
-    if(isNaN(result)){
-      celda7.innerHTML = 'Ingrese un valor numérico';
-      celda7.style.color ='red'
-    }else{
-      celda7.style.color ='black'
+    console.log(dato);
+    let result = (dato * 100) / data.licenciasDhcp;
+    celda7.innerHTML = `${result.toPrecision(3)}%`;
+    if (isNaN(result)) {
+      celda7.innerHTML = "Ingrese un valor numérico";
+      celda7.style.color = "red";
+    } else {
+      celda7.style.color = "black";
     }
     /* console.log(result); */
   }
 
-  let celda7 = document.createElement('td');
+  let celda7 = document.createElement("td");
 
-  let licenciasDhcp = document.getElementsByClassName('licenciasDhcp').innerHTML = ''
-  let info = document.getElementsByClassName('status').innerHTML = '';
+  let licenciasDhcp = (document.getElementsByClassName(
+    "licenciasDhcp"
+  ).innerHTML = "");
+  let info = (document.getElementsByClassName("status").innerHTML = "");
 
   /* console.log(info) */
 
@@ -204,12 +199,10 @@ const tablaDhcp = DHCP.map(data => {
   celda5.appendChild(col5);
   inputLicencias.appendChild(col6);
   celda7.appendChild(col7);
-}
-)
+});
 
-
-
-
-
-
-
+tabla.addEventListener("copy", (event) => {
+  const selection = document.getSelection();
+  event.clipboardData.setData("text/plain", selection.toString().toUpperCase());
+  event.preventDefault();
+});
