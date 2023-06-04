@@ -1,8 +1,12 @@
-const form = document.querySelectorAll('.formulario')
+const perfil = document.querySelector('.nav__perfil');
+const botonCerrar = document.querySelector('.button__cerrar')
 
+perfil.addEventListener('click', () =>{
+    const modalPerfil = document.querySelector('.grupo__formulario-perfil');
+    modalPerfil.classList.add('grupo__formulario-show');
+})
 
-
-const formList = Array.from(form)
-formList.forEach((formu)=>{
-    console.log(formu.elements)
+botonCerrar.addEventListener('click', () =>{
+    const modalPerfil = document.querySelector('.grupo__formulario-perfil');
+    modalPerfil.classList.remove('grupo__formulario-show')
 })

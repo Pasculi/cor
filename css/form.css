@@ -20,14 +20,19 @@
 .header__titulo{
     color:rgb(23, 32, 32);
 }
+.nav{
+    cursor: pointer;
+}
 .form{
     display:flex;
-    height: calc(100vh);
+    margin-top:-100.67px;
+    height: 100vh;
     background-color: #0000003a;
     width: 100%;
     justify-content: center;
     align-items: center;
     border:1px solid green;
+    visibility: hidden;
 }
 .formulario__input-error{
     font-size: 10px;
@@ -60,9 +65,14 @@
 }
 .grupo__formulario{
     width: 100%;
+    border: none;
     position:relative;
     width: 460px;
     display: flex;
+    
+}
+.grupo__formulario-show{
+    visibility: visible;
 }
 .formulario{
     display: flex;
@@ -82,4 +92,5 @@
     font-size: 40px;
     right: 0px;
     top:0px;
+    cursor:pointer;
 }
