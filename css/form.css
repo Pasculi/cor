@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Geologica', sans-serif;
+}
+.header{
+    border: 1px solid red;
+    display:flex;justify-content: space-around;
+}
+.header__image{
+    width: 180px;
+}
+.header__titulo{
+    color:rgb(23, 32, 32);
+}
+.formulario__input-error{
+    font-size: 10px;
+    color: red;
+    visibility: visible;
+}
+.formulario__input{
+    width: 270px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #000;
+}
+.formulario__input:focus{
+    border-bottom: 1px solid rgb(0, 110, 255);
+}
+.button{
+    background-color:#000;
+    color:#FFF;
+    width: 270px;
+    border:none;
+    outline: none;
+    margin: 10px 0;
+    padding: 15px 50px;
+    font-size: 18px;
+    transition: all 0.6s;
+}
+.button:hover{
+    background-color:rgb(201, 199, 199);
+    color:#000;
+}
+.grupo__formulario{
+    position:relative;
+    width: 460px;
+    margin:10px;
+    padding: 5px 15px;
+}
+.formulario{
+    width: 100%;
+    border:1px solid green;
+    margin:10px;
+    padding: 5px 15px;
+}
+.button__cerrar{
+    position: absolute;
+    font-size: 40px;
+    right: 0px;
+    top:0px;
+}
