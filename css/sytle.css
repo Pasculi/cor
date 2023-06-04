@@ -38,8 +38,30 @@ h1 {
     flex-direction: column;
 }
 
-   
 
+
+.tabla_check{
+    display: flex;
+    flex-direction: column;
+}
+.btn_copiar{  
+    align-self: flex-end;
+    margin-right: 223px;
+    margin-bottom:10px;  
+    width: fit-content;
+    background-color: #2b5db3;
+    color: #fff;
+    border:none;
+    padding: 0.5em 0.5em;
+    border-radius:8px;
+    transition: .5s;
+}
+.btn_copiar:hover{
+    background-color:#fff;
+    color: #2b5db3;
+    outline:1px solid #2b5db3;
+    cursor: pointer;
+}
 
 #tabla_dhcp {
     display: flex;

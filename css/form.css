@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    font-family: 'Geologica', sans-serif;
+    background-color: rgb(248, 248, 248);
+    flex-direction: column;
+}
+.header{
+    border: 1px solid red;
+    display:flex;justify-content: space-around;
+}
+.header__image{
+    width: 180px;
+}
+.header__titulo{
+    color:rgb(23, 32, 32);
+}
+.nav{
+    cursor: pointer;
+}
+.form{
+    display:flex;
+    margin-top:-100.67px;
+    height: 100vh;
+    background-color: #0000003a;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green;
+    visibility: hidden;
+}
+.formulario__input-error{
+    font-size: 10px;
+    color: red;
+    visibility: visible;
+}
+.formulario__input{
+    width: 358px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #000;
+}
+.formulario__input:focus{
+    border-bottom: 1px solid rgb(0, 110, 255);
+}
+.button{
+    background-color:#000;
+    color:#FFF;
+    width: 358px;
+    border:none;
+    outline: none;
+    margin: 10px 0;
+    padding: 15px 50px;
+    font-size: 18px;
+    transition: all 0.6s;
+}
+.button:hover{
+    background-color:rgb(201, 199, 199,.6);
+    color:#000;
+}
+.grupo__formulario{
+    width: 100%;
+    border: none;
+    position:relative;
+    width: 460px;
+    display: flex;
+    
+}
+.grupo__formulario-show{
+    visibility: visible;
+}
+.formulario{
+    display: flex;
+    background-color: #FFF;
+    flex-direction:column;
+    justify-content: space-around;
+    height: 330px;
+    border:1px solid green;
+    border-radius: 10px;
+    margin:38px 27px;
+    padding: 5px 36px;
+}
+.button__cerrar{
+    color: #fff;
+    position: absolute;
+    display: block;
+    font-size: 40px;
+    right: 0px;
+    top:0px;
+    cursor:pointer;
+}

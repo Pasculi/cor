@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Formualarios</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="header__image" src="images/logo_img_patrocinada.png" alt="logo GTD_Telsur">
+            <h1 class="header__titulo">Ingreso de Equipo</h1>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li class="nav nav__perfil">Perfil</li>
+                <li class="nav nav__equipos">Equipos</li>
+            </ul>
+        </nav>
+        <section class="form">
+
+            <fieldset  class="grupo__formulario grupo__formulario-perfil">
+                <span class="button__cerrar">X</span>
+                <form action="" class="formulario formulario__perfil-usuario">
+                    <!-- Grupo nombre equipo -->
+                    <h2 class="formulario__title">Ingresar perfil</h2>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="equipo_nombre">Nombre equipo</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="equipo_nombre" class="formulario__input">
+                        </div>
+                        <span class="formulario__input-error">Error</span>
+                    </div>
+                    <!-- Grupo nombre equipo -->
+                    <div class="formulario__grupo" id="grupo__equipo_url">
+                        <label for="formulario__input-url">Url equipo</label>
+                        <div class="formulario__grupo-input">
+                            <input type="url" class="formulario__input" id="formulario__input-url">
+                        </div>
+                        <span class="formulario__input-error">Error</span>
+                    </div>
+    
+                    <button type="submit" class="button" >Guardar</button>
+                </form>
+            </fieldset>
+    
+    
+           <!--  <fieldset class="grupo__formulario">
+                <span class="button__cerrar">X</span>
+                <form action="" class="formulario formulario__equipo-url">
+                    <h2 class="formulario__title">Ingresar equipo</h2> -->
+                    <!-- Grupo nombre equipo -->
+                   <!--  <div class="formulario__grupo" id="grupo__equipo_nombre">
+                        <label for="equipo_nombre">Nombre equipo</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="equipo_nombre" class="formulario__input">
+                        </div>
+                        <span class="formulario__input-error">Error</span>
+                    </div> -->
+                    <!-- Grupo nombre equipo -->
+                    <!-- <div class="formulario__grupo" id="grupo__equipo_url">
+                        <label for="formulario__input-url">Url equipo</label>
+                        <div class="formulario__grupo-input">
+                            <input type="url" class="formulario__input" id="formulario__input-url">
+                        </div>
+                        <span class="formulario__input-error">Error</span>
+                    </div>
+    
+                    <button type="submit" class="button" >Guardar</button>
+                </form>
+            </fieldset> -->
+        </section>
+
+    </div>
+    <script src="script/validation.js
+    "></script>
+</body>
+</html>
