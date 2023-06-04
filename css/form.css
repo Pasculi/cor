@@ -5,7 +5,10 @@
     box-sizing: border-box;
 }
 .container{
+    width: 100%;
     font-family: 'Geologica', sans-serif;
+    background-color: rgb(248, 248, 248);
+    flex-direction: column;
 }
 .header{
     border: 1px solid red;
@@ -17,13 +20,22 @@
 .header__titulo{
     color:rgb(23, 32, 32);
 }
+.form{
+    display:flex;
+    height: calc(100vh);
+    background-color: #0000003a;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green;
+}
 .formulario__input-error{
     font-size: 10px;
     color: red;
     visibility: visible;
 }
 .formulario__input{
-    width: 270px;
+    width: 358px;
     border:none;
     outline:none;
     border-bottom: 1px solid #000;
@@ -34,7 +46,7 @@
 .button{
     background-color:#000;
     color:#FFF;
-    width: 270px;
+    width: 358px;
     border:none;
     outline: none;
     margin: 10px 0;
@@ -43,23 +55,30 @@
     transition: all 0.6s;
 }
 .button:hover{
-    background-color:rgb(201, 199, 199);
+    background-color:rgb(201, 199, 199,.6);
     color:#000;
 }
 .grupo__formulario{
+    width: 100%;
     position:relative;
     width: 460px;
-    margin:10px;
-    padding: 5px 15px;
+    display: flex;
 }
 .formulario{
-    width: 100%;
+    display: flex;
+    background-color: #FFF;
+    flex-direction:column;
+    justify-content: space-around;
+    height: 330px;
     border:1px solid green;
-    margin:10px;
-    padding: 5px 15px;
+    border-radius: 10px;
+    margin:38px 27px;
+    padding: 5px 36px;
 }
 .button__cerrar{
+    color: #fff;
     position: absolute;
+    display: block;
     font-size: 40px;
     right: 0px;
     top:0px;
