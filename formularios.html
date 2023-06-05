@@ -25,9 +25,11 @@
         </ul>
       </nav>
       <!-- Sección Formulario -->
-      <section class="section__form section__nav__perfil" >
+      <section class="section__form section__nav__perfil">
         <fieldset class="grupo__formulario grupo__formulario-perfil">
-          <span class="button__cerrar button__cerrar-perfil" id="perfil">X</span>
+          <span class="button__cerrar button__cerrar-perfil" id="nav__perfil"
+            >X</span
+          >
           <form action="" class="formulario formulario__perfil-usuario">
             <!-- Grupo nombre equipo -->
             <h2 class="formulario__title">Ingresar perfil</h2>
@@ -36,11 +38,11 @@
               <div class="formulario__grupo-input">
                 <input
                   type="text"
-                  id="equipo_nombre"
-                  class="form__input formulario__input-nombre"
+                  id="formulario__input-nombre"
+                  class="form__input formulario__input"
                   required
                   minlength="2"
-                  maxlength="30"
+                  maxlength="40"
                 />
               </div>
               <span class="formulario__input-error"
@@ -54,10 +56,10 @@
                 <input
                   type="url"
                   class="form__input formulario__input"
-                  id="formulario__input-url"
+                  id="formulario__input-description"
                   required
                   minlength="2"
-                  maxlength="30"
+                  maxlength="200"
                 />
               </div>
               <span class="formulario__input-error"
@@ -65,16 +67,18 @@
               >
             </div>
 
-            <button disabled="disabled" type="submit" class="button">
+            <button type="submit" class="button button__submit button_inactive">
               Guardar
             </button>
           </form>
         </fieldset>
       </section>
 
-      <section class="section__form section__nav__equipos" >
+      <section class="section__form section__nav__equipos">
         <fieldset class="grupo__formulario grupo__formulario-equipo">
-          <span class="button__cerrar button__cerrar-equipos" id="equipos">X</span>
+          <span class="button__cerrar button__cerrar-equipos" id="nav__equipos"
+            >X</span
+          >
           <form action="" class="formulario formulario__equipo-url">
             <h2 class="formulario__title">Ingresar equipo</h2>
             <!-- Grupo nombre equipo -->
@@ -83,8 +87,9 @@
               <div class="formulario__grupo-input">
                 <input
                   type="text"
-                  id="equipo_nombre"
-                  class="form__input formulario__input-equipo" required
+                  id="formulario__input-equipo"
+                  class="form__input formulario__input"
+                  required
                   minlength="2"
                   maxlength="30"
                 />
@@ -99,7 +104,7 @@
               <div class="formulario__grupo-input">
                 <input
                   type="url"
-                  class="form__input formulario__input-url"
+                  class="form__input formulario__input"
                   id="formulario__input-url"
                   required
                 />
@@ -109,7 +114,7 @@
               >
             </div>
 
-            <button disabled="disabled" type="submit" class="button">
+            <button disabled type="submit" class="button button__submit button_inactive">
               Guardar
             </button>
           </form>
