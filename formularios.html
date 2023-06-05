@@ -15,17 +15,19 @@
           src="images/logo_img_patrocinada.png"
           alt="logo GTD_Telsur"
         />
-        <h1 class="header__titulo">Ingreso de Equipo</h1>
+        <h1 class="header__titulo">Ingreso de Perfil</h1>
       </header>
+      <!-- Secciópn Navegación -->
       <nav class="navbar">
         <ul>
-          <li class="nav nav__perfil">Perfil</li>
-          <li class="nav nav__equipos">Equipos</li>
+          <li class="nav nav__perfil" id="nav__perfil">Perfil</li>
+          <li class="nav nav__equipos" id="nav__equipos">Equipos</li>
         </ul>
       </nav>
-      <section class="section__form section__form-perfil" >
+      <!-- Sección Formulario -->
+      <section class="section__form section__nav__perfil" >
         <fieldset class="grupo__formulario grupo__formulario-perfil">
-          <span class="button__cerrar">X</span>
+          <span class="button__cerrar button__cerrar-perfil" id="perfil">X</span>
           <form action="" class="formulario formulario__perfil-usuario">
             <!-- Grupo nombre equipo -->
             <h2 class="formulario__title">Ingresar perfil</h2>
@@ -70,9 +72,9 @@
         </fieldset>
       </section>
 
-      <section class="section__form section__form-equipo" >
+      <section class="section__form section__nav__equipos" >
         <fieldset class="grupo__formulario grupo__formulario-equipo">
-          <span class="button__cerrar">X</span>
+          <span class="button__cerrar button__cerrar-equipos" id="equipos">X</span>
           <form action="" class="formulario formulario__equipo-url">
             <h2 class="formulario__title">Ingresar equipo</h2>
             <!-- Grupo nombre equipo -->
