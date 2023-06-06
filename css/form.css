@@ -28,6 +28,9 @@
 .header__titulo {
     color: rgb(23, 32, 32);
 }
+.navbar{
+    display         : flex;
+}
 
 .nav {
     cursor: pointer;
