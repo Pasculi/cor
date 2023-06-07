@@ -1,0 +1,20 @@
+/* NORMALIZE */
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/root/root.css);
+
+/* CONFIGURACIÓN CABECERA */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+
+
+/* CONFIGURACIÓN NAVEGACIÓN */
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__menu/nav__menu.css);
+@import url(../blocks/nav/__menu/__item/nav__menu__item.css);
+
+/* SECCIÓN PRINCIPAL */
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/grupo-input/grupo-input.css);
