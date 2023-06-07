@@ -2775,16 +2775,8 @@ function buscarTexto() {
   buscarCadena.addEventListener("input", (evt) => {
     const texto = evt.target.value.toLowerCase();
     console.log(texto)
-    for(let canal of canales){
-      const nombre = canal.nombre.toLowerCase();
-      console.log(nombre)
-      if(nombre.indexOf(texto) !== -1){
-        resultados.innerHTML += `<p>${canal.nombre} - ${canal.channel} - (${canal.adsl}-${canal.fca}-${canal.mpeg4}) - ${canal.criticidad}</p>`
-      }
-    }
-    if(resultados.innerHTML === ''){
-      resultados.innerHTML = `<p>No hay resultados</p>`
-    }
+  const filtro = canales.filter(canal => canal.nombre.includes(texto));
+  console.log(filtro)
   })
 }
 buscarTexto();
