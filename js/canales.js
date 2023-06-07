@@ -2766,24 +2766,25 @@ const canales = [
 
 const [nombre, channel, adsl, fca, mpeg4, criticidad] = canales;
 
-console.log(canales);
-
 const buscarCadena = document.querySelector(".form__input");
-const result = document.querySelector(".resultados");
-console.log(buscarCadena);
+const resultados = document.querySelector(".resultados");
+
 
 function buscarTexto() {
-  result.innerHTML = "";
+  resultados.innerHTML = "";
   buscarCadena.addEventListener("input", (evt) => {
-    const cadena = evt.target.value.toLowerCase();
-    const resultados = canales.filter((canal) => {
-      resultados.forEach((result) => {
-        if (cadena.indexOf !== -1) {
-          result.innerHTML += `${canal.nombre}`;
-        }
-      });
-    });
-  });
+    const texto = evt.target.value.toLowerCase();
+    console.log(texto)
+    for(let canal of canales){
+      const nombre = canal.nombre.toLowerCase();
+      console.log(nombre)
+      if(nombre.indexOf(texto) !== -1){
+        resultados.innerHTML += `<p>${canal.nombre} - ${canal.channel} - (${canal.adsl}-${canal.fca}-${canal.mpeg4}) - ${canal.criticidad}</p>`
+      }
+    }
+    if(resultados.innerHTML === ''){
+      resultados.innerHTML = `<p>No hay resultados</p>`
+    }
+  })
 }
-
 buscarTexto();
