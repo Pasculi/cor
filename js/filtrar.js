@@ -25,7 +25,7 @@ function filtrarCanal() {
     limpiarHtml();
     const inputText = evt.target.value.toLowerCase().trim();
     console.log(inputText);
-    const mostrarFiltrado = canales.filter(canal => canal.nombre.toLowerCase().startsWith(inputText) || canal.channel.startsWith(inputText) || canal.criticidad.toLowerCase().startsWith(inputText));
+    const mostrarFiltrado = canales.filter(canal => canal.nombre.toLowerCase().includes(inputText) || canal.channel.startsWith(inputText));
     if (mostrarFiltrado.length > 0) {
       mostrarCanales(mostrarFiltrado);
     } else {
@@ -37,7 +37,7 @@ function filtrarCanal() {
 
 function noResultado() {
   const noResultado = document.createElement('div');
-  noResultado.innerHTML = `<h2>No hay resultados para tu busqueda...</h2>`;
+  noResultado.innerHTML = `<h2>No hay resultados para tu búsqueda...</h2>`;
   resultados.appendChild(noResultado);
   
 };

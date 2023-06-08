@@ -4,5 +4,13 @@
 
 }
 .form__input{
-    width: 150px;
+    width: 350px;
+    height: 30px;
+    margin-top:5px;
+    border-radius: 5px;
+    border:1px solid rgba(128, 128, 128, 0.342);
+    padding-left:10px;
+}
+.form__input:focus{
+    outline: 2px solid rgba(13, 158, 224, 0.486);
 }
