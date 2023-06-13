@@ -48,5 +48,3 @@ const elementClose = Array.from(document.querySelectorAll(".button__cerrar"));
             console.log(evt.target.value);
         })
     })
-
-
