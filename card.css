@@ -5,23 +5,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
+.resultado {
     display        : flex;
     position       : relative;
+    margin: auto;
     flex-wrap      : wrap;
     width          : 100%;
     justify-content: flex-start;
-    padding        : 0 5%;
     row-gap        : 20px;
     column-gap     : 20px;
     padding-top    : 50px;
+    padding-bottom: 100px;
 
 
 }
 
 .card {
     display        : flex;
-    margin         : 0 auto;
     flex-direction : column;
     min-height     : 180px;
     align-items    : center;
@@ -40,12 +40,8 @@
 }
 
 .card__logo {
-    width     : 25%;
+    width     : 50%;
     transition: .5s;
-}
-
-.card__logo:hover {
-    transform: rotate(-25deg);
 }
 
 .card__nombre {
@@ -56,8 +52,7 @@
     background-color: #DEE5F2;
     text-align      : center;
     width           : 100%;
-    padding         : 10px 0;
-    /* border-radius:0 0 1rem 1rem ; */
+    padding         : 10px 5px;
 }
 
 .card__numero {
@@ -79,7 +74,6 @@
     background-color: #DEE5F2;
     text-align      : center;
     padding         : 5px 0;
-    /* border-radius:1rem 1rem 0 0; */
 }
 
 #card__details {
