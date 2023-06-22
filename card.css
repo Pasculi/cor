@@ -1,88 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    width: 100%;
+    display        : flex;
+    position       : relative;
+    flex-wrap      : wrap;
+    width          : 100%;
     justify-content: flex-start;
-    padding: 0 5%;
-    row-gap:20px;
-    column-gap: 20px;
-    padding-top: 50px;
-    
+    padding        : 0 5%;
+    row-gap        : 20px;
+    column-gap     : 20px;
+    padding-top    : 50px;
+
 
 }
 
 .card {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    min-height: 180px;
-    align-items: center;
+    display        : flex;
+    margin         : 0 auto;
+    flex-direction : column;
+    min-height     : 180px;
+    align-items    : center;
     justify-content: space-between;
-    width: 200px;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 0 10px grey;
-    cursor: pointer;
-    transition:.4s;
+    width          : 200px;
+    border-radius  : 1rem;
+    overflow       : hidden;
+    box-shadow     : 0 0 10px grey;
+    cursor         : pointer;
+    transition     : .4s;
 }
 
 .card:hover {
     box-shadow: 0 0 20px grey;
-    transform: rotate(5deg);
+    transform : rotate(5deg);
 }
 
 .card__logo {
-    width: 25%;
+    width     : 25%;
     transition: .5s;
 }
-.card__logo:hover{
+
+.card__logo:hover {
     transform: rotate(-25deg);
 }
 
 .card__nombre {
-    color: #375d9d;
-    text-transform:capitalize;
-    font-size: .8rem;
-    font-weight: bold;
+    color           : #375d9d;
+    text-transform  : capitalize;
+    font-size       : .8rem;
+    font-weight     : bold;
     background-color: #DEE5F2;
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
+    text-align      : center;
+    width           : 100%;
+    padding         : 10px 0;
     /* border-radius:0 0 1rem 1rem ; */
 }
 
 .card__numero {
-    color: #375d9d;
+    color      : #375d9d;
     font-weight: bold;
-    font-size: .7rem;
+    font-size  : .7rem;
 }
 
 .card__categoria {
-    color: #375d9d;
+    color      : #375d9d;
     font-weight: bold;
-    padding: 10px 0;
-    font-size: .7rem;
+    padding    : 10px 0;
+    font-size  : .7rem;
 }
 
 .card__info {
     width: 100%;
-    
+
     background-color: #DEE5F2;
-    text-align: center;
-    padding: 5px 0;
+    text-align      : center;
+    padding         : 5px 0;
     /* border-radius:1rem 1rem 0 0; */
 }
 
-#card__details{
+#card__details {
     display: fixed;
-    top: 0;
-    left:0;
+    top    : 0;
+    left   : 0;
 }
