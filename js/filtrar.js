@@ -23,7 +23,7 @@ function filtrarCanal() {
       limpiarHtml();
       mostrarCanales(mostrarFiltrado);
     } else if (inputText === '') {
-      resultados.innerHTML = `<h2>No existe la búsqueda...</h2>`;
+      resultados.innerHTML = `<h2>Ingrese una búsqueda...</h2>`;
     }
 
   });
@@ -31,7 +31,7 @@ function filtrarCanal() {
 
 function noResultado() {
   const noResultado = document.createElement('div');
-  noResultado.innerHTML = `<h2>No hay resultados para tu búsqueda...</h2>`;
+  noResultado.innerHTML = `<h2>Ingrese una búsqueda válida...</h2>`;
   resultados.appendChild(noResultado);
 
 };
@@ -57,7 +57,7 @@ function mostrarCanales(canales) {
     })
     
   } else {
-    resultados.innerHTML = `<h2>No existe la búsqueda...</h2>`;
+    resultados.innerHTML = `<h2>No hay resultados para tu búsqueda...</h2>`;
   }
 
 }
