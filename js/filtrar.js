@@ -11,7 +11,6 @@ const buscarCanal = document.querySelector(".form__input");
 const resultados = document.querySelector(".resultado");
 
 
-<<<<<<< HEAD
 function mostrarCanales(canales) {
   resultados.innerHTML = 'N° - Nombre - Multicast - Severidad'
   canales.forEach((canal) => {
@@ -19,8 +18,6 @@ function mostrarCanales(canales) {
   })
 }
 
-=======
->>>>>>> 8536f22294eaa1273bde9233df9702701fb08fef
 function filtrarCanal() {
 
   buscarCanal.addEventListener('input', evt => {
