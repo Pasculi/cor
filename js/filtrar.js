@@ -12,12 +12,11 @@ const resultados = document.querySelector(".resultado");
 
 
 function mostrarCanales(canales) {
+  resultados.innerHTML = 'N° - Nombre - Multicast - Severidad'
   canales.forEach((canal) => {
     resultados.innerHTML += `<p>N°${canal.channel}.- ${canal.nombre} (<strong>ADSL:</strong> ${canal.adsl} - <strong>FCA:</strong> ${canal.fca} - <strong>MPEG4:</strong> ${canal.mpeg4}) - <strong>${canal.criticidad}</strong></p>`;
   })
 }
-
-
 
 function filtrarCanal() {
   
