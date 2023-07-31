@@ -51,13 +51,13 @@
           <p>MVCFIBERHOME\COR / cor2020</p>
           <p>Escritorio remoto
 Cheroque 172.19.32.5
-cor 
+cor
 cor2020
 administrator
 telsur</p>
-<p>Harris 
+<p>Harris
 172.19.19.10
-administrador 
+administrador
 telsur
 admin admin </p>
 <p>Display transporte
@@ -77,7 +77,7 @@ Gtd.2021</p>
           <a href="https://172.27.49.18:31943/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252Fnmsnetworkmgrwebsite%252Fv1%252Fwebswing%252Findexforwebswing.html#page=QWN0aW9uJTNEY29tLmh1YXdlaS51MjAwMC51bml0ZWRtZ3IudG9wby5hY3Rpb24uRG9XZWJUb3BvQWN0aW9u/"
             target="_blank">Red DWDM Huawei</a>
         </div>
-        <p>OperadorCor / Changeme_2023</p>
+        <p>OperadorCor / Gtd_2023_#cor</p>
     
         <div class="broker">
           <h3>SERVICE BROKER</h3>
@@ -92,10 +92,19 @@ Gtd.2021</p>
         <div class="ewsd">
           <h3>Aplicativo EWSD
             RADMIN</h3>
+            <h3>Revisar un DLU</h3>
+        <p>STATDLU:DLU=40; </p>
+        <p>dispalarm; < permite ver las alarmas de la central</p>
+        <p>STATDLUMOD:DLU=40,MOD=X-X;</p>
+        <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=MBL; => con ese comando se baja el modulo</p>
+        <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=ACT ;  => con este se sube</p>
+        <p>CONFDLUMOD:DLU=40,OST=MBL/ACT => ese comando permite bajar la DLU, pero en ese caso es más complejo, porque hay que corroborar que aplique o no, sino se afectarían los servicios</p>
+        <div class="ama">
             <h4>Ingresar en comndo: OMT0 y ↲ enter </h4>
+            <p>admin/123456</p>
           <ul>
-            <li>CSTR - 172.19.5.116 => cncp*2023#</li>
-            <li>CNCP - 172.19.5.117 => cstr*2023#</li>
+            <li>CNCP - 172.19.5.117 => cncp*2023#</li>
+            <li>CSTR - 172.19.5.116 => cstr*2023#</li>
             <li>CYHQ - 172.19.5.115 => cyhq*2023#</li>
             <li>OSRN - 172.19.5.113 => osrn*2023#</li>
             <li>PMTT - 172.19.5.114 => pmtt*2023#</li>
@@ -103,7 +112,7 @@ Gtd.2021</p>
             <li>VLDV - 172.19.5.111 => vldv*2023#</li>
           </ul>
         </div>
-        <div class="ama">
+        
           <h4>Realizar el AMA</h4>
           <h4>Limpiar páginas de centrales ESWD, esto se hace todas las mañanas:</h4>  
           <code>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>verificar que el IA.ICAMA fue liberado o no.> ver "copyarea
