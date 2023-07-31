@@ -8,3 +8,17 @@ const command = {
 }
 
 console.log(command.name, command.description)
+
+const userData = {
+  firstName: "William",
+  lastName: "Webberton",
+  age: 55
+};
+
+const printUserParams = ({ firstName, lastName, age }) => {
+  console.log(firstName);
+  console.log(lastName);
+  console.log(age);
+};
+
+console.log(printUserParams);
