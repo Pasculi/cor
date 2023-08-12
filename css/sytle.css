@@ -38,7 +38,10 @@ h1 {
     flex-direction: column;
 }
 
-
+.element_stb{
+    display: flex;
+    justify-content: space-between ;
+}
 
 .tabla_check{
     display: flex;
