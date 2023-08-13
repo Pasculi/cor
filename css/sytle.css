@@ -75,7 +75,7 @@ h1 {
     width:67%;
 }
 .canales {
-    width: 600px;
+    width: fit-content;
     margin-right: 20px;
 }
 

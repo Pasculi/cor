@@ -32,43 +32,63 @@
         <fieldset>
           <legend class="italic">CHECKLIST DIARIO TV</legend>
           <div class="etiquetas">
-            <label for="canales">Chequeo de todos los Canales</label><br />
-            <label for="radios">Chequeo Radios en producción</label><br />
-            <label for="portal">Chequeo Portal Interactivo</label><br />
-            <label for="epg"
-              >Chequeo Funcional ITVManager - Reporte EPG - Server APP</label
-            ><br />
-            <label for="incognito">Chequeo Funcional JIMC Incognito</label
-            ><br />
-          </div>
-          <div class="estado">
-            <input
-              name="canales"
-              checked="checked"
-              type="radio"
-              id="canales"
-            />OK<input name="canales" type="radio" />NOK<br />
-            <input name="radios" checked="checked" type="radio" />OK<input
-              name="radios"
-              type="radio"
-            />NOK<br />
-            <input name="portal" checked="checked" type="radio" />OK<input
-              name="portal"
-              type="radio"
-            />NOK<br />
-            <input name="epg" checked="checked" type="radio" />OK<input
-              name="epg"
-              type="radio"
-            />NOK<br />
-            <input name="incognito" checked="checked" type="radio" />OK<input
-              name="incognito"
-              type="radio"
-            />NOK<br />
+            <div class="element_stb">
+              <label for="canales">Chequeo de todos los Canales</label><br />
+              <div class="checked">
+                <input
+                  name="canales"
+                  checked="checked"
+                  type="radio"
+                  id="canales"
+                />OK<input name="canales" type="radio" />NOK<br />
+              </div>
+            </div>
+
+            <div class="element_stb">
+              <label for="radios">Chequeo Radios en producción</label><br />
+              <div class="checked">
+                <input name="radios" checked="checked" type="radio" />OK<input
+                  name="radios"
+                  type="radio"
+                />NOK<br />
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="portal">Chequeo Portal Interactivo</label><br />
+              <div class="checked">
+                <input name="portal" checked="checked" type="radio" />OK<input
+                  name="portal"
+                  type="radio"
+                />NOK<br />
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="epg"
+                >Chequeo Funcional ITVManager - Reporte EPG - Server APP</label
+              ><br />
+              <div class="checked">
+                <input name="epg" checked="checked" type="radio" />OK<input
+                  name="epg"
+                  type="radio"
+                />NOK<br />
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="incognito">Chequeo Funcional JIMC Incognito</label
+              ><br />
+              <div class="checked">
+                <input
+                  name="incognito"
+                  checked="checked"
+                  type="radio"
+                />OK<input name="incognito" type="radio" />NOK<br />
+              </div>
+            </div>
           </div>
         </fieldset>
       </div>
       <br />
-      
+
       <div class="canales">
         <fieldset>
           <legend class="italic">REBOOT Y REFLASH STB</legend>
@@ -136,48 +156,61 @@
         <fieldset>
           <legend class="italic">CHECKLIST DIARIO TV TURNO TARDE</legend>
           <div class="etiquetas">
-            <label for="evertz">Vigilancia Evertz</label><br />
-            <label for="titan"
-              >Chequeo ingreso TITAN - Envivio Muse - DCM VLDV y DCM CYHQ</label
-            ><br />
-          </div>
-          <div class="estado">
-            <input name="evertz" checked="checked" type="radio" />OK<input
-              name="evertz"
-              type="radio"
-            />NOK<br />
-            <input name="titan" checked="checked" type="radio" />OK<input
-              name="titan"
-              type="radio"
-            />NOK<br />
+            <div class="element_stb">
+              <label for="evertz">Vigilancia Evertz</label>
+              <div class="checked">
+                <input name="evertz" checked="checked" type="radio" />OK
+                <input name="evertz" type="radio" />NOK
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="titan"
+                >Ingreso TITAN Envivio Muse - DCM VLDV y DCM CYHQ</label
+              >
+              <div class="checked">
+                <input name="titan" checked="checked" type="radio" />OK
+                <input name="titan" type="radio" />NOK
+              </div>
+            </div>
           </div>
         </fieldset>
       </div>
 
       <div class="canales dia-medio">
-        <fieldset id="textArea">
+        <fieldset>
           <legend class="italic">
             CHECKLIST DE TELEVISIÓN DIA POR MEDIO L-M-V-D
           </legend>
           <div class="etiquetas">
-            <label for="hd">Señales HD</label><br />
-            <label for="sap">Audios SAP</label><br />
-            <label for="sub">Subtitulos</label><br />
+            <div class="element_stb">
+              <label for="hd">Señales HD</label><br />
+              <div class="checked">
+                <input name="hd" checked="checked" type="radio" />OK<input
+                  name="hd"
+                  type="radio"
+                />NOK
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="sap">Audios SAP</label><br />
+              <div class="checked">
+                <input name="sap" checked="checked" type="radio" />OK<input
+                  name="sap"
+                  type="radio"
+                />NOK
+              </div>
+            </div>
+            <div class="element_stb">
+              <label for="sub">Subtitulos</label><br />
+              <div class="checked">
+                <input name="sub" checked="checked" type="radio" />OK<input
+                  name="sub"
+                  type="radio"
+                />NOK
+              </div>
+            </div>
           </div>
-          <div class="estado">
-            <input name="hd" checked="checked" type="radio" />OK<input
-              name="hd"
-              type="radio"
-            />NOK<br />
-            <input name="sap" checked="checked" type="radio" />OK<input
-              name="sap"
-              type="radio"
-            />NOK<br />
-            <input name="sub" checked="checked" type="radio" />OK<input
-              name="sub"
-              type="radio"
-            />NOK<br />
-          </div>
+          <div class="estado"></div>
         </fieldset>
       </div>
     </div>
