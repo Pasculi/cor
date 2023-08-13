@@ -79,7 +79,6 @@
 
 #card__details {
     display: fixed;
-<<<<<<< HEAD
     top: 0;
     left:0;
 }
@@ -94,8 +93,4 @@
 a{
     text-decoration: none;
     color: #fff;
-=======
-    top    : 0;
-    left   : 0;
->>>>>>> 8536f22294eaa1273bde9233df9702701fb08fef
 }
