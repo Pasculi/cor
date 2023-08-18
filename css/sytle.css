@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size:0.8rem
-    
+    font-size  : 0.8rem
 }
 
 
@@ -10,19 +9,20 @@ body {
 }
 
 header {
-    display: flex;
+    display        : flex;
     justify-content: space-around;
 }
 
-tr{
+tr {
     background-color: rgb(232, 236, 248);
 }
-td{
-    width:150px;
-   height:30px;
+
+td {
+    width : 150px;
+    height: 30px;
 }
 
-tr:hover{
+tr:hover {
     background-color: rgb(231, 232, 233);
 
 }
@@ -30,52 +30,73 @@ tr:hover{
 h1 {
     text-align: center;
 }
-.container{
-    display: flex;
+
+.container {
+    display        : flex;
     justify-content: space-around;
-    align-content: flex-start;
-    align-items: center;
+    align-content  : flex-start;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.element_stb {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.tabla_check {
+    display       : flex;
     flex-direction: column;
 }
 
-.element_stb{
-    display: flex;
-    justify-content: space-between ;
-}
-
-.tabla_check{
-    display: flex;
-    flex-direction: column;
-}
-.btn_copiar{  
-    align-self: flex-end;
-    margin-right: 223px;
-    margin-bottom:10px;  
-    width: fit-content;
+.btn_copiar {
+    align-self      : flex-end;
+    margin-right    : 223px;
+    margin-bottom   : 10px;
+    width           : fit-content;
     background-color: #2b5db3;
-    color: #fff;
-    border:none;
-    padding: 0.5em 0.5em;
-    border-radius:8px;
-    transition: .5s;
+    color           : #fff;
+    border          : none;
+    padding         : 0.5em 0.5em;
+    border-radius   : 8px;
+    transition      : .5s;
 }
-.btn_copiar:hover{
-    background-color:#fff;
-    color: #2b5db3;
-    outline:1px solid #2b5db3;
-    cursor: pointer;
+
+.btn_copiar:hover {
+    background-color: #fff;
+    color           : #2b5db3;
+    outline         : 1px solid #2b5db3;
+    cursor          : pointer;
 }
 
 #tabla_dhcp {
-    display: flex;
-    width: 100%;
+    display        : flex;
+    margin         : auto;
+    width          : 70%;
     justify-content: center;
 }
-.dhcps{
-    width:67%;
+
+@media screen and (max-width:1867px) {
+    #tabla_dhcp {
+        width: 80%;
+    }
 }
+@media screen and (max-width:1673px) {
+    #tabla_dhcp {
+        width: 90%;
+    }
+}
+@media screen and (max-width:1467px) {
+    #tabla_dhcp {
+        width: 100%;
+    }
+}
+.dhcps {
+    width: 67%;
+}
+
 .canales {
-    width: fit-content;
+    width       : fit-content;
     margin-right: 20px;
 }
 
@@ -83,31 +104,34 @@ h1 {
     width: 450px;
     float: left;
 }
+
 .estado {
     width: 100px;
     float: left;
 }
+
 .dia-medio {
     margin-top: 20px;
 }
 
 td {
     text-align: center;
-    padding: 0 5px 0 5px;
+    padding   : 0 5px 0 5px;
 }
 
 th {
-    font-weight: 500;
-    padding: 5px 10px 5px 10px;
+    font-weight     : 500;
+    padding         : 5px 10px 5px 10px;
     background-color: #2b5db3;
-    color: #FFF;
+    color           : #FFF;
 }
 
 input {
     text-align: center;
 }
-.pendding{
-    width:50px
+
+.pendding {
+    width: 50px
 }
 
 .italic {
@@ -117,14 +141,15 @@ input {
 
 a {
     text-decoration: none;
-    font-weight: 500;
+    font-weight    : 500;
 }
+
 a:visited {
-    color:blue;
+    color: blue;
 }
 
 a:hover {
-    color:rgb(235, 81, 20);
+    color: rgb(235, 81, 20);
 }
 
 footer {
