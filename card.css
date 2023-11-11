@@ -7,10 +7,11 @@
 
 .resultado {
     display        : flex;
+    margin: 0 auto;
     position       : relative;
     flex-wrap      : wrap;
     margin         : auto;
-    width          : 90%;
+    width          : 100%;
     justify-content: flex-start;
     row-gap        : 20px;
     column-gap     : 20px;
@@ -25,30 +26,32 @@
     flex-direction: column;
     min-height    : 180px;
     align-items   : center;
-
     justify-content: space-between;
     width          : 200px;
     border-radius  : 1rem;
     overflow       : hidden;
-    box-shadow     : 0 0 10px grey;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+    cursor: pointer;
     cursor         : pointer;
     transition     : .4s;
 }
 
 .card:hover {
-    box-shadow: 0 0 20px grey;
-    transform : rotate(5deg);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .card__logo {
     width     : 50%;
     transition: .5s;
+    padding:5px 0;
 }
 
 .card__nombre {
     color           : #375d9d;
     text-transform  : capitalize;
-    font-size       : .8rem;
+    font-size       : .9rem;
     font-weight     : bold;
     background-color: #DEE5F2;
     text-align      : center;
@@ -59,19 +62,27 @@
 .card__numero {
     color      : #375d9d;
     font-weight: bold;
-    font-size  : .7rem;
+    font-size  : 1.2rem;
+	border-bottom:2px solid #dc3545;
+	width:fit-content;
+	padding:1px;
+	text-align:center;
 }
 
 .card__categoria {
     color      : #375d9d;
     font-weight: bold;
     padding    : 10px 0;
-    font-size  : .7rem;
+    font-size  : .8rem;
+	
 }
 
 .card__info {
-    width: 100%;
-
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+    width: 100%;	
     background-color: #DEE5F2;
     text-align      : center;
     padding         : 5px 0;

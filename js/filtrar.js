@@ -51,13 +51,13 @@ function mostrarCanales(canales) {
       <div class="card">
         <p class="card__nombre">${canal.nombre.toLowerCase()}</p>
                       <img
-                        src="images/logo_gtd_tv.png"
+                        src="${canal.src}"
                         alt="Logo Canal"
                         class="card__logo"
                       />
                       <div class="card__info">
-                        <p class="card__numero">N°${canal.channel}</p>
-                        <p class="card__categoria"><strong>${canal.criticidad}</strong></ </p>
+                        <p class="card__numero">${canal.channel}</p>
+                        <p class="card__categoria">${canal.criticidad}</ </p>
                       </div>
     `;
   

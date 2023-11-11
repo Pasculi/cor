@@ -7,6 +7,7 @@ const canales = [
     mpeg4: "239.255.3.50",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Natgeo_Kids_logo.svg/1200px-Natgeo_Kids_logo.svg.png"
   },
   {
     nombre: "TOONCAST",
@@ -16,6 +17,7 @@ const canales = [
     mpeg4: "239.255.5.215",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tooncast_logo.svg/2560px-Tooncast_logo.svg.png"
   },
   {
     nombre: "FUNBOX",
@@ -25,6 +27,7 @@ const canales = [
     mpeg4: "239.255.2.167",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/FunBox_TV_logo.svg/1200px-FunBox_TV_logo.svg.png"
   },
   {
     nombre: "BABY TV",
@@ -34,6 +37,7 @@ const canales = [
     mpeg4: "239.255.2.169",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png"
   },
   {
     nombre: "NICK JUNIOR",
@@ -43,6 +47,7 @@ const canales = [
     mpeg4: "239.255.5.116",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/640px-Nick_Jr._logo_2009.svg.png"
   },
   {
     nombre: "DISNEY JUNIOR",
@@ -52,6 +57,7 @@ const canales = [
     mpeg4: "239.255.3.247",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/800px-Disney_Junior.svg.png"
   },
   {
     nombre: "DISCOVERY KIDS",
@@ -61,6 +67,7 @@ const canales = [
     mpeg4: "239.255.5.20",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/125px-Discovery_Kids_Logo_2021-Presente.webp.png"
   },
   {
     nombre: "NICKELODEON",
@@ -70,15 +77,17 @@ const canales = [
     mpeg4: "239.255.5.144",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/320px-Nickelodeon_2023_logo_%28outline%29.svg.png"
   },
   {
-    nombre: "Boomerang",
+    nombre: "Cartoonito",
     channel: "11",
     adsl: "239.255.2.25",
     fca: "239.255.5.25",
     mpeg4: "239.255.5.25",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/800px-Cartoonito_-_Logo_2021.svg.png"
   },
   {
     nombre: "CARTOON NETWORK",
@@ -88,24 +97,27 @@ const canales = [
     mpeg4: "239.255.3.54",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/1200px-Cartoon_Network_2010_logo.svg.png"
   },
   {
-    nombre: "Disney XD Argentina Feed",
+    nombre: "ZooMoo",
     channel: "13",
     adsl: "239.255.2.6",
     fca: "239.255.2.6",
     mpeg4: "239.255.3.248",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ZooMoo_logo.svg/1200px-ZooMoo_logo.svg.png"
   },
   {
-    nombre: "DISNEY SOUTH",
+    nombre: "DISNEY Channel",
     channel: "14",
     adsl: "239.255.2.5",
     fca: "239.255.2.5",
     mpeg4: "239.255.3.246",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/800px-2019_Disney_Channel_logo.svg.png"
   },
   {
     nombre: "ETC TV",
@@ -115,6 +127,27 @@ const canales = [
     mpeg4: "239.255.2.165",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/f/fa/ETC_2016-actual.png"
+  },
+  {
+    nombre: "Ntv",
+    channel: "16",
+    adsl: "Cambiar",
+    fca: "239.255.2.165",
+    mpeg4: "239.255.2.165",
+    criticidad: "Severidad: 3",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Logotipo_Color_2_NTV%28Chile%29.svg/3816px-Logotipo_Color_2_NTV%28Chile%29.svg.png"
+  },
+  {
+    nombre: "Paramount Channel HD",
+    channel: "17",
+    adsl: "Cambiar",
+    fca: "239.255.2.165",
+    mpeg4: "239.255.2.165",
+    criticidad: "Severidad: 3",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/9/9f/Paramount_Network.svg"
   },
   {
     nombre: "TELSUR",
@@ -124,6 +157,7 @@ const canales = [
     mpeg4: "239.255.2.106",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Telsur_logo_2019.svg/1200px-Telsur_logo_2019.svg.png"
   },
   {
     nombre: "Canal 13 Cable",
@@ -133,6 +167,7 @@ const canales = [
     mpeg4: "239.255.2.125",
     criticidad: "Severidad: 4",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/7/72/13C_2018.png"
   },
   {
     nombre: "TV+",
@@ -142,6 +177,7 @@ const canales = [
     mpeg4: "239.255.2.124",
     criticidad: "Severidad: 3",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/TV%2B_%282018%29.png/800px-TV%2B_%282018%29.png"
   },
   {
     nombre: "Red TV - Canal  4",
@@ -151,6 +187,7 @@ const canales = [
     mpeg4: "239.255.3.123",
     criticidad: "Severidad: 2",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/La_Red_Logotipo_2021.svg/200px-La_Red_Logotipo_2021.svg.png"
   },
   {
     nombre: "TVN CNCP",
@@ -160,6 +197,7 @@ const canales = [
     mpeg4: "239.255.3.47",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src: "https://www.tvn.cl/incoming/logotipo2020png-5317342/alternates/BASE_FREE/Logotipo%282020%29.png",
   },
   {
     nombre: "TVN TMCO",
@@ -169,6 +207,7 @@ const canales = [
     mpeg4: "239.255.3.47",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src: "https://www.tvn.cl/incoming/logotipo2020png-5317342/alternates/BASE_FREE/Logotipo%282020%29.png",
   },
   {
     nombre: "TVN de Chile Canal 7",
@@ -178,6 +217,7 @@ const canales = [
     mpeg4: "239.255.3.47",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src: "https://www.tvn.cl/incoming/logotipo2020png-5317342/alternates/BASE_FREE/Logotipo%282020%29.png",
   },
   {
     nombre: "Megavision Canal 6",
@@ -187,6 +227,7 @@ const canales = [
     mpeg4: "239.255.2.145",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src:"https://www.megamedia.cl/sites/default/files/2022-11/mega.svg"
   },
   {
     nombre: "Chilevision Canal 11",
@@ -196,6 +237,7 @@ const canales = [
     mpeg4: "239.255.3.148",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src:"https://www.ecured.cu/images/5/5a/Sdrfgd.png"
   },
   {
     nombre: "UCTV Canal 13",
@@ -205,6 +247,7 @@ const canales = [
     mpeg4: "239.255.3.155",
     criticidad: "Severidad: 1",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Emblema_del_Canal_13_Chile.svg/1280px-Emblema_del_Canal_13_Chile.svg.png",
   },
   {
     nombre: "CANAL 9 Bio Bio",
@@ -214,6 +257,7 @@ const canales = [
     mpeg4: "239.255.2.132",
     criticidad: "Severidad: 4",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Canal_9_B%C3%ADo_B%C3%ADo_Televisi%C3%B3n_-_2012_logo.png/1200px-Canal_9_B%C3%ADo_B%C3%ADo_Televisi%C3%B3n_-_2012_logo.png "
   },
   {
     nombre: "VIDA SOCIAL TV",
@@ -223,6 +267,7 @@ const canales = [
     mpeg4: "239.255.2.141",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://media.licdn.com/dms/image/C510BAQEBuxnuTcXbKw/company-logo_200_200/0/1631363383859?e=2147483647&v=beta&t=UuMNybUJvXivbtmZk2iDL99BwFdzsK5-FF0htvGBU0A"
   },
   {
     nombre: "CANAL TENDENCIAS PRIME",
@@ -232,6 +277,7 @@ const canales = [
     mpeg4: "239.255.5.140",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://play-lh.googleusercontent.com/ZSXT5fTtuC-AeszYYOWdulWQbU-gJMFRZ1tuf5Q2eJYSaOnQinFGikcG1qHxcE6pk2rl"
   },
   {
     nombre: "UA",
@@ -241,6 +287,7 @@ const canales = [
     mpeg4: "239.255.2.18",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/UATV.png/320px-UATV.png"
   },
   {
     nombre: "Zona Latina",
@@ -250,6 +297,7 @@ const canales = [
     mpeg4: "239.255.3.81",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"../images/Zona_Latina_TV.png"
   },
   {
     nombre: "Via X",
@@ -259,6 +307,7 @@ const canales = [
     mpeg4: "239.255.3.80",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://yt3.googleusercontent.com/LZpQvyS2ypZ0BIUHubPJLCtz_vK4hDeiPDgrDJ6lAyWQ85SavcABFjPVmTikZXMebAi6tuGwjA=s176-c-k-c0x00ffffff-no-rj"
   },
   {
     nombre: "ARTV",
@@ -268,6 +317,7 @@ const canales = [
     mpeg4: "239.255.2.241",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/9/96/ARTV_Logo_2020.png"
   },
   {
     nombre: "TVU",
@@ -277,6 +327,7 @@ const canales = [
     mpeg4: "239.255.2.133",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1200px-Logo_tvu.png"
   },
   {
     nombre: "I-NET TELEVISIÓN DIG",
@@ -286,6 +337,7 @@ const canales = [
     mpeg4: "239.255.2.140",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://pbs.twimg.com/profile_images/1157995121/INET_def_400x400.JPG"
   },
   {
     nombre: "ROCCO TV",
@@ -295,6 +347,7 @@ const canales = [
     mpeg4: "239.255.2.151",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://roccotv.cl/wp-content/uploads/2015/02/roccotv.png"
   },
   {
     nombre: "COOL TV",
@@ -304,6 +357,17 @@ const canales = [
     mpeg4: "239.255.2.13",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.cega-uchile.cl/wp-content/uploads/2021/04/cool-tv.png"
+  },
+  {
+    nombre: "Valdivia TV",
+    channel: "43",
+    adsl: "Cambiar",
+    fca: "239.255.2.150",
+    mpeg4: "239.255.2.13",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3gKEcRWH5rzZE2gwH6aC2eqGvKviMRkOwuvmH0mjVXw&s"
   },
   {
     nombre: "ISB TV",
@@ -313,24 +377,27 @@ const canales = [
     mpeg4: "239.255.2.229",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.canalisb.cl/imagenes/logo_isb.png"
   },
   {
-    nombre: "TELESUR",
+    nombre: "GVTV",
     channel: "45",
-    adsl: "239.255.2.103",
+    adsl: "Cambiar",
     fca: "239.255.2.103",
     mpeg4: "239.255.2.103",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/292061370_746775573329831_327099021967277308_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGij-3IBKSGPMGezzb9xbwAU1ar_DOvt3ZTVqv8M6-3dmQTTlG3n60cA_T98_7A_A4&_nc_ohc=uwNF12br1vIAX9IEweR&_nc_ht=scontent.fscl1-1.fna&oh=00_AfBRi5OZA0ppU_KV3aPzx7lJuZI-xNzUEnMU82S5wRF6cQ&oe=655502D3"
   },
   {
-    nombre: "OSORNO TV+.",
+    nombre: "OSORNO TV+",
     channel: "46",
     adsl: "239.255.2.226",
     fca: "239.255.2.27",
     mpeg4: "239.255.2.226",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/295758420_23877160271897993_6741801130688224486_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHt_2fI_iuzgUecOE3GJsWjw8hA3_MsnLPDyEDf8yycs2NCRoyNlE5a9zuSEjFMq-c&_nc_ohc=4SJVKtnKurkAX_a7_b5&_nc_ht=scontent.fscl1-1.fna&oh=00_AfD2B2N0fnFc96L1H5ktpqf_pEU0a2rzhfvjf6uUN8-ffA&oe=65548F66"
   },
   {
     nombre: "CANAL DEL SUR",
@@ -340,6 +407,7 @@ const canales = [
     mpeg4: "239.255.2.225",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://canaldelsur.cl/wp-content/uploads/2016/07/logo-cds-2.png"
   },
   {
     nombre: "UFROVISION",
@@ -349,6 +417,7 @@ const canales = [
     mpeg4: "239.255.3.63",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://pbs.twimg.com/profile_images/705138470050631680/gypFDeR4_400x400.jpg"
   },
   {
     nombre: "SANTA MARÍA",
@@ -358,6 +427,7 @@ const canales = [
     mpeg4: "239.255.2.240",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://pbs.twimg.com/profile_images/445976084186554368/Ch4aqZPR_400x400.jpeg"
   },
   {
     nombre: "CANAL LLANQUIHUE",
@@ -365,8 +435,9 @@ const canales = [
     adsl: "239.255.5.149",
     fca: "239.255.5.149",
     mpeg4: " '",
-    criticidad: "Severidad:  '",
+    criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/302190421_479866864149747_5540257945048975666_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEheHHjtD2MSMBimE1E2kHLf_lPRXP-Blh_-U9Fc_4GWCsBSZAhhy2N7uGofIkcoLE&_nc_ohc=EaZUb84wkqsAX8VDBRI&_nc_ht=scontent.fscl1-1.fna&oh=00_AfAKLt4vhY40tX7h3mxKMqjMg7cA_BDzIqJR0DjQ5gAFww&oe=6554E066"
   },
   {
     nombre: "PATAGONIA RADIO TV",
@@ -376,15 +447,7 @@ const canales = [
     mpeg4: "239.255.3.114",
     criticidad: "Severidad: 4",
     bw: "3.5",
-  },
-  {
-    nombre: "BOC TV",
-    channel: "52",
-    adsl: "239.255.3.17",
-    fca: "239.255.3.17",
-    mpeg4: " '",
-    criticidad: "Severidad:  '",
-    bw: "3.5",
+    src:"https://cdn-profiles.tunein.com/s186613/images/logog.jpg?t=1648931077000"
   },
   {
     nombre: "PRIMITIVOS",
@@ -394,6 +457,7 @@ const canales = [
     mpeg4: "239.255.3.2",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://pbs.twimg.com/profile_images/421716542946955264/hBlmbZpL_400x400.png"
   },
   {
     nombre: "CANAL LATINO",
@@ -403,6 +467,27 @@ const canales = [
     mpeg4: "239.255.3.82",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://radio1latina.cl/wp-content/uploads/2015/01/logo.png"
+  },
+  {
+    nombre: "TEC",
+    channel: "55",
+    adsl: "Cambiar",
+    fca: "239.255.3.82",
+    mpeg4: "239.255.3.82",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://tectv.cl/wp-content/uploads/2020/10/TECTV-sin-hd.png"
+  },
+  {
+    nombre: "VTV",
+    channel: "57",
+    adsl: "Cambiar",
+    fca: "239.255.3.177",
+    mpeg4: " '",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f45357a0ac66b5dfa35c144/mediaLibrary/photo/6ffc1997-59e5-48d2-83a5-a1392ae981b8-extra-large-standard-q100.webp"
   },
   {
     nombre: "UMAG TV AYSEN",
@@ -410,17 +495,49 @@ const canales = [
     adsl: "239.255.3.177",
     fca: "239.255.3.177",
     mpeg4: " '",
-    criticidad: "Severidad:  '",
+    criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2017/10/UMAG-TV-en-vivo-Online.png?resize=696%2C392&ssl=1"
   },
   {
-    nombre: "CANAL RTV CORP MUNICIPAL CASTRO",
+    nombre: "Castro Tv Municipal",
     channel: "59",
     adsl: "239.255.5.136",
     fca: "239.255.5.136",
     mpeg4: " '",
-    criticidad: "Severidad:  '",
+    criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://castromunicipiotv.cl/wp-content/uploads/2023/06/LOGO-CASTRO-TV-1-e1687559394757.png"
+  },
+  {
+    nombre: "UCT Araucania HD",
+    channel: "61",
+    adsl: "Cambiar",
+    fca: "239.255.5.44",
+    mpeg4: "239.255.3.205",
+    criticidad: "Severidad: 3",
+    bw: "3.5",
+    src:"https://tvuct.cl/wp-content/uploads/logo-retina.png"
+  },
+  {
+    nombre: "UCT Araucania",
+    channel: "62",
+    adsl: "Cambiar",
+    fca: "239.255.5.44",
+    mpeg4: "239.255.3.205",
+    criticidad: "Severidad: 3",
+    bw: "3.5",
+    src:"https://tvuct.cl/wp-content/uploads/logo-retina.png"
+  },
+  {
+    nombre: "Antofagasta TV",
+    channel: "63",
+    adsl: "Cambiar",
+    fca: "239.255.5.44",
+    mpeg4: "239.255.3.205",
+    criticidad: "Severidad: 3",
+    bw: "3.5",
+    src:"https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f2da07961acd87f51b057f5/mediaLibrary/photo/864723cb-d3e1-4543-8cb0-244988977bc2-extra-large-standard-q100.png"
   },
   {
     nombre: "FOX SPORTS 1",
@@ -430,24 +547,27 @@ const canales = [
     mpeg4: "239.255.3.205",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Fox_Sports_1_logo.svg/1200px-Fox_Sports_1_logo.svg.png"
   },
   {
-    nombre: "Canal del Futbol Premium",
+    nombre: "TNT Sport 2",
     channel: "71",
     adsl: "239.255.2.73",
     fca: "239.255.2.73",
     mpeg4: "239.255.3.107",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2021_01/small.logo_tntsports_2_blanco.png.4cb2bc193dc2463c8704a6ad1ddb4ca0.png"
   },
   {
-    nombre: "CDF HD",
+    nombre: "TNT Sport 2 HD",
     channel: "72",
     adsl: "239.255.2.100",
     fca: "239.255.2.100",
     mpeg4: "239.255.2.100",
     criticidad: "Severidad: 2",
     bw: "9",
+    src:"https://www.gtd.cl/documents/862366/3285054/tntsports.jpg/ae2c24ec-0c4f-d5be-032d-1b2ca774a379?t=1645629211169"
   },
   {
     nombre: "FOX SPORTS 1 HD",
@@ -493,6 +613,7 @@ const canales = [
     mpeg4: "239.255.3.239",
     criticidad: "Severidad: 4",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2015_Fox_sports_logo.svg/175px-2015_Fox_sports_logo.svg.png",
   },
   {
     nombre: "FOX SPORTS 2 HD",
@@ -502,6 +623,7 @@ const canales = [
     mpeg4: "239.255.3.32",
     criticidad: "Severidad: 3",
     bw: "9",
+	src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_8863_7_11394.png.fa1a5e8a9a3a836e2639328d9638374f.png",
   },
   {
     nombre: "Canal del Futbol Basic",
@@ -538,6 +660,7 @@ const canales = [
     mpeg4: "239.255.3.157",
     criticidad: "Severidad: 3",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png",
   },
   {
     nombre: "ESPN 3",
@@ -736,6 +859,14 @@ const canales = [
     mpeg4: "239.255.5.6",
     criticidad: "Severidad: 4",
     bw: "3.5",
+  },{
+    nombre: "Globo TV",
+    channel: "121",
+    adsl: "239.255.2.138",
+    fca: "239.255.2.138",
+    mpeg4: "239.255.3.50",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
   },
   {
     nombre: "NHK WORLD PREMIUM",
@@ -772,6 +903,7 @@ const canales = [
     mpeg4: "239.255.3.126",
     criticidad: "Severidad: 2",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Emblema_de_24_Horas_TVN.svg/150px-Emblema_de_24_Horas_TVN.svg.png",
   },
   {
     nombre: "CNN Chile",
@@ -817,6 +949,7 @@ const canales = [
     mpeg4: "239.255.3.68",
     criticidad: "Severidad: 4",
     bw: "3.5",
+	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_TVE-24h.svg/702px-Logo_TVE-24h.svg.png",
   },
   {
     nombre: "BBC World",
@@ -2763,15 +2896,6 @@ const canales = [
     bw: "0.4",
   },
   {
-    nombre: "Antofagasta TV",
-    channel: "63",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
     nombre: "TVR",
     channel: "64",
     adsl: "239.255.3.154",
@@ -2779,41 +2903,6 @@ const canales = [
     mpeg4: "239.255.3.154",
     criticidad: "Severidad: 4",
     bw: "0.4",
-  },
-  {
-    nombre: "VTV",
-    channel: "65",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
-    nombre: "BioBio TV",
-    channel: "32",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
-    nombre: "SextaVisión",
-    channel: "56",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
-    nombre: "Therma La Serena",
-    channel: "66",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png"
   },
 ];
