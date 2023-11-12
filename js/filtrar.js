@@ -49,7 +49,7 @@ function mostrarCanales(canales) {
     canales.map((canal) => {
       resultados.innerHTML += `
       <div class="card">
-        <p class="card__nombre">${canal.nombre.toLowerCase()}</p>
+        <p class="card__nombre">${canal.nombre.toUpperCase()}</p>
                       <img
                         src="${canal.src}"
                         alt="Logo Canal"

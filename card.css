@@ -43,7 +43,8 @@
 }
 
 .card__logo {
-    width     : 50%;
+    /* width     : 50%; */
+    width: 100px;
     transition: .5s;
     padding:5px 0;
 }

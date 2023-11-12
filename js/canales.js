@@ -297,7 +297,7 @@ const canales = [
     mpeg4: "239.255.3.81",
     criticidad: "Severidad: 3",
     bw: "3.5",
-    src:"../images/Zona_Latina_TV.png"
+    src:"https://blogger.googleusercontent.com/img/a/AVvXsEgiMcRVL0kEJwuaeC4079_ngWi7V3Kqu8wnlZ-YkZg6c1sH3TxG4rdm58-TmqwT5wejR0SsMq0FONU6x4pVrzBKh2bbDYSVOh2YJwtIdnsEYOSYQtoQHodkVyquEXehr4MB4ZcL8a3O0J_svZu3mVM_EPi55wspznWRRq_-9coswdI_nddwg9CySCXB=w350-h350-p-k-no-nu"
   },
   {
     nombre: "Via X",
@@ -577,6 +577,7 @@ const canales = [
     mpeg4: "239.255.3.207",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://cdn.mitvstatic.com/channels/cl_fox-sports-1-hd_m.png"
   },
   {
     nombre: "FOX SPORTS 3 HD",
@@ -586,6 +587,7 @@ const canales = [
     mpeg4: "239.255.3.15",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_8863_7_25047.png.57c879e05ccde149e497f4ef896e1240.png"
   },
   {
     nombre: "CDO PREMIUM",
@@ -595,6 +597,7 @@ const canales = [
     mpeg4: "239.255.3.179",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f67d6a70f2fa77e66114_cdo.jpeg"
   },
   {
     nombre: "CDO HD",
@@ -604,6 +607,7 @@ const canales = [
     mpeg4: "239.255.3.184",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3ubDQiNMN6GWD47HdVE7XOjfh5VHwaUr_nQArc003Jeil1G9w_gzi5V8-QNzBazh0A&usqp=CAU"
   },
   {
     nombre: "FOX SPORTS 2",
@@ -633,6 +637,7 @@ const canales = [
     mpeg4: "239.255.3.108",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://dmdqet87i5rod.cloudfront.net/estoesmedia/6006d9d7bc979_tntsports.jpg"
   },
   {
     nombre: "FOX SPORTS",
@@ -642,6 +647,7 @@ const canales = [
     mpeg4: "239.255.3.206",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1200px-FOX_Sports_logo.svg.png"
   },
   {
     nombre: "ESPN",
@@ -651,6 +657,8 @@ const canales = [
     mpeg4: "239.255.3.156",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/554px-ESPN_wordmark.svg.png",
+    
   },
   {
     nombre: "ESPN 2",
@@ -660,7 +668,7 @@ const canales = [
     mpeg4: "239.255.3.157",
     criticidad: "Severidad: 3",
     bw: "3.5",
-	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png",
   },
   {
     nombre: "ESPN 3",
@@ -670,6 +678,7 @@ const canales = [
     mpeg4: "239.255.3.158",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/5/51/ESPN3_Logo.png"
   },
   {
     nombre: "TYC SPORTS",
@@ -679,6 +688,7 @@ const canales = [
     mpeg4: "239.255.2.244",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/1920px-TyC_Sports_logo.svg.png"
   },
   {
     nombre: "GOL TV",
@@ -688,6 +698,7 @@ const canales = [
     mpeg4: "239.255.2.57",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/320px-GolTV_logo.svg.png"
   },
   {
     nombre: "FOX SPORTS 3",
@@ -697,6 +708,7 @@ const canales = [
     mpeg4: "239.255.3.209",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fox_sports_3_logo.svg/180px-Fox_sports_3_logo.svg.png"
   },
   {
     nombre: "Discovery Turbo",
@@ -706,6 +718,7 @@ const canales = [
     mpeg4: "239.255.5.121",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/180px-Discovery_Turbo_logo.svg.png"
   },
   {
     nombre: "AMERICA SPORTS",
@@ -715,15 +728,17 @@ const canales = [
     mpeg4: "239.255.2.248",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Logo_AM-sports-2019.svg/300px-Logo_AM-sports-2019.svg.png"
   },
   {
-    nombre: "CDO BASICO",
+    nombre: "CDO BáSICO",
     channel: "92",
     adsl: "239.255.3.180",
     fca: "239.255.3.180",
     mpeg4: "239.255.3.180",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CDO_Premium.png/320px-CDO_Premium.png"
   },
   {
     nombre: "GOLF CHANNEL",
@@ -733,6 +748,7 @@ const canales = [
     mpeg4: "239.255.3.210",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/200px-Golf_Channel_Logo_2018.png"
   },
   {
     nombre: "Teletrak TV",
@@ -742,6 +758,7 @@ const canales = [
     mpeg4: "239.255.5.113",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f665a567a9739a970cc5_teletrak.jpeg"
   },
   {
     nombre: "TRECE INTERNACIONAL",
@@ -751,6 +768,7 @@ const canales = [
     mpeg4: "239.255.2.249",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_de_eltrece_lanzado_en_2016.png/150px-Logo_de_eltrece_lanzado_en_2016.png"
   },
   {
     nombre: "TELEFE",
@@ -760,6 +778,7 @@ const canales = [
     mpeg4: "239.255.3.8",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/180px-Telefe_%28nuevo_logo%29.png"
   },
   {
     nombre: "CANAL RURAL",
@@ -769,6 +788,7 @@ const canales = [
     mpeg4: "239.255.2.96",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://scontent.fzal1-1.fna.fbcdn.net/v/t39.30808-6/348289453_769644144538439_8030431306324475280_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFPjUazWVOvzDkc57NmgCFPo44IoOPGWjKjjgig48ZaMnoMSFzPQWz9WzORmHr5GBw&_nc_ohc=oWYuWM4nAbMAX9zamF2&_nc_ht=scontent.fzal1-1.fna&oh=00_AfD1vTWVzt55bqDqb42IHYE4TL2SwtHgB1HcwMgto336hQ&oe=65556BE6"
   },
   {
     nombre: "CARACOL TV",
@@ -778,6 +798,7 @@ const canales = [
     mpeg4: "239.255.2.168",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Caracol_Televisi%C3%B3n_logo_2023.png/125px-Caracol_Televisi%C3%B3n_logo_2023.png"
   },
   {
     nombre: "CAMPO ABIERTO",
@@ -787,6 +808,7 @@ const canales = [
     mpeg4: "239.255.3.172",
     criticidad: "Severidad:  '",
     bw: "3.5",
+    src:"https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/10/Campo-Abierto-TV-en-vivo-Online.png?resize=696%2C392&ssl=1"
   },
   {
     nombre: "Antena 3 Internacional",
@@ -796,6 +818,7 @@ const canales = [
     mpeg4: "239.255.3.193",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e58408bb6c5b2ab54aad6_a3int.jpg"
   },
   {
     nombre: "TVE",
@@ -805,15 +828,17 @@ const canales = [
     mpeg4: "239.255.3.9",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/TVE.svg/220px-TVE.svg.png"
   },
   {
-    nombre: "TV 5",
+    nombre: "TV 5 Monde",
     channel: "109",
     adsl: "239.255.2.75",
     fca: "239.255.2.75",
     mpeg4: "239.255.2.75",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Logo_TV5_Monde_-_2021.svg/250px-Logo_TV5_Monde_-_2021.svg.png"
   },
   {
     nombre: "DEUTSCHE WELLE AMERIKA",
@@ -823,6 +848,7 @@ const canales = [
     mpeg4: "239.255.5.35",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png"
   },
   {
     nombre: "RAI",
@@ -832,6 +858,7 @@ const canales = [
     mpeg4: "239.255.2.42",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_of_RAI_%282016%29.svg/140px-Logo_of_RAI_%282016%29.svg.png"
   },
   {
     nombre: "AZ MUNDO",
@@ -841,6 +868,7 @@ const canales = [
     mpeg4: "239.255.2.128",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_2/large.gallery_1163_2_32434.png.96797156f1ba6e83d8c6457d9c764b29.png"
   },
   {
     nombre: "VOA TV",
@@ -850,6 +878,7 @@ const canales = [
     mpeg4: "239.255.3.66",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/VOA_logo.svg/180px-VOA_logo.svg.png"
   },
   {
     nombre: "DEUTSCHE WELLE",
@@ -859,6 +888,7 @@ const canales = [
     mpeg4: "239.255.5.6",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://static.dw.com/image/15705485_1005.jpg"
   },{
     nombre: "Globo TV",
     channel: "121",
@@ -867,6 +897,7 @@ const canales = [
     mpeg4: "239.255.3.50",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://cdn.mitvstatic.com/channels/cl_tv-globo_m.png"
   },
   {
     nombre: "NHK WORLD PREMIUM",
@@ -876,6 +907,7 @@ const canales = [
     mpeg4: "239.255.3.85",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.digitaltveurope.com/files/2023/10/Unknown-300x300.png"
   },
   {
     nombre: "TV DIPUTADOS",
@@ -885,6 +917,7 @@ const canales = [
     mpeg4: "239.255.3.44",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/C%C3%A1mara_de_Diputadas_y_Diputados_de_Chile.png/150px-C%C3%A1mara_de_Diputadas_y_Diputados_de_Chile.png"
   },
   {
     nombre: "Canal del Senado",
@@ -894,6 +927,7 @@ const canales = [
     mpeg4: "239.255.5.83",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emblema_Senado_de_la_Republica_Chile.png/200px-Emblema_Senado_de_la_Republica_Chile.png"
   },
   {
     nombre: "Canal 24 Horas Chile",
@@ -913,6 +947,7 @@ const canales = [
     mpeg4: "239.255.3.43",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/150px-CNN_Chile_logo_2017.svg.png"
   },
   {
     nombre: "CNN En Espanol",
@@ -922,15 +957,17 @@ const canales = [
     mpeg4: "239.255.5.17",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/125px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"
   },
   {
-    nombre: "CNNI",
+    nombre: "CNN",
     channel: "134",
     adsl: "239.255.2.15",
     fca: "239.255.5.15",
     mpeg4: "239.255.5.15",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/162px-CNN_International_logo.svg.png"
   },
   {
     nombre: "Fox News Channel",
@@ -940,6 +977,7 @@ const canales = [
     mpeg4: "239.255.3.240",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/120px-Fox_News_Channel_logo.svg.png"
   },
   {
     nombre: "24 Horas TVE",
@@ -959,6 +997,7 @@ const canales = [
     mpeg4: "239.255.3.244",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/600px-BBC_World_News_2019.svg.png"
   },
   {
     nombre: "EURONEWS",
@@ -968,6 +1007,7 @@ const canales = [
     mpeg4: "239.255.3.144",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/600px-Euronews._2016_alternative_logo.png"
   },
   {
     nombre: "AL JAZEERA",
@@ -977,6 +1017,7 @@ const canales = [
     mpeg4: "239.255.2.173",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Al_Jazeera.png/140px-Al_Jazeera.png"
   },
   {
     nombre: "BLOOMBERG",
@@ -986,6 +1027,7 @@ const canales = [
     mpeg4: "239.255.3.51",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/175px-Bloomberg_Television_logo.svg.png"
   },
   {
     nombre: "FRANCE 24",
@@ -995,6 +1037,7 @@ const canales = [
     mpeg4: "239.255.2.171",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/125px-France24.png"
   },
   {
     nombre: "RT",
@@ -1004,6 +1047,7 @@ const canales = [
     mpeg4: "239.255.2.158",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/125px-Russia-today-logo.svg.png"
   },
   {
     nombre: "EWTN",
@@ -1013,6 +1057,7 @@ const canales = [
     mpeg4: "239.255.5.26",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://cdn.mitvstatic.com/channels/cl_ewtn_m.png"
   },
   {
     nombre: "MARIAVISIÓN",
@@ -1022,6 +1067,7 @@ const canales = [
     mpeg4: "239.255.3.167",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Maria-vision.jpg/150px-Maria-vision.jpg"
   },
   {
     nombre: "ENLACE TBN",
@@ -1031,6 +1077,7 @@ const canales = [
     mpeg4: "239.255.2.88",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://cdn.mitvstatic.com/channels/b44351a4-f08c-4d49-b657-52ae6fbcfc98_m.jpg"
   },
   {
     nombre: "NUEVO TIEMPO",
@@ -1040,15 +1087,17 @@ const canales = [
     mpeg4: "239.255.2.94",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://cdn.mitvstatic.com/channels/cl_nuevo-tiempo_m.png"
   },
   {
-    nombre: "TBS VERYFUNNY",
+    nombre: "TBS",
     channel: "151",
     adsl: "239.255.2.70",
     fca: "239.255.5.70",
     mpeg4: "239.255.5.70",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/135px-TBS_logo_2016.svg.png"
   },
   {
     nombre: "Warner",
@@ -1724,6 +1773,7 @@ const canales = [
     mpeg4: "239.255.2.230",
     criticidad: "Severidad: 1",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Logo_de_Canal_13_HD_%282010%29.png/800px-Logo_de_Canal_13_HD_%282010%29.png"
   },
   {
     nombre: "TVN 24 Horas HD",
@@ -1850,6 +1900,7 @@ const canales = [
     mpeg4: "239.255.2.152",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/13C_2018.png/150px-13C_2018.png"
   },
   {
     nombre: "VIDA SOCIAL TV HD",
