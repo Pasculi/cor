@@ -26,7 +26,9 @@ function filtrarCanal() {
     if (inputText !== '') {
       console.log(inputText);
       const mostrarFiltrado = canales.filter(canal => canal.nombre.toLowerCase().includes(inputText) || canal.channel.startsWith(inputText));
-      console.log(mostrarFiltrado)
+      console.log(mostrarFiltrado.sort(function(a,b){
+        return b - a
+      }))
       limpiarHtml();
       mostrarCanales(mostrarFiltrado);
     } else if (inputText === '') {
@@ -52,7 +54,7 @@ function mostrarCanales(canales) {
         <p class="card__nombre">${canal.nombre.toUpperCase()}</p>
                       <img
                         src="${canal.src}"
-                        alt="Logo Canal"
+                        alt=${canal.nombre}
                         class="card__logo"
                       />
                       <div class="card__info">

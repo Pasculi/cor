@@ -227,7 +227,7 @@ const canales = [
     mpeg4: "239.255.2.145",
     criticidad: "Severidad: 1",
     bw: "3.5",
-	src:"https://www.megamedia.cl/sites/default/files/2022-11/mega.svg"
+	src:"https://brandemia.org/sites/default/files/sites/default/files/logo_mega-despues.jpg"
   },
   {
     nombre: "Chilevision Canal 11",
@@ -330,7 +330,7 @@ const canales = [
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1200px-Logo_tvu.png"
   },
   {
-    nombre: "I-NET TELEVISIÓN DIG",
+    nombre: "I-NET TELEVISIÓN",
     channel: "39",
     adsl: "239.255.2.140",
     fca: "239.255.2.140",
@@ -540,6 +540,16 @@ const canales = [
     src:"https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/5f2da07961acd87f51b057f5/mediaLibrary/photo/864723cb-d3e1-4543-8cb0-244988977bc2-extra-large-standard-q100.png"
   },
   {
+    nombre: "TVR",
+    channel: "64",
+    adsl: "239.255.3.154",
+    fca: "239.255.3.154",
+    mpeg4: "239.255.3.154",
+    criticidad: "Severidad: 4",
+    bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png"
+  },
+  {
     nombre: "FOX SPORTS 1",
     channel: "70",
     adsl: "239.255.2.44",
@@ -560,14 +570,14 @@ const canales = [
     src:"https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2021_01/small.logo_tntsports_2_blanco.png.4cb2bc193dc2463c8704a6ad1ddb4ca0.png"
   },
   {
-    nombre: "TNT Sport 2 HD",
+    nombre: "TNT Sport HD",
     channel: "72",
     adsl: "239.255.2.100",
     fca: "239.255.2.100",
     mpeg4: "239.255.2.100",
     criticidad: "Severidad: 2",
     bw: "9",
-    src:"https://www.gtd.cl/documents/862366/3285054/tntsports.jpg/ae2c24ec-0c4f-d5be-032d-1b2ca774a379?t=1645629211169"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1631_CL.png"
   },
   {
     nombre: "FOX SPORTS 1 HD",
@@ -590,6 +600,16 @@ const canales = [
     src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_8863_7_25047.png.57c879e05ccde149e497f4ef896e1240.png"
   },
   {
+    nombre: "Sport TV",
+    channel: "75",
+    adsl: "Cambiar",
+    fca: "239.255.3.15",
+    mpeg4: "239.255.3.15",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/SporTV_2021.png/200px-SporTV_2021.png"
+  },
+  {
     nombre: "CDO PREMIUM",
     channel: "76",
     adsl: "239.255.3.179",
@@ -597,7 +617,7 @@ const canales = [
     mpeg4: "239.255.3.179",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f67d6a70f2fa77e66114_cdo.jpeg"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/637_CL.png"
   },
   {
     nombre: "CDO HD",
@@ -607,7 +627,7 @@ const canales = [
     mpeg4: "239.255.3.184",
     criticidad: "Severidad: 4",
     bw: "9",
-    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3ubDQiNMN6GWD47HdVE7XOjfh5VHwaUr_nQArc003Jeil1G9w_gzi5V8-QNzBazh0A&usqp=CAU"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/637_CL.png"
   },
   {
     nombre: "FOX SPORTS 2",
@@ -640,35 +660,35 @@ const canales = [
     src:"https://dmdqet87i5rod.cloudfront.net/estoesmedia/6006d9d7bc979_tntsports.jpg"
   },
   {
-    nombre: "FOX SPORTS",
+    nombre: "Espn 4",
     channel: "83",
     adsl: "239.255.2.43",
     fca: "239.255.5.43",
     mpeg4: "239.255.3.206",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/1200px-FOX_Sports_logo.svg.png"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/624.png"
   },
   {
     nombre: "ESPN",
-    channel: "84",
+    channel: "85",
     adsl: "239.255.2.7",
     fca: "239.255.2.7",
     mpeg4: "239.255.3.156",
     criticidad: "Severidad: 3",
     bw: "3.5",
-    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/554px-ESPN_wordmark.svg.png",
+    src: "https://www.directv.cl/content/dam/public-sites/channels/621.png",
     
   },
   {
     nombre: "ESPN 2",
-    channel: "85",
+    channel: "84",
     adsl: "239.255.2.12",
     fca: "239.255.5.12",
     mpeg4: "239.255.3.157",
     criticidad: "Severidad: 3",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/622.png",
   },
   {
     nombre: "ESPN 3",
@@ -678,7 +698,7 @@ const canales = [
     mpeg4: "239.255.3.158",
     criticidad: "Severidad: 3",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/5/51/ESPN3_Logo.png"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/623.png"
   },
   {
     nombre: "TYC SPORTS",
@@ -768,7 +788,7 @@ const canales = [
     mpeg4: "239.255.2.249",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Logo_de_eltrece_lanzado_en_2016.png/150px-Logo_de_eltrece_lanzado_en_2016.png"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/784.png"
   },
   {
     nombre: "TELEFE",
@@ -809,6 +829,16 @@ const canales = [
     criticidad: "Severidad:  '",
     bw: "3.5",
     src:"https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/10/Campo-Abierto-TV-en-vivo-Online.png?resize=696%2C392&ssl=1"
+  },
+  {
+    nombre: "Canal Vasco",
+    channel: "106",
+    adsl: "Cambiar",
+    fca: "239.255.3.172",
+    mpeg4: "239.255.3.172",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Logo_canal_vasco.png/220px-Logo_canal_vasco.png"
   },
   {
     nombre: "Antena 3 Internacional",
@@ -858,17 +888,37 @@ const canales = [
     mpeg4: "239.255.2.42",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_of_RAI_%282016%29.svg/140px-Logo_of_RAI_%282016%29.svg.png"
+    src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5I0zjy0YCjrpfdjPoBR1bfDHY6ikEZTvDSmYbt5NzLlOY35Z5RDq93mQoQhb-QfqQB9g&usqp=CAU"
   },
   {
-    nombre: "AZ MUNDO",
+    nombre: "Arirang Korea",
+    channel: "112",
+    adsl: "239.255.2.42",
+    fca: "239.255.2.42",
+    mpeg4: "239.255.2.42",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://0.soompi.io/wp-content/uploads/4/p/8c/389704/389704.png?s=900x600&e=t"
+  },
+  {
+    nombre: "Azteca Internacional",
     channel: "113",
     adsl: "239.255.2.2",
     fca: "239.255.2.2",
     mpeg4: "239.255.2.128",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_2/large.gallery_1163_2_32434.png.96797156f1ba6e83d8c6457d9c764b29.png"
+    src:"https://www.tumundo.cl/wp-content/uploads/2022/11/Azteca_Internacional_Logo-1.jpg"
+  },
+  {
+    nombre: "America tv",
+    channel: "114",
+    adsl: "Cambiar",
+    fca: "239.255.2.2",
+    mpeg4: "239.255.2.128",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/America_Televisi%C3%B3n-logo.svg/799px-America_Televisi%C3%B3n-logo.svg.png"
   },
   {
     nombre: "VOA TV",
@@ -900,6 +950,16 @@ const canales = [
     src:"https://cdn.mitvstatic.com/channels/cl_tv-globo_m.png"
   },
   {
+    nombre: "NHK WORLD Japan",
+    channel: "124",
+    adsl: "239.255.3.84",
+    fca: "239.255.3.85",
+    mpeg4: "239.255.3.85",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png"
+  },
+  {
     nombre: "NHK WORLD PREMIUM",
     channel: "125",
     adsl: "239.255.3.84",
@@ -908,6 +968,16 @@ const canales = [
     criticidad: "Severidad: 4",
     bw: "3.5",
     src:"https://www.digitaltveurope.com/files/2023/10/Unknown-300x300.png"
+  },
+  {
+    nombre: "CCTV 4",
+    channel: "126",
+    adsl: "239.255.3.84",
+    fca: "239.255.3.85",
+    mpeg4: "239.255.3.85",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://www.cxtv.com.br/img/Tvs/Logo/webp-m/6bf7cf246d5c1a23aba7cfe8ce72381a.webp"
   },
   {
     nombre: "TV DIPUTADOS",
@@ -927,7 +997,7 @@ const canales = [
     mpeg4: "239.255.5.83",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emblema_Senado_de_la_Republica_Chile.png/200px-Emblema_Senado_de_la_Republica_Chile.png"
+    src:"https://yt3.googleusercontent.com/rzWmoueYLYs4hpK1mwVFnyafADTztytGuZFiPJEVd1lyCZKFyYebzLPV1P9BB4xB6rEIiEKSug=s176-c-k-c0x00ffffff-no-rj"
   },
   {
     nombre: "Canal 24 Horas Chile",
@@ -1017,7 +1087,7 @@ const canales = [
     mpeg4: "239.255.2.173",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Al_Jazeera.png/140px-Al_Jazeera.png"
+    src:"https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/200px-Aljazeera_eng.svg.png"
   },
   {
     nombre: "BLOOMBERG",
@@ -1040,6 +1110,16 @@ const canales = [
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/125px-France24.png"
   },
   {
+    nombre: "Tele Mundo",
+    channel: "142",
+    adsl: "Cambiar",
+    fca: "239.255.2.130",
+    mpeg4: "239.255.2.158",
+    criticidad: "Severidad: 4",
+    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/150px-Telemundo_logo_2018.svg.png"
+  },
+  /* {
     nombre: "RT",
     channel: "142",
     adsl: "239.255.2.130",
@@ -1048,7 +1128,7 @@ const canales = [
     criticidad: "Severidad: 4",
     bw: "3.5",
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/125px-Russia-today-logo.svg.png"
-  },
+  }, */
   {
     nombre: "EWTN",
     channel: "146",
@@ -1090,23 +1170,24 @@ const canales = [
     src:"https://cdn.mitvstatic.com/channels/cl_nuevo-tiempo_m.png"
   },
   {
-    nombre: "TBS",
+    nombre: "TNT Novelas",
     channel: "151",
     adsl: "239.255.2.70",
     fca: "239.255.5.70",
     mpeg4: "239.255.5.70",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/TBS_logo_2016.svg/135px-TBS_logo_2016.svg.png"
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/150px-Logo_TNT_Novelas.png"
   },
   {
-    nombre: "Warner",
+    nombre: "Paramount",
     channel: "152",
     adsl: "239.255.2.16",
     fca: "239.255.2.16",
     mpeg4: "239.255.3.250",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Paramount_Global.svg/220px-Paramount_Global.svg.png"
   },
   {
     nombre: "AXN",
@@ -1116,6 +1197,7 @@ const canales = [
     mpeg4: "239.255.3.251",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/150px-AXN_logo_%282015%29.svg.png"
   },
   {
     nombre: "SONY",
@@ -1125,42 +1207,47 @@ const canales = [
     mpeg4: "239.255.3.252",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://la.sonychannel.com/sites/g/files/objgke216/files/Sony_Channel_Mango_Logo_System_Onesheet_RGB_071923-prueba.png"
   },
   {
-    nombre: "Canal Fox Chile",
+    nombre: "Star Channel",
     channel: "155",
     adsl: "239.255.2.37",
     fca: "239.255.2.37",
     mpeg4: "239.255.3.245",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/1200px-Star_Channel_2020.svg.png"
   },
   {
-    nombre: "A&E Latin Am Chile",
+    nombre: "A&E",
     channel: "156",
     adsl: "239.255.2.45",
     fca: "239.255.5.45",
     mpeg4: "239.255.3.159",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/512px-A%26E_Network_logo.svg.png"
   },
   {
-    nombre: "Universal Channel Chile",
+    nombre: "Universal Channel",
     channel: "157",
     adsl: "239.255.2.41",
     fca: "239.255.2.41",
     mpeg4: "239.255.3.18",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Universal-Pictures-Logo.svg/800px-Universal-Pictures-Logo.svg.png"
   },
   {
-    nombre: "FOX LIFE",
+    nombre: "Cine Premium",
     channel: "158",
     adsl: "239.255.2.8",
     fca: "239.255.2.8",
     mpeg4: "239.255.3.253",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://bittchannel.com/wp-content/uploads/2023/05/01.Logo-Cine-Premium-Alpha-Aoriginal-1024x576.png"
   },
   {
     nombre: "E! TV",
@@ -1170,24 +1257,27 @@ const canales = [
     mpeg4: "239.255.2.86",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/222.png"
   },
   {
-    nombre: "INV DSCVR",
+    nombre: "Investigation Discovery",
     channel: "160",
     adsl: "239.255.2.22",
     fca: "239.255.2.22",
     mpeg4: "239.255.3.19",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/223.png"
   },
   {
-    nombre: "TRU TV",
+    nombre: "Adult Swim",
     channel: "161",
-    adsl: "239.255.2.65",
+    adsl: "Cambiar",
     fca: "239.255.5.65",
     mpeg4: "239.255.5.65",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/320px-Adult_Swim_2003_logo.svg.png"
   },
   {
     nombre: "AZ CORAZON",
@@ -1197,6 +1287,7 @@ const canales = [
     mpeg4: "239.255.2.129",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TV_Azteca_Coraz%C3%B3n_logo.svg/200px-TV_Azteca_Coraz%C3%B3n_logo.svg.png"
   },
   {
     nombre: "GLITZ",
@@ -1206,6 +1297,7 @@ const canales = [
     mpeg4: "239.255.5.64",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Glitzlogo.png/150px-Glitzlogo.png"
   },
   {
     nombre: "FX",
@@ -1215,15 +1307,17 @@ const canales = [
     mpeg4: "239.255.3.160",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/125px-FX_International_logo.svg.png"
   },
   {
-    nombre: "SYFY",
+    nombre: "USA",
     channel: "166",
     adsl: "239.255.2.170",
     fca: "239.255.2.170",
     mpeg4: "239.255.2.170",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/200px-USA_Network_logo_%282016%29.svg.png"
   },
   {
     nombre: "TNT SERIES",
@@ -1233,6 +1327,7 @@ const canales = [
     mpeg4: "239.255.3.161",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/TNT_Series_Logo_2016.png/94px-TNT_Series_Logo_2016.png"
   },
   {
     nombre: "COMEDY CENTRAL",
@@ -1242,6 +1337,7 @@ const canales = [
     mpeg4: "239.255.3.109",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/200px-Comedy_Central_2018.svg.png"
   },
   {
     nombre: "LIFETIME",
@@ -1251,24 +1347,27 @@ const canales = [
     mpeg4: "239.255.3.187",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/150px-Logo_Lifetime_2020.svg.png"
   },
   {
-    nombre: "MTV Latino Central",
+    nombre: "MTV",
     channel: "181",
     adsl: "239.255.2.61",
     fca: "239.255.5.61",
     mpeg4: "239.255.5.61",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/150px-MTV-2021.svg.png"
   },
   {
-    nombre: "VH1",
+    nombre: "MTV 00",
     channel: "182",
     adsl: "239.255.2.63",
     fca: "239.255.5.63",
     mpeg4: "239.255.5.63",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/f/f8/MTV_00s_remaster.png"
   },
   {
     nombre: "BONITA TV",
@@ -1278,6 +1377,7 @@ const canales = [
     mpeg4: "239.255.3.232",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/306754489_515811403885355_2171042215730757009_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHCnlaDZB3_N7dJddzWhHqbL8Myx-CN0hAvwzLH4I3SEKjd5q7iYEf-v7dfEm6aAdc&_nc_ohc=eJ0vqsxMCbcAX8EUTJ9&_nc_ht=scontent.fscl1-1.fna&oh=00_AfD7c0zX18kBl_7Ebv8Sry06NhjzfeHgDW4O8QMP9sFOpQ&oe=6555A6B9"
   },
   {
     nombre: "MTV Hits",
@@ -1287,24 +1387,27 @@ const canales = [
     mpeg4: "239.255.5.119",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/MTV_Hits_2021.svg/125px-MTV_Hits_2021.svg.png"
   },
   {
-    nombre: "MTV DANCE",
+    nombre: "Club MTV",
     channel: "186",
     adsl: "239.255.2.118",
     fca: "239.255.5.118",
     mpeg4: "239.255.5.118",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Club_MTV_2021_logo.svg/125px-Club_MTV_2021_logo.svg.png"
   },
   {
-    nombre: "VH1 MEGAHITS",
+    nombre: "NickMusic",
     channel: "187",
     adsl: "239.255.2.117",
     fca: "239.255.5.117",
     mpeg4: "239.255.5.117",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/NickMusic_%282016-.n.v.%29.png/800px-NickMusic_%282016-.n.v.%29.png"
   },
   {
     nombre: "MUCHMUSIC",
@@ -1314,15 +1417,17 @@ const canales = [
     mpeg4: "239.255.5.242",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MuchMusicLA_%282007%29.svg/120px-MuchMusicLA_%282007%29.svg.png"
   },
   {
-    nombre: "HTV Hispano Television",
+    nombre: "HTV Raices",
     channel: "189",
     adsl: "239.255.2.67",
     fca: "239.255.5.67",
     mpeg4: "239.255.5.67",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Htv_logo.svg/120px-Htv_logo.svg.png"
   },
   {
     nombre: "DISCOVERY",
@@ -1332,24 +1437,27 @@ const canales = [
     mpeg4: "239.255.3.20",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/180px-2019_Discovery_logo.svg.png"
   },
   {
-    nombre: "National Geographic Chile",
+    nombre: "National Geographic",
     channel: "203",
     adsl: "239.255.2.39",
     fca: "239.255.2.39",
     mpeg4: "239.255.3.24",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/200px-Natgeologo.svg.png"
   },
   {
-    nombre: "History Channel Colombia",
+    nombre: "History",
     channel: "204",
     adsl: "239.255.2.57",
     fca: "239.255.5.57",
     mpeg4: "239.255.3.162",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/571px-History_Logo.svg.png"
   },
   {
     nombre: "DISCOVERY HOME AND HEALTH",
@@ -1359,6 +1467,7 @@ const canales = [
     mpeg4: "239.255.3.25",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/150px-Discovery_Home_%26_Health_logo.svg.png"
   },
   {
     nombre: "EL GOURMET",
@@ -1368,6 +1477,7 @@ const canales = [
     mpeg4: "239.255.3.48",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/232.png"
   },
   {
     nombre: "MAS CHIC",
@@ -1377,6 +1487,7 @@ const canales = [
     mpeg4: "239.255.3.230",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/230.png"
   },
   {
     nombre: "ANIMAL PLANET",
@@ -1386,6 +1497,7 @@ const canales = [
     mpeg4: "239.255.3.231",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/200px-2018_Animal_Planet_logo.svg.png"
   },
   {
     nombre: "Travel & Living",
@@ -1395,15 +1507,17 @@ const canales = [
     mpeg4: "239.255.3.238",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/740.png"
   },
   {
-    nombre: "Discovery Civilization",
+    nombre: "HGTV",
     channel: "212",
     adsl: "239.255.2.120",
     fca: "239.255.5.120",
     mpeg4: "239.255.5.120",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/200px-HGTV_US_Logo_2015.svg.png"
   },
   {
     nombre: "Discovery Science",
@@ -1413,6 +1527,7 @@ const canales = [
     mpeg4: "239.255.5.112",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://media-prod.press.discovery.com/ugc/logos/2012/12/19/thumbnails/sci-horiz__.jpg"
   },
   {
     nombre: "H2",
@@ -1422,15 +1537,17 @@ const canales = [
     mpeg4: "239.255.3.237",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/110px-History2_logo_%282022%29.svg.png"
   },
   {
-    nombre: "TNT Chile feed",
+    nombre: "TNT",
     channel: "251",
     adsl: "239.255.2.13",
     fca: "239.255.5.13",
     mpeg4: "239.255.5.13",
     criticidad: "Severidad: 2",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/115px-TNT_Logo_2016.svg.png"
   },
   {
     nombre: "CINECANAL",
@@ -1440,6 +1557,7 @@ const canales = [
     mpeg4: "239.255.3.163",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/150px-CinecanalLA.png"
   },
   {
     nombre: "FILM&ARTS",
@@ -1449,6 +1567,7 @@ const canales = [
     mpeg4: "239.255.3.49",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Film%26Arts2016.png/200px-Film%26Arts2016.png"
   },
   {
     nombre: "SPACE",
@@ -1458,15 +1577,17 @@ const canales = [
     mpeg4: "239.255.3.164",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://cdn.mitvstatic.com/channels/pe_space_m.png"
   },
   {
-    nombre: "Hallmark",
+    nombre: "Studio Universal",
     channel: "255",
     adsl: "239.255.2.36",
     fca: "239.255.3.38",
     mpeg4: "239.255.5.36",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/293px-StudioUniversal2016.png"
   },
   {
     nombre: "AMC",
@@ -1476,6 +1597,7 @@ const canales = [
     mpeg4: "239.255.3.236",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1210.png"
   },
   {
     nombre: "EUROCHANNEL",
@@ -1485,6 +1607,7 @@ const canales = [
     mpeg4: "239.255.2.245",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.eurochannel.com/images/Logo_Eurochannel-Blue.png"
   },
   {
     nombre: "EUROPA EUROPA",
@@ -1494,6 +1617,7 @@ const canales = [
     mpeg4: "239.255.3.64",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://www.europaeuropa.tv/theme/assets/ee-logo.png"
   },
   {
     nombre: "I-SAT",
@@ -1503,6 +1627,7 @@ const canales = [
     mpeg4: "239.255.5.68",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/I.Sat_logo.svg/150px-I.Sat_logo.svg.png"
   },
   {
     nombre: "FX MOVIES",
@@ -1512,15 +1637,17 @@ const canales = [
     mpeg4: "239.255.3.39",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://mediaplan.com.gt/wp-content/uploads/2021/03/logoCineFamiliar.png"
   },
   {
-    nombre: "CINEMAX CHILE",
+    nombre: "CINEMAX",
     channel: "261",
     adsl: "239.255.2.49",
     fca: "239.255.2.49",
     mpeg4: "239.255.3.217",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/349px-Cinemax_%28Yellow%29.svg.png"
   },
   {
     nombre: "TCM",
@@ -1530,105 +1657,17 @@ const canales = [
     mpeg4: "239.255.5.14",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TCM_Latam_logo.svg/120px-TCM_Latam_logo.svg.png"
   },
   {
-    nombre: "CityStar",
-    channel: "269",
+    nombre: "HBO Family",
+    channel: "279",
     adsl: "239.255.2.28",
     fca: "239.255.2.28",
     mpeg4: "239.255.3.26",
     criticidad: "Severidad: 4",
     bw: "3.5",
-  },
-  {
-    nombre: "City Mix East",
-    channel: "270",
-    adsl: "239.255.2.31",
-    fca: "239.255.2.31",
-    mpeg4: "239.255.3.228",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-  },
-  {
-    nombre: "FOX FAMILY ESTE",
-    channel: "271",
-    adsl: "239.255.2.29",
-    fca: "239.255.2.29",
-    mpeg4: "239.255.3.222",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
-  },
-  {
-    nombre: "City Family West",
-    channel: "272",
-    adsl: "239.255.2.92",
-    fca: "239.255.2.92",
-    mpeg4: "239.255.3.223",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-  },
-  {
-    nombre: "FOX SERIES ESTE",
-    channel: "273",
-    adsl: "239.255.2.32",
-    fca: "239.255.2.32",
-    mpeg4: "239.255.3.224",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
-  },
-  {
-    nombre: "FOX SERIES OESTE",
-    channel: "274",
-    adsl: "239.255.2.33",
-    fca: "239.255.2.33",
-    mpeg4: "239.255.3.225",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-  },
-  {
-    nombre: "CityVibe East",
-    channel: "275",
-    adsl: "239.255.2.93",
-    fca: "239.255.2.93",
-    mpeg4: "239.255.3.226",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-  },
-  {
-    nombre: "CityVibe West",
-    channel: "276",
-    adsl: "239.255.2.91",
-    fca: "239.255.2.68",
-    mpeg4: "239.255.3.227",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-  },
-  {
-    nombre: "FOX CINEMA",
-    channel: "277",
-    adsl: "239.255.3.249",
-    fca: "239.255.3.249",
-    mpeg4: "239.255.3.249",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
-  },
-  {
-    nombre: "FOX COMEDY HD",
-    channel: "278",
-    adsl: "239.255.3.130",
-    fca: "239.255.3.130",
-    mpeg4: "239.255.3.130",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
-  },
-  {
-    nombre: "HBO Family East",
-    channel: "279",
-    adsl: "239.255.2.52",
-    fca: "239.255.2.52",
-    mpeg4: "239.255.3.220",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/130px-HBO_Family.svg.png"
   },
   {
     nombre: "HBO SIGNATURE",
@@ -1638,15 +1677,17 @@ const canales = [
     mpeg4: "239.255.2.161",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/135px-HBO_Signature.svg.png"
   },
   {
-    nombre: "HBO Ole VZ East",
+    nombre: "HBO",
     channel: "281",
     adsl: "239.255.2.51",
     fca: "239.255.2.51",
     mpeg4: "239.255.3.213",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/125px-HBO_logo.svg.png"
   },
   {
     nombre: "HBO 2",
@@ -1656,42 +1697,37 @@ const canales = [
     mpeg4: "239.255.2.162",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/149px-HBO2_logo.svg.png"
   },
   {
-    nombre: "HBO Ole Plus Arg (East)",
-    channel: "283",
-    adsl: "239.255.2.55",
-    fca: "239.255.2.55",
-    mpeg4: " '",
-    criticidad: "Severidad: 3",
-    bw: "3.5",
-  },
-  {
-    nombre: "HBO Ole Plus Mexico (West)",
+    nombre: "HBO +",
     channel: "284",
     adsl: "239.255.2.56",
     fca: "239.255.2.56",
     mpeg4: "239.255.2.164",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/125px-Logohboplus2019.svg.png"
   },
   {
-    nombre: "Cinemax LatinAm VZ East",
+    nombre: "HBO Mundi",
     channel: "285",
     adsl: "239.255.2.48",
     fca: "239.255.2.48",
     mpeg4: "239.255.3.216",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/125px-HBO_Mundi.svg.png"
   },
   {
-    nombre: "MAX PRIME O",
+    nombre: "HBO Xtreme",
     channel: "286",
     adsl: "239.255.2.58",
     fca: "239.255.2.58",
     mpeg4: "239.255.3.70",
     criticidad: "Severidad: 3",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/130px-HBO_Xtreme.svg.png"
   },
   {
     nombre: "MAX PRIME E",
@@ -1703,15 +1739,6 @@ const canales = [
     bw: "3.5",
   },
   {
-    nombre: "FOX SERIES HD",
-    channel: "801",
-    adsl: "239.255.2.102",
-    fca: "239.255.2.102",
-    mpeg4: "239.255.2.102",
-    criticidad: "Severidad: 3",
-    bw: "9",
-  },
-  {
     nombre: "HBO HD ESTE",
     channel: "802",
     adsl: "239.255.2.101",
@@ -1719,33 +1746,37 @@ const canales = [
     mpeg4: "239.255.2.101",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/125px-HBO_logo.svg.png"
   },
   {
-    nombre: "MAX UP HD",
+    nombre: "HBO POP",
     channel: "803",
     adsl: "239.255.2.251",
     fca: "239.255.2.251",
     mpeg4: "239.255.2.251",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/130px-HBO_Pop.svg.png"
   },
   {
-    nombre: "FOX MOVIES HD",
+    nombre: "Disney Junior HD",
     channel: "804",
     adsl: "239.255.3.103",
     fca: "239.255.3.103",
     mpeg4: "239.255.3.103",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/800px-Disney_Junior.svg.png"
   },
   {
-    nombre: "FOX ACTION HD",
+    nombre: "ETC HD",
     channel: "805",
     adsl: "239.255.3.104",
     fca: "239.255.2.57",
     mpeg4: "239.255.3.104",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/f/fa/ETC_2016-actual.png"
   },
   {
     nombre: "TV+ HD",
@@ -1755,15 +1786,47 @@ const canales = [
     mpeg4: "239.255.2.232",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/TV%2B_%282018%29.png/800px-TV%2B_%282018%29.png"
   },
   {
-    nombre: "RED HD",
+    nombre: "Chilevision HD",
+    channel: "809",
+    adsl: "Cambiar",
+    fca: "239.255.2.232",
+    mpeg4: "239.255.2.232",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.ecured.cu/images/5/5a/Sdrfgd.png"
+  },
+  {
+    nombre: "RED TV HD",
     channel: "810",
     adsl: "239.255.2.233",
     fca: "239.255.2.233",
     mpeg4: "239.255.2.233",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/La_Red_Logotipo_2021.svg/200px-La_Red_Logotipo_2021.svg.png"
+  },
+  {
+    nombre: "Megavision HD",
+    channel: "811",
+    adsl: "239.255.2.233",
+    fca: "239.255.2.233",
+    mpeg4: "239.255.2.233",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://brandemia.org/sites/default/files/sites/default/files/logo_mega-despues.jpg"
+  },
+  {
+    nombre: "TVN HD",
+    channel: "812",
+    adsl: "239.255.2.230",
+    fca: "239.255.2.230",
+    mpeg4: "239.255.2.230",
+    criticidad: "Severidad: 1",
+    bw: "9",
+    src:"https://www.tvn.cl/incoming/logotipo2020png-5317342/alternates/BASE_FREE/Logotipo%282020%29.png"
   },
   {
     nombre: "CANAL 13 HD",
@@ -1776,6 +1839,26 @@ const canales = [
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Logo_de_Canal_13_HD_%282010%29.png/800px-Logo_de_Canal_13_HD_%282010%29.png"
   },
   {
+    nombre: "CNN HD",
+    channel: "814",
+    adsl: "239.255.2.230",
+    fca: "239.255.2.230",
+    mpeg4: "239.255.2.230",
+    criticidad: "Severidad: 1",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/162px-CNN_International_logo.svg.png"
+  },
+  {
+    nombre: "NTV HD",
+    channel: "815",
+    adsl: "239.255.2.230",
+    fca: "239.255.2.230",
+    mpeg4: "239.255.2.230",
+    criticidad: "Severidad: 1",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Logotipo_Color_2_NTV%28Chile%29.svg/3816px-Logotipo_Color_2_NTV%28Chile%29.svg.png"
+  },
+  {
     nombre: "TVN 24 Horas HD",
     channel: "816",
     adsl: "239.255.3.99",
@@ -1783,6 +1866,7 @@ const canales = [
     mpeg4: "239.255.3.99",
     criticidad: "Severidad: 2",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Emblema_de_24_Horas_TVN.svg/150px-Emblema_de_24_Horas_TVN.svg.png"
   },
   {
     nombre: "HBO FAMILY",
@@ -1792,6 +1876,7 @@ const canales = [
     mpeg4: "239.255.3.10",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/130px-HBO_Family.svg.png"
   },
   {
     nombre: "DISCOVERY KIDS HD",
@@ -1801,24 +1886,27 @@ const canales = [
     mpeg4: "239.255.3.52",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Discovery_Kids_Logo_2021-Presente.webp/125px-Discovery_Kids_Logo_2021-Presente.webp.png"
   },
   {
-    nombre: "NICK 2",
+    nombre: "TeenNick",
     channel: "819",
     adsl: "239.255.2.144",
     fca: "239.255.2.144",
     mpeg4: "239.255.3.53",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/512px-TeenNick_2019_logo.svg.png"
   },
   {
-    nombre: "FOX HD",
+    nombre: "Star Channel hd",
     channel: "820",
     adsl: "239.255.2.250",
     fca: "239.255.2.250",
     mpeg4: "239.255.2.250",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/1200px-Star_Channel_2020.svg.png"
   },
   {
     nombre: "DISCOVERY HD THEATER",
@@ -1828,15 +1916,17 @@ const canales = [
     mpeg4: "239.255.2.252",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/320px-2015_Discovery_theater_HD_logo.svg.png"
   },
   {
-    nombre: "NAT GEO WILD HD",
+    nombre: "Love Nature",
     channel: "822",
     adsl: "239.255.2.253",
     fca: "239.255.2.253",
     mpeg4: "239.255.2.253",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/170px-Love_Nature_TV.png"
   },
   {
     nombre: "DISCOVERY WORLD HD",
@@ -1846,6 +1936,7 @@ const canales = [
     mpeg4: "239.255.2.109",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/320px-World_Discovery_HD_logo.svg.png"
   },
   {
     nombre: "HISTORY HD",
@@ -1855,6 +1946,7 @@ const canales = [
     mpeg4: "239.255.2.105",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/History_HD_Logo.svg/800px-History_HD_Logo.svg.png"
   },
   {
     nombre: "NHK HD",
@@ -1864,15 +1956,17 @@ const canales = [
     mpeg4: "239.255.3.242",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png"
   },
   {
-    nombre: "DISCOVERY ID HD",
+    nombre: "Investigation Discovery",
     channel: "826",
     adsl: "239.255.3.112",
     fca: "239.255.3.112",
     mpeg4: "239.255.3.112",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/223.png"
   },
   {
     nombre: "DISCOVERY HOME AND HEALTH HD",
@@ -1882,15 +1976,17 @@ const canales = [
     mpeg4: "239.255.3.111",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/150px-Discovery_Home_%26_Health_logo.svg.png"
   },
   {
-    nombre: "UNIVERSIDAD AUTÓNOMA HD",
+    nombre: "UATV HD",
     channel: "828",
     adsl: "239.255.3.174",
     fca: "239.255.3.174",
     mpeg4: "239.255.3.174",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/UATV.png/320px-UATV.png"
   },
   {
     nombre: "13 CABLE HD",
@@ -1900,7 +1996,7 @@ const canales = [
     mpeg4: "239.255.2.152",
     criticidad: "Severidad: 3",
     bw: "9",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/13C_2018.png/150px-13C_2018.png"
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1156.png"
   },
   {
     nombre: "VIDA SOCIAL TV HD",
@@ -1910,15 +2006,17 @@ const canales = [
     mpeg4: "239.255.2.153",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://media.licdn.com/dms/image/C510BAQEBuxnuTcXbKw/company-logo_200_200/0/1631363383859?e=2147483647&v=beta&t=UuMNybUJvXivbtmZk2iDL99BwFdzsK5-FF0htvGBU0A"
   },
   {
-    nombre: "PRIMITIVOSHD_831",
+    nombre: "PRIMITIVOS HD",
     channel: "831",
     adsl: "239.255.2.89",
     fca: "239.255.2.89",
     mpeg4: "239.255.2.89",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://pbs.twimg.com/profile_images/421716542946955264/hBlmbZpL_400x400.png"
   },
   {
     nombre: "UFROVISION",
@@ -1928,6 +2026,7 @@ const canales = [
     mpeg4: "239.255.2.154",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://pbs.twimg.com/profile_images/705138470050631680/gypFDeR4_400x400.jpg"
   },
   {
     nombre: "NAT GEO HD",
@@ -2946,14 +3045,5 @@ const canales = [
     criticidad: "Severidad: 4",
     bw: "0.4",
   },
-  {
-    nombre: "TVR",
-    channel: "64",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-    src:"https://upload.wikimedia.org/wikipedia/commons/1/1b/Televisi%C3%B3n_Regional_de_Chile_-_logo.png"
-  },
+  
 ];
