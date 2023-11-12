@@ -2432,6 +2432,7 @@ const canales = [
     mpeg4: "239.255.2.213",
     criticidad: "Severidad: 4",
     bw: "0.4",
+	src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY CLÁSICOS INDIE",
