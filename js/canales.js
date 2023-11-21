@@ -107,7 +107,7 @@ const canales = [
     mpeg4: "239.255.3.248",
     criticidad: "Severidad: 2",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ZooMoo_logo.svg/1200px-ZooMoo_logo.svg.png"
+    src:"https://www.zoomookids.com.br/wp-content/uploads/2022/11/cropped-shadow-zoomoo-kids-logo.png"
   },
   {
     nombre: "DISNEY Channel",
@@ -1110,7 +1110,7 @@ const canales = [
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/125px-France24.png"
   },
   {
-    nombre: "Tele Mundo",
+    nombre: "TeleMundo",
     channel: "142",
     adsl: "Cambiar",
     fca: "239.255.2.130",
@@ -1377,7 +1377,7 @@ const canales = [
     mpeg4: "239.255.3.232",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/306754489_515811403885355_2171042215730757009_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHCnlaDZB3_N7dJddzWhHqbL8Myx-CN0hAvwzLH4I3SEKjd5q7iYEf-v7dfEm6aAdc&_nc_ohc=eJ0vqsxMCbcAX8EUTJ9&_nc_ht=scontent.fscl1-1.fna&oh=00_AfD7c0zX18kBl_7Ebv8Sry06NhjzfeHgDW4O8QMP9sFOpQ&oe=6555A6B9"
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/306754489_515811403885355_2171042215730757009_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHCnlaDZB3_N7dJddzWhHqbL8Myx-CN0hAvwzLH4I3SEKjd5q7iYEf-v7dfEm6aAdc&_nc_ohc=xSDZWy-E3vMAX8Kk-u3&_nc_ht=scontent.fscl1-1.fna&oh=00_AfCUUvbHY3D05KJvLcA1ZVGoiAqvnH524d_W7REh9m36_A&oe=65618439"
   },
   {
     nombre: "MTV Hits",
@@ -2036,6 +2036,7 @@ const canales = [
     mpeg4: "239.255.3.91",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/2/22/Nat_Geo_HD.png"
   },
   {
     nombre: "DISCOVERY HD",
@@ -2045,6 +2046,7 @@ const canales = [
     mpeg4: "239.255.3.119",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/9/98/Casi_Discovery_HD.png"
   },
   {
     nombre: "ANIMAL PLANET HD",
@@ -2054,15 +2056,47 @@ const canales = [
     mpeg4: "239.255.3.102",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/800px-2018_Animal_Planet_logo.svg.png"
   },
   {
-    nombre: "NAT GEO KIDS HD",
+    nombre: "Dreamworks HD",
     channel: "836",
     adsl: "239.255.3.92",
     fca: "239.255.3.92",
     mpeg4: "239.255.3.92",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/800px-DreamWorks_Channel_Logo.svg.png"
+  },
+  {
+    nombre: "ZooMoo HD",
+    channel: "837",
+    adsl: "Cambiar",
+    fca: "239.255.3.92",
+    mpeg4: "239.255.3.92",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.zoomookids.com.br/wp-content/uploads/2022/11/cropped-shadow-zoomoo-kids-logo.png"
+  },
+  {
+    nombre: "TVU HD",
+    channel: "838",
+    adsl: "Cambiar",
+    fca: "239.255.3.92",
+    mpeg4: "239.255.3.92",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_tvu.png/1200px-Logo_tvu.png"
+  },
+  {
+    nombre: "Mega 2 hd",
+    channel: "839",
+    adsl: "Cambiar",
+    fca: "239.255.5.140",
+    mpeg4: "239.255.5.141",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://cdn-w.tvdaldia.cl/canales/logo_mega2.png"
   },
   {
     nombre: "CANAL TENDENCIAS PRIME HD",
@@ -2072,15 +2106,37 @@ const canales = [
     mpeg4: "239.255.5.141",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://play-lh.googleusercontent.com/ZSXT5fTtuC-AeszYYOWdulWQbU-gJMFRZ1tuf5Q2eJYSaOnQinFGikcG1qHxcE6pk2rl"
   },
   {
-    nombre: "CDF HD",
+    nombre: "Disney Channel HD",
+    channel: "842",
+    adsl: "Cambiar",
+    fca: "239.255.5.140",
+    mpeg4: "239.255.5.141",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1312.png"
+  },
+  {
+    nombre: "Espn 2 HD",
+    channel: "844",
+    adsl: "239.255.3.11",
+    fca: "239.255.3.11",
+    mpeg4: "239.255.3.11",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/622.png"
+  },
+  {
+    nombre: "TNT Sport HD",
     channel: "845",
     adsl: "239.255.3.11",
     fca: "239.255.3.11",
     mpeg4: "239.255.3.11",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1631_CL.png"
   },
   {
     nombre: "FOX SPORTS 1 HD",
@@ -2090,6 +2146,7 @@ const canales = [
     mpeg4: "239.255.3.208",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://cdn.mitvstatic.com/channels/cl_fox-sports-1-hd_m.png"
   },
   {
     nombre: "FOX SPORTS 3 HD",
@@ -2099,6 +2156,7 @@ const canales = [
     mpeg4: "239.255.3.188",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_8863_7_25047.png.57c879e05ccde149e497f4ef896e1240.png"
   },
   {
     nombre: "CDO HD",
@@ -2108,6 +2166,7 @@ const canales = [
     mpeg4: "239.255.3.12",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/637_CL.png"
   },
   {
     nombre: "GOL TV HD",
@@ -2117,6 +2176,17 @@ const canales = [
     mpeg4: "239.255.2,156",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GolTV_logo.svg/100px-GolTV_logo.svg.png"
+  },
+  {
+    nombre: "TYC HD",
+    channel: "850",
+    adsl: "Cambiar",
+    fca: "239.255.2.156",
+    mpeg4: "239.255.2,156",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/1920px-TyC_Sports_logo.svg.png"
   },
   {
     nombre: "TELETRAK HD",
@@ -2126,15 +2196,27 @@ const canales = [
     mpeg4: "239.255.2.157",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f665a567a9739a970cc5_teletrak.jpeg"
   },
   {
-    nombre: "ESPN + HD",
+    nombre: "ESPN HD",
+    channel: "852",
+    adsl: "239.255.2.234",
+    fca: "239.255.2.234",
+    mpeg4: "239.255.3.33",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/d/dd/Espnhd.png"
+  },
+  {
+    nombre: "ESPN Extra HD",
     channel: "853",
     adsl: "239.255.2.234",
     fca: "239.255.2.234",
     mpeg4: "239.255.3.33",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/ESPN_Extra_Logo_2022.webp/750px-ESPN_Extra_Logo_2022.webp.png"
   },
   {
     nombre: "ESPN 3 HD",
@@ -2144,6 +2226,7 @@ const canales = [
     mpeg4: "239.255.3.185",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/623.png"
   },
   {
     nombre: "FOX SPORTS 2 HD",
@@ -2153,24 +2236,77 @@ const canales = [
     mpeg4: "239.255.3.189",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_8863_7_11394.png.fa1a5e8a9a3a836e2639328d9638374f.png"
   },
   {
-    nombre: "FOX SPORTS HD",
+    nombre: "Espn 4 HD",
     channel: "856",
     adsl: "239.255.5.151",
     fca: "239.255.5.151",
     mpeg4: "239.255.5.151",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.altice.com.do/sites/default/files/styles/teaser_device/public/2023-04/464-ESPN-4.png.jpg?itok=Fc1ywQqV"
   },
   {
-    nombre: "WARNER HD",
+    nombre: "E! HD",
+    channel: "857",
+    adsl: "239.255.5.151",
+    fca: "239.255.5.151",
+    mpeg4: "239.255.5.151",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.altice.com.do/sites/default/files/styles/teaser_device/public/assets/channel/E.png.jpg?itok=CPqlMtiD"
+  },
+  {
+    nombre: "History 2 HD",
+    channel: "858",
+    adsl: "Cambiar",
+    fca: "239.255.5.151",
+    mpeg4: "239.255.5.151",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.gtd.cl/documents/862366/7183626/History_2_HD.png/f5352fc9-25d4-bb74-c1f2-bca84c2f50a9?t=1672944420283"
+  },
+  {
+    nombre: "LifeTime HD",
+    channel: "859",
+    adsl: "Cambiar",
+    fca: "239.255.5.151",
+    mpeg4: "239.255.5.151",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_7/large.gallery_1163_7_84391.png.ad07482ef2ff1e743e436386d85b9f42.png"
+  },
+  {
+    nombre: "Universal HD",
+    channel: "860",
+    adsl: "239.255.2.107",
+    fca: "239.255.2.107",
+    mpeg4: "239.255.2.107",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1200px-Universal_TV_logo.svg.png"
+  },
+  {
+    nombre: "Studio Universal HD",
+    channel: "861",
+    adsl: "239.255.2.107",
+    fca: "239.255.2.107",
+    mpeg4: "239.255.2.107",
+    criticidad: "Severidad: 3",
+    bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1508.png"
+  },
+  {
+    nombre: "Paramount HD",
     channel: "862",
     adsl: "239.255.2.107",
     fca: "239.255.2.107",
     mpeg4: "239.255.2.107",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1510.png"
   },
   {
     nombre: "AXN HD",
@@ -2180,6 +2316,7 @@ const canales = [
     mpeg4: "239.255.2.227",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1209.png"
   },
   {
     nombre: "SONY HD",
@@ -2189,6 +2326,7 @@ const canales = [
     mpeg4: "239.255.2.236",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1506.png"
   },
   {
     nombre: "FX HD",
@@ -2198,6 +2336,7 @@ const canales = [
     mpeg4: "239.255.3.22",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1217.png"
   },
   {
     nombre: "A&E HD",
@@ -2207,15 +2346,17 @@ const canales = [
     mpeg4: "239.255.2.237",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/1207.png"
   },
   {
-    nombre: "RT HD",
+    nombre: "Telemundo Int",
     channel: "868",
     adsl: "239.255.2.158",
     fca: "239.255.2.158",
     mpeg4: "239.255.3.129",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/150px-Telemundo_logo_2018.svg.png"
   },
   {
     nombre: "AZ MUNDO HD",
@@ -2225,6 +2366,7 @@ const canales = [
     mpeg4: "239.255.2.159",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://www.tumundo.cl/wp-content/uploads/2022/11/Azteca_Internacional_Logo-1.jpg"
   },
   {
     nombre: "REC HD",
@@ -2234,6 +2376,7 @@ const canales = [
     mpeg4: "239.255.2.231",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/e/ef/Logotipo_de_Rec_TV.png"
   },
   {
     nombre: "AZ CORAZON HD",
@@ -2243,6 +2386,7 @@ const canales = [
     mpeg4: "239.255.2.160",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TV_Azteca_Coraz%C3%B3n_logo.svg/200px-TV_Azteca_Coraz%C3%B3n_logo.svg.png"
   },
   {
     nombre: "FRANCE 24 HD",
@@ -2252,24 +2396,97 @@ const canales = [
     mpeg4: "239.255.3.46",
     criticidad: "Severidad: 3",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/France24.png/125px-France24.png"
   },
   {
-    nombre: "TRU TV HD",
-    channel: "876",
-    adsl: "239.255.2.243",
+    nombre: "USA HD",
+    channel: "873",
+    adsl: "Cambiar",
     fca: "239.255.2.243",
     mpeg4: "239.255.2.243",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/200px-USA_Network_logo_%282016%29.svg.png"
   },
   {
-    nombre: "MTV HD",
+    nombre: "America TV HD",
+    channel: "875",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/America_Televisi%C3%B3n-logo.svg/799px-America_Televisi%C3%B3n-logo.svg.png"
+  },
+  {
+    nombre: "USA HD",
+    channel: "873",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/200px-USA_Network_logo_%282016%29.svg.png"
+  },
+  {
+    nombre: "Adult Swim",
+    channel: "876",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/320px-Adult_Swim_2003_logo.svg.png"
+  },
+  {
+    nombre: "DISCOVERY TURBO HD",
+    channel: "877",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/180px-Discovery_Turbo_logo.svg.png"
+  }, 
+  {
+    nombre: "TLC HD",
+    channel: "878",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://www.directv.cl/content/dam/public-sites/channels/740.png"
+  }, 
+  {
+    nombre: "HGTV HD",
+    channel: "879",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/200px-HGTV_US_Logo_2015.svg.png"
+  }, 
+  {
+    nombre: "DISCOVERY SCIENCE HD",
+    channel: "880",
+    adsl: "Cambiar",
+    fca: "239.255.2.243",
+    mpeg4: "239.255.2.243",
+    criticidad: "Severidad: 4",
+    bw: "9",
+    src:"https://media-prod.press.discovery.com/ugc/logos/2012/12/19/thumbnails/sci-horiz__.jpg"
+  },   
+  {
+    nombre: "MTV Live HD",
     channel: "881",
     adsl: "239.255.2.235",
     fca: "239.255.2.235",
     mpeg4: "239.255.2.235",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/MTV_Live_HD_2017_logo.svg/614px-MTV_Live_HD_2017_logo.svg.png"
   },
   {
     nombre: "BONITA TV HD",
@@ -2279,69 +2496,47 @@ const canales = [
     mpeg4: "239.255.2.155",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/306754489_515811403885355_2171042215730757009_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHCnlaDZB3_N7dJddzWhHqbL8Myx-CN0hAvwzLH4I3SEKjd5q7iYEf-v7dfEm6aAdc&_nc_ohc=xSDZWy-E3vMAX8Kk-u3&_nc_ht=scontent.fscl1-1.fna&oh=00_AfCUUvbHY3D05KJvLcA1ZVGoiAqvnH524d_W7REh9m36_A&oe=65618439"
   },
   {
-    nombre: "FOX FAMILY HD",
-    channel: "884",
-    adsl: "239.255.3.97",
+    nombre: "HBO Mundi HD",
+    channel: "886",
+    adsl: "Cambiar",
     fca: "239.255.3.97",
     mpeg4: "239.255.3.97",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/HBO_Mundi.svg/1200px-HBO_Mundi.svg.png"
   },
   {
-    nombre: "FOX COMEDY HD",
-    channel: "885",
-    adsl: "239.255.3.98",
-    fca: "239.255.3.98",
-    mpeg4: "239.255.3.98",
-    criticidad: "Severidad: 4",
-    bw: "9",
-  },
-  {
-    nombre: "MAX HD",
-    channel: "886",
-    adsl: "239.255.3.127",
-    fca: "239.255.3.127",
-    mpeg4: "239.255.3.127",
-    criticidad: "Severidad: 4",
-    bw: "9",
-  },
-  {
-    nombre: "FOX CINEMA HD",
+    nombre: "Cine Premium HD",
     channel: "887",
     adsl: "239.255.3.95",
     fca: "239.255.3.95",
     mpeg4: "239.255.3.95",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://bitred.cl/img/canales/peliculas/cine-premiun.webp"
   },
   {
-    nombre: "FOX CLASSICS HD",
-    channel: "888",
-    adsl: "239.255.3.96",
-    fca: "239.255.3.96",
-    mpeg4: "239.255.3.96",
-    criticidad: "Severidad: 4",
-    bw: "9",
-  },
-  {
-    nombre: "FX MOVIES HD",
+    nombre: "Cine Familiar HD",
     channel: "889",
     adsl: "239.255.3.93",
     fca: "239.255.3.93",
     mpeg4: "239.255.3.124",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://bittchannel.com/wp-content/uploads/2023/05/02.Logo-Cine-Familiar-Alpha-AOriginal-1024x576.png"
   },
   {
-    nombre: "TNT HD CHILE",
+    nombre: "TNT HD",
     channel: "890",
     adsl: "239.255.2.228",
     fca: "239.255.2.228",
     mpeg4: "239.255.2.228",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2016_07/small.5786a2a967697_TNTHD.png.51bd31f11fde354163821d0d9130bb35.png"
   },
   {
     nombre: "SPACE HD",
@@ -2351,6 +2546,7 @@ const canales = [
     mpeg4: "239.255.3.94",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/310732348_200539515677550_8348203713119663632_n.png?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHO0K_gPn3ZX-IW-64e4Ux3wXKmBX6x3CjBcqYFfrHcKNyLSpWUfF8rP5P4xqOPJzw&_nc_ohc=pqRASPmafuwAX8Bz10q&_nc_ht=scontent.fscl1-1.fna&oh=00_AfCLFuoFSzunabSq2ZPlrtV1H924SNEe2YCj8mXSeo2EbQ&oe=6562544B"
   },
   {
     nombre: "CINECANAL HD",
@@ -2360,6 +2556,7 @@ const canales = [
     mpeg4: "239.255.3.229",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://cdn.mitvstatic.com/channels/co_cinecanal-sd-hd-1_m.png"
   },
   {
     nombre: "HBO SIGNATURE",
@@ -2369,6 +2566,7 @@ const canales = [
     mpeg4: "239.255.3.212",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HBO_Signature.svg/135px-HBO_Signature.svg.png"
   },
   {
     nombre: "HBO 2",
@@ -2378,42 +2576,27 @@ const canales = [
     mpeg4: "239.255.3.221",
     criticidad: "Severidad: 4",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/149px-HBO2_logo.svg.png"
   },
   {
     nombre: "HBO PLUS",
-    channel: "896",
+    channel: "897",
     adsl: "239.255.2.163",
     fca: "239.255.2.163",
     mpeg4: " '",
     criticidad: "Severidad:  '",
     bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/125px-Logohboplus2019.svg.png"
   },
   {
-    nombre: "HBO PLUS Oeste",
-    channel: "897",
-    adsl: "239.255.2.164",
-    fca: "239.255.2.164",
-    mpeg4: "239.255.3.203",
-    criticidad: "Severidad: 4",
-    bw: "9",
-  },
-  {
-    nombre: "MAX PRIME O",
+    nombre: "HBO Xtreme HD",
     channel: "898",
     adsl: "239.255.3.55",
     fca: "239.255.3.55",
     mpeg4: "239.255.3.55",
     criticidad: "Severidad: 4",
     bw: "9",
-  },
-  {
-    nombre: "MAX PRIME E",
-    channel: "899",
-    adsl: "239.255.3.56",
-    fca: "239.255.3.56",
-    mpeg4: " '",
-    criticidad: "Severidad:  '",
-    bw: "9",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/130px-HBO_Xtreme.svg.png"
   },
   {
     nombre: "TELSUR",
@@ -2423,6 +2606,7 @@ const canales = [
     mpeg4: "239.255.3.146",
     criticidad: "Severidad: 4",
     bw: "3.5",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Telsur_logo_2019.svg/1200px-Telsur_logo_2019.svg.png"
   },
   {
     nombre: "STINGRAY EL SALON CHILL",
@@ -2432,7 +2616,7 @@ const canales = [
     mpeg4: "239.255.2.213",
     criticidad: "Severidad: 4",
     bw: "0.4",
-	src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY CLÁSICOS INDIE",
@@ -2442,6 +2626,7 @@ const canales = [
     mpeg4: "239.255.2.218",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY NEW AGE",
@@ -2451,6 +2636,7 @@ const canales = [
     mpeg4: "239.255.2.192",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY LATINO TROPICAL",
@@ -2460,6 +2646,7 @@ const canales = [
     mpeg4: "239.255.2.185",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY REGGAETÓN",
@@ -2469,6 +2656,7 @@ const canales = [
     mpeg4: "239.255.2.217",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY SAMBA Y PAGODE",
@@ -2478,6 +2666,7 @@ const canales = [
     mpeg4: "239.255.2.197",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY LATINO TROPICAL",
@@ -2487,6 +2676,7 @@ const canales = [
     mpeg4: "239.255.2.211",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY SALSA Y MERENGUE",
@@ -2496,6 +2686,7 @@ const canales = [
     mpeg4: "239.255.2.219",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY SESIONES DANCEHALL",
@@ -2505,6 +2696,7 @@ const canales = [
     mpeg4: "239.255.2.191",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY CLÁSICOS DEL DANCE",
@@ -2514,6 +2706,7 @@ const canales = [
     mpeg4: "239.255.2.220",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY SILK",
@@ -2523,6 +2716,7 @@ const canales = [
     mpeg4: "239.255.2.184",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY ROMANCE LATINO",
@@ -2532,6 +2726,7 @@ const canales = [
     mpeg4: "239.255.2.34",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY POP ADULTO",
@@ -2541,6 +2736,7 @@ const canales = [
     mpeg4: "239.255.2.216",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY ROCK DE BRASIL",
@@ -2550,6 +2746,7 @@ const canales = [
     mpeg4: "239.255.2.198",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EURO HITS",
@@ -2559,6 +2756,7 @@ const canales = [
     mpeg4: "239.255.2.222",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY AÑOS 70",
@@ -2568,6 +2766,7 @@ const canales = [
     mpeg4: "239.255.2.182",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY AÑOS 90",
@@ -2577,6 +2776,7 @@ const canales = [
     mpeg4: "239.255.2.180",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY SOLO PARA PEQUES",
@@ -2586,6 +2786,7 @@ const canales = [
     mpeg4: "239.255.2.186",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY CLUB DE BAILE",
@@ -2595,6 +2796,7 @@ const canales = [
     mpeg4: "239.255.2.202",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY FIESTA CONTINUA",
@@ -2604,6 +2806,7 @@ const canales = [
     mpeg4: "239.255.2.195",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY CLÁSICOS DEL SOUL Y EL R&B",
@@ -2613,6 +2816,7 @@ const canales = [
     mpeg4: "239.255.2.192",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY VIEJITAS PERO BUENÍSIMAS",
@@ -2622,6 +2826,7 @@ const canales = [
     mpeg4: "239.255.2.210",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY AÑOS 80",
@@ -2631,6 +2836,7 @@ const canales = [
     mpeg4: "239.255.2.183",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY POP LATINO ACTUAL",
@@ -2640,6 +2846,7 @@ const canales = [
     mpeg4: "239.255.2.221",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EXITOS RECIENTES",
@@ -2649,6 +2856,7 @@ const canales = [
     mpeg4: "239.255.2.190",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EXITOS DE ITALIA",
@@ -2658,6 +2866,7 @@ const canales = [
     mpeg4: "239.255.2.209",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY ESTANDARES",
@@ -2667,6 +2876,7 @@ const canales = [
     mpeg4: "239.255.2.205",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY POPCORN",
@@ -2676,6 +2886,7 @@ const canales = [
     mpeg4: "239.255.2.193",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY GRANDES BANDAS",
@@ -2685,6 +2896,7 @@ const canales = [
     mpeg4: "239.255.2.204",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY BLUES",
@@ -2694,6 +2906,7 @@ const canales = [
     mpeg4: "239.255.2.214",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY MAESTROS DEL JAZZ",
@@ -2703,6 +2916,7 @@ const canales = [
     mpeg4: "239.255.2.178",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY MARIACHI PARA SIEMPRE",
@@ -2712,6 +2926,7 @@ const canales = [
     mpeg4: "239.255.2.203",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY VIVA MEXICO",
@@ -2721,6 +2936,7 @@ const canales = [
     mpeg4: "239.255.2.201",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EXITOS DE LAS AMERICAS",
@@ -2730,6 +2946,7 @@ const canales = [
     mpeg4: "239.255.2.212",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EXITOS DE BRASIL",
@@ -2739,6 +2956,7 @@ const canales = [
     mpeg4: "239.255.2.196",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EXITOS DE BRASIL",
@@ -2748,6 +2966,7 @@ const canales = [
     mpeg4: "239.255.2.187",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY JAMMIN' REGGAE",
@@ -2757,6 +2976,7 @@ const canales = [
     mpeg4: "239.255.2.189",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY EL SALON CHILL",
@@ -2766,6 +2986,7 @@ const canales = [
     mpeg4: "239.255.2.177",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY MUSICA DEL MUNDO",
@@ -2775,6 +2996,7 @@ const canales = [
     mpeg4: "239.255.2.207",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY TANGO",
@@ -2784,6 +3006,7 @@ const canales = [
     mpeg4: "239.255.2.206",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY ROCK ALTERNATIVO",
@@ -2793,6 +3016,7 @@ const canales = [
     mpeg4: "239.255.2.179",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY HIMNOS DEL ROCK",
@@ -2802,6 +3026,7 @@ const canales = [
     mpeg4: "239.255.2.188",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY ROCK EN ESPAÑOL",
@@ -2811,6 +3036,7 @@ const canales = [
     mpeg4: "239.255.2.200",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY HARD ROCK",
@@ -2820,6 +3046,7 @@ const canales = [
     mpeg4: "239.255.2.181",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "MUSICA CLASICA",
@@ -2829,6 +3056,7 @@ const canales = [
     mpeg4: "239.255.2.215",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/1b/9a/106995/1/c300.png"
   },
   {
     nombre: "STINGRAY COCKTAIL LOUNGE",
@@ -2838,6 +3066,7 @@ const canales = [
     mpeg4: "239.255.2.175",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY MÚSICA LIGERA",
@@ -2847,6 +3076,7 @@ const canales = [
     mpeg4: "239.255.2.223",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY OPERA PLUS",
@@ -2856,6 +3086,7 @@ const canales = [
     mpeg4: "239.255.2.176",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY MAESTROS DEL CLÁSICO",
@@ -2865,6 +3096,7 @@ const canales = [
     mpeg4: "239.255.2.208",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "STINGRAY JAZZ LATINO",
@@ -2874,6 +3106,7 @@ const canales = [
     mpeg4: "239.255.2.194",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://lloydminster.bigbrothersbigsisters.ca/wp-content/uploads/sites/218/2021/03/Stingray-Radio-Logo.jpg"
   },
   {
     nombre: "RADIO MARIA",
@@ -2883,6 +3116,7 @@ const canales = [
     mpeg4: "239.255.3.88",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/369911691_676823931143664_2950522864956371385_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHxN0f9X1vUW2jBRpnS114VpyzU-kSEtgCnLNT6RIS2AMtgXeDq3dEfRchmV1lewN0&_nc_ohc=WpVPrc32DrIAX8lTWOm&_nc_ht=scontent.fscl1-1.fna&oh=00_AfBAQK_mDoucGlkYO_MBjkrDbku9sI9GibjvqpuyC8Jj3A&oe=65620994"
   },
   {
     nombre: "RADIO CONCIERTO",
@@ -2892,6 +3126,7 @@ const canales = [
     mpeg4: "239.255.2.148",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/3/30/Logo_Radio_concierto.png"
   },
   {
     nombre: "RADIO AGRICULTURA",
@@ -2901,15 +3136,17 @@ const canales = [
     mpeg4: "239.255.3.134",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://pbs.twimg.com/profile_images/1201573602/logo_chanta_400x400.jpg"
   },
   {
-    nombre: "RADIO ROCKANDPOP",
+    nombre: "RADIO ROCK & POP",
     channel: "975",
     adsl: "239.255.3.136",
     fca: "239.255.3.136",
     mpeg4: "239.255.3.136",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Rock_%26_Pop_logo_2013.svg/225px-Rock_%26_Pop_logo_2013.svg.png"
   },
   {
     nombre: "RADIO PLAY FM",
@@ -2919,6 +3156,7 @@ const canales = [
     mpeg4: "239.255.3.135",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Play_FM_2018.png/1200px-Play_FM_2018.png"
   },
   {
     nombre: "RADIO FM DOS",
@@ -2928,6 +3166,7 @@ const canales = [
     mpeg4: "239.255.3.132",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/5/58/Logo_Radio_FMDos.png"
   },
   {
     nombre: "RADIO ADN",
@@ -2937,6 +3176,7 @@ const canales = [
     mpeg4: "239.255.3.138",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/ADN_Radio_Chile.svg/2560px-ADN_Radio_Chile.svg.png"
   },
   {
     nombre: "RADIO TIEMPO",
@@ -2946,6 +3186,7 @@ const canales = [
     mpeg4: "239.255.3.61",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/0/00/Logo_Radio_Tiempo_2018.png"
   },
   {
     nombre: "RADIO BEETHOVEN",
@@ -2955,6 +3196,7 @@ const canales = [
     mpeg4: "239.255.3.60",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Logo_Radio_Beethoven_FM.png/225px-Logo_Radio_Beethoven_FM.png"
   },
   {
     nombre: "RADIO FUTURO",
@@ -2964,6 +3206,7 @@ const canales = [
     mpeg4: "239.255.3.59",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://www.futuro.cl/wp-content/uploads/2021/07/android-chrome-512x512-1.png"
   },
   {
     nombre: "Radio Bio Bio Nacional",
@@ -2973,6 +3216,7 @@ const canales = [
     mpeg4: "239.255.2.139",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/5/51/LOGO-RBB-ESP.png"
   },
   {
     nombre: "Radio Bio Bio Temuco",
@@ -2982,6 +3226,7 @@ const canales = [
     mpeg4: "239.255.2.137",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/5/51/LOGO-RBB-ESP.png"
   },
   {
     nombre: "Radio Bio Bio Concepción",
@@ -2991,7 +3236,19 @@ const canales = [
     mpeg4: "239.255.2.136",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/5/51/LOGO-RBB-ESP.png"
   },
+  {
+    nombre: "Radio Conquistador",
+    channel: "986",
+    adsl: "239.255.2.136",
+    fca: "239.255.2.136",
+    mpeg4: "239.255.2.136",
+    criticidad: "Severidad: 4",
+    bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/4/48/Radio_El_Conquistador_91.3_FM.jpg"
+  },
+  
   {
     nombre: "BLOOMBERG RADIO",
     channel: "990",
@@ -3000,6 +3257,7 @@ const canales = [
     mpeg4: "239.255.3.139",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bloomberg_Radio.svg/512px-Bloomberg_Radio.svg.png"
   },
   {
     nombre: "BBC RADIO",
@@ -3009,6 +3267,7 @@ const canales = [
     mpeg4: "239.255.3.150",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/BBC_Radio_1_2021.svg/640px-BBC_Radio_1_2021.svg.png"
   },
   {
     nombre: "DW RADIO",
@@ -3018,9 +3277,10 @@ const canales = [
     mpeg4: "239.255.3.151",
     criticidad: "Severidad: 4",
     bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/1200px-Deutsche_Welle_Logo.svg.png"
   },
   {
-    nombre: "RADIO MUSIC",
+    nombre: "RAI MUSIC",
     channel: "993",
     adsl: "239.255.3.152",
     fca: "239.255.3.152",
@@ -3029,20 +3289,21 @@ const canales = [
     bw: "0.4",
   },
   {
+    nombre: "RAI Radio",
+    channel: "994",
+    adsl: "239.255.3.152",
+    fca: "239.255.3.152",
+    mpeg4: "239.255.3.152",
+    criticidad: "Severidad: 4",
+    bw: "0.4",
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rai_Radio_logo_%282010%29.svg/2560px-Rai_Radio_logo_%282010%29.svg.png"
+  },
+  {
     nombre: "RAI RADIO",
     channel: "994",
     adsl: "239.255.3.153",
     fca: "239.255.3.153",
     mpeg4: "239.255.3.153",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
-    nombre: "RADIO EUSKADI",
-    channel: "995",
-    adsl: "239.255.3.154",
-    fca: "239.255.3.154",
-    mpeg4: "239.255.3.154",
     criticidad: "Severidad: 4",
     bw: "0.4",
   },

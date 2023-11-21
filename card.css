@@ -107,3 +107,6 @@ a{
     text-decoration: none;
     color: #fff;
 }
+.error{
+    color:#dc3545;
+}

@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/estilos.css"/>
-    <link rel="stylesheet" href="card.css"/>
-    <title>Monitoreo y Control</title>
-  </head>
-  <body class="root">
-    <div class="container">
-      <header class="header">
-        <img
-          class="header__logo"
-          src="images/Telsur_logo_2019.png"
-          alt="Logo GTD Telsur"
-        />
-        <h1 class="header__title">Sitema de gestión Monitoreo y control</h1>
-      </header>
-      <nav class="nav">
-        <ul class="nav__menu">
-          <li class="nav__menu__item">Datos Internet</li>          
-          <li class="nav__menu__item">Televisión
-            <ul class="sub_menu">
-              <li class="lista_menu nav__menu__item" ><a href="dhcp.html">Checklist</a> </li>
-            </ul>
-          </li>
-          
-          <li class="nav__menu__item"><a href="./transporte.html">Transporte</a> </li>
-          <li class="nav__menu__item"><a href="https://grupogtdlatam.sharepoint.com/sites/centrosdeoperacion/Documentos%20compartidos/Forms/AllItems.aspx?ct=1693426762763&or=OWA%2DNT&cid=30c19d50%2Dd684%2Dc019%2Dd5f2%2De42cec2dcc23&originalPath=aHR0cHM6Ly9ncnVwb2d0ZGxhdGFtLnNoYXJlcG9pbnQuY29tLzpmOi9zL2NlbnRyb3NkZW9wZXJhY2lvbi9FaE52bmNwb3loRkFwUFVqZ0dnMVMxMEJXYTFDcXMyY01jdGNxOGhBMTQ3aUZBP3J0aW1lPWFjOWxvekNBMkVn&isAscending=false&WSL=1&id=%2Fsites%2Fcentrosdeoperacion%2FDocumentos%20compartidos%2FPautas%20Zabbix&sortField=Modified&viewid=5e2553dd%2Db242%2D4d74%2D8d20%2Da72ff650eaf5">Pautas</a> </li>
-        </ul>
-      </nav>
-      <main class="main">
-        <section class="busqueda">
-          <div class="grupo-input">
-            <label for="buscar__texto">Buscar:</label>
-            <input type="text" name="" id="buscar__canal" class="form__input" placeholder="Nombre o número de canal">
-            <span class="form__input-error"></span>
-            <div class="resultado"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="card.css" />
+  <title>Monitoreo y Control</title>
+</head>
+
+<body class="root">
+  <div class="container">
+    <header class="header">
+      <img class="header__logo" src="images/Telsur_logo_2019.png" alt="Logo GTD Telsur" />
+      <h1 class="header__title">Sitema de gestión Monitoreo y control</h1>
+    </header>
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__menu__item">Datos Internet</li>
+        <li class="nav__menu__item">Televisión
+          <ul class="sub_menu">
+            <li class="lista_menu nav__menu__item"><a href="dhcp.html">Checklist</a> </li>
+          </ul>
+        </li>
+
+        <li class="nav__menu__item"><a href="./transporte.html">Transporte</a> </li>
+        <li class="nav__menu__item"><a
+            href="https://grupogtdlatam.sharepoint.com/sites/centrosdeoperacion/Documentos%20compartidos/Forms/AllItems.aspx?ct=1693426762763&or=OWA%2DNT&cid=30c19d50%2Dd684%2Dc019%2Dd5f2%2De42cec2dcc23&originalPath=aHR0cHM6Ly9ncnVwb2d0ZGxhdGFtLnNoYXJlcG9pbnQuY29tLzpmOi9zL2NlbnRyb3NkZW9wZXJhY2lvbi9FaE52bmNwb3loRkFwUFVqZ0dnMVMxMEJXYTFDcXMyY01jdGNxOGhBMTQ3aUZBP3J0aW1lPWFjOWxvekNBMkVn&isAscending=false&WSL=1&id=%2Fsites%2Fcentrosdeoperacion%2FDocumentos%20compartidos%2FPautas%20Zabbix&sortField=Modified&viewid=5e2553dd%2Db242%2D4d74%2D8d20%2Da72ff650eaf5">Pautas</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="busqueda">
+        <div class="grupo-input">
+          <label for="buscar__texto">Buscar:</label>
+          <input type="text" name="" id="buscar__canal" class="form__input" placeholder="Nombre o número de canal">
+          <span class="form__input-error"></span>
+          <div class="resultado">
+            <div class="card">
+              <div class="main">
+                <p class="card__nombre">Nombre Canal</p>
+                <img src="url" alt="nombre" class="card__logo" />
+              </div>
+              <div class="card__info">
+                <p class="card__numero">Numereo</p>
+                <p class="card__categoria">Severidad</p>
+              </div>
+            </div>
           </div>
-        </section>
-      </main>
-    </div>
-    <script src="js/canales.js"></script>
-    <script src="js/filtrar.js"></script>
-  </body>
+      </section>
+    </main>
+  </div>
+  <script src="js/canales.js"></script>
+  <script src="js/filtrar.js"></script>
+</body>
+
 </html>

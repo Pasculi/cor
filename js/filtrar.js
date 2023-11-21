@@ -24,11 +24,7 @@ function filtrarCanal() {
     const inputText = evt.target.value.toLowerCase().trim();
 
     if (inputText !== '') {
-      console.log(inputText);
       const mostrarFiltrado = canales.filter(canal => canal.nombre.toLowerCase().includes(inputText) || canal.channel.startsWith(inputText));
-      console.log(mostrarFiltrado.sort(function(a,b){
-        return b - a
-      }))
       limpiarHtml();
       mostrarCanales(mostrarFiltrado);
     } else if (inputText === '') {
@@ -51,24 +47,24 @@ function mostrarCanales(canales) {
     canales.map((canal) => {
       resultados.innerHTML += `
       <div class="card">
-        <p class="card__nombre">${canal.nombre.toUpperCase()}</p>
-                      <img
-                        src="${canal.src}"
-                        alt=${canal.nombre}
-                        class="card__logo"
-                      />
-                      <div class="card__info">
-                        <p class="card__numero">${canal.channel}</p>
-                        <p class="card__categoria">${canal.criticidad}</ </p>
-                      </div>
-    `;
-  
-    })
-    
-  } else {
-    resultados.innerHTML = `<h2>No hay resultados para tu búsqueda...</h2>`;
-  }
+      <p class="card__nombre">${canal.nombre.toUpperCase()}</p>
+      <img
+      src="${canal.src}"
+      alt=${canal.nombre}
+      class="card__logo"
+      />
+      <div class="card__info">
+      <p class="card__numero">${canal.channel}</p>
+      <p class="card__categoria">${canal.criticidad}</p>
+      </div>
+      `;
 
+
+    })
+
+  } else {
+    resultados.innerHTML = `<h2 class="error">No hay resultados para tu búsqueda...</h2>`;
+  }
 }
 
 function limpiarHtml() {
@@ -76,3 +72,10 @@ function limpiarHtml() {
     resultados.removeChild(resultados.firstChild);
   }
 }
+
+const resultado = document.querySelector('.resultado')
+console.log("🚀 ~ file: filtrar.js:77 ~ card:", resultado)
+
+resultado.addEventListener("click", (evt)=>{
+  console.log(evt.target.parentElement)
+})
