@@ -1,13 +1,13 @@
 const canales = [
   {
-    nombre: "NAT GEO KIDS",
+    nombre: "Dreamworks",
     channel: "3",
     adsl: "239.255.2.138",
     fca: "239.255.2.138",
     mpeg4: "239.255.3.50",
     criticidad: "Severidad: 3",
     bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Natgeo_Kids_logo.svg/1200px-Natgeo_Kids_logo.svg.png"
+    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/800px-DreamWorks_Channel_Logo.svg.png"
   },
   {
     nombre: "TOONCAST",
@@ -18,16 +18,6 @@ const canales = [
     criticidad: "Severidad: 3",
     bw: "3.5",
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tooncast_logo.svg/2560px-Tooncast_logo.svg.png"
-  },
-  {
-    nombre: "FUNBOX",
-    channel: "5",
-    adsl: "239.255.2.167",
-    fca: "239.255.2.167",
-    mpeg4: "239.255.2.167",
-    criticidad: "Severidad: 4",
-    bw: "3.5",
-    src:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/FunBox_TV_logo.svg/1200px-FunBox_TV_logo.svg.png"
   },
   {
     nombre: "BABY TV",
@@ -180,7 +170,7 @@ const canales = [
 	src:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/TV%2B_%282018%29.png/800px-TV%2B_%282018%29.png"
   },
   {
-    nombre: "Red TV - Canal  4",
+    nombre: "Red TV",
     channel: "24",
     adsl: "239.255.2.10",
     fca: "239.255.2.10",
@@ -437,7 +427,7 @@ const canales = [
     mpeg4: " '",
     criticidad: "Severidad: 4",
     bw: "3.5",
-    src:"https://scontent.fscl1-1.fna.fbcdn.net/v/t39.30808-6/302190421_479866864149747_5540257945048975666_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEheHHjtD2MSMBimE1E2kHLf_lPRXP-Blh_-U9Fc_4GWCsBSZAhhy2N7uGofIkcoLE&_nc_ohc=EaZUb84wkqsAX8VDBRI&_nc_ht=scontent.fscl1-1.fna&oh=00_AfAKLt4vhY40tX7h3mxKMqjMg7cA_BDzIqJR0DjQ5gAFww&oe=6554E066"
+    src:"https://yt3.googleusercontent.com/ytc/APkrFKa27btDuwnJuxhCQwtM6VMno_D7IfqM7S6AxIuL=s176-c-k-c0x00ffffff-no-rj"
   },
   {
     nombre: "PATAGONIA RADIO TV",

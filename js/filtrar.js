@@ -11,12 +11,12 @@ const buscarCanal = document.querySelector(".form__input");
 const resultados = document.querySelector(".resultado");
 
 
-function mostrarCanales(canales) {
+/* function mostrarCanales(canales) {
   resultados.innerHTML = 'N° - Nombre - Multicast - Severidad'
   canales.forEach((canal) => {
     resultados.innerHTML += `<p>N°${canal.channel}.- ${canal.nombre} (<strong>ADSL:</strong> ${canal.adsl} - <strong>FCA:</strong> ${canal.fca} - <strong>MPEG4:</strong> ${canal.mpeg4}) - <strong>${canal.criticidad}</strong></p>`;
   })
-}
+} */
 
 function filtrarCanal() {
 
@@ -46,6 +46,7 @@ function mostrarCanales(canales) {
   if (canales.length !== 0) {
     canales.map((canal) => {
       resultados.innerHTML += `
+      
       <div class="card">
       <p class="card__nombre">${canal.nombre.toUpperCase()}</p>
       <img
@@ -57,6 +58,7 @@ function mostrarCanales(canales) {
       <p class="card__numero">${canal.channel}</p>
       <p class="card__categoria">${canal.criticidad}</p>
       </div>
+      
       `;
 
 
@@ -74,8 +76,8 @@ function limpiarHtml() {
 }
 
 const resultado = document.querySelector('.resultado')
-console.log("🚀 ~ file: filtrar.js:77 ~ card:", resultado)
+console.log(resultado)
 
-resultado.addEventListener("click", (evt)=>{
+resultado.addEventListener("click", (evt) => {
   console.log(evt.target.parentElement)
 })
