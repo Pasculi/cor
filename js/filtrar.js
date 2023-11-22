@@ -28,7 +28,7 @@ function filtrarCanal() {
       limpiarHtml();
       mostrarCanales(mostrarFiltrado);
     } else if (inputText === '') {
-      resultados.innerHTML = `<h2>Ingrese una búsqueda...</h2>`;
+      resultados.innerHTML = `<h2 class="titulo-busqueda">Ingrese una búsqueda...</h2>`;
     }
 
   });
@@ -36,7 +36,7 @@ function filtrarCanal() {
 
 function noResultado() {
   const noResultado = document.createElement('div');
-  noResultado.innerHTML = `<h2>Ingrese una búsqueda válida...</h2>`;
+  noResultado.innerHTML = `<h2 class="titulo-busqueda">Ingrese una búsqueda válida...</h2>`;
   resultados.appendChild(noResultado);
 
 };

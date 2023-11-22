@@ -3270,15 +3270,6 @@ const canales = [
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/1200px-Deutsche_Welle_Logo.svg.png"
   },
   {
-    nombre: "RAI MUSIC",
-    channel: "993",
-    adsl: "239.255.3.152",
-    fca: "239.255.3.152",
-    mpeg4: "239.255.3.152",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
-  },
-  {
     nombre: "RAI Radio",
     channel: "994",
     adsl: "239.255.3.152",
@@ -3287,15 +3278,6 @@ const canales = [
     criticidad: "Severidad: 4",
     bw: "0.4",
     src:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rai_Radio_logo_%282010%29.svg/2560px-Rai_Radio_logo_%282010%29.svg.png"
-  },
-  {
-    nombre: "RAI RADIO",
-    channel: "994",
-    adsl: "239.255.3.153",
-    fca: "239.255.3.153",
-    mpeg4: "239.255.3.153",
-    criticidad: "Severidad: 4",
-    bw: "0.4",
   },
   
 ];

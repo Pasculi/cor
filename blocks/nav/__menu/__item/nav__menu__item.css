@@ -4,14 +4,17 @@
     cursor: pointer;
     transition:all 0.5s;
     margin-top: 10px;
-    overflow: visible;
+    overflow: hidden;
+    background-color: #5175B9;
+    transform:translateX(121)
 }
-
+.nav__menu__item:nth-child(1){
+    background-color: orange;
+}
 .nav__menu__item:hover{
     color: #000;
-    background-color: #fff;
+    background-color: #4DB99C;
     height: fit-content;
-}
-.nav__menu__item:active{
-    outline:2px solid grey;
+    color: #FFF;
+    overflow: visible;
 }

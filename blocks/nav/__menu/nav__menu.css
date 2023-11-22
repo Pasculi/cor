@@ -1,10 +1,17 @@
 .nav__menu {
     display   : flex;
+    width: 100%;
+    justify-content: end;
     list-style: none;
     gap:10px;
     color:#fff;
 }
-
-/* .nav__menu:hover{
-    color:#000;
-} */
+.nav__menu__item{
+    height: 30px;
+}
+.sub_menu{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    margin:10px 0;
+}
