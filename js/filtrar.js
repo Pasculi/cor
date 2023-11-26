@@ -78,6 +78,6 @@ function limpiarHtml() {
 const resultado = document.querySelector('.resultado')
 console.log(resultado)
 
-resultado.addEventListener("click", (evt) => {
+document.addEventListener("click", (evt) => {
   console.log(evt.target.parentElement)
 })

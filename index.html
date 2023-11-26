@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="css/estilos.css" />
   <link rel="stylesheet" href="card.css" />
   <title>Monitoreo y Control</title>
@@ -25,12 +26,13 @@
             <li class="lista_menu nav__sub_menu__item"><a href="dhcp.html" target="_blank">Checklist</a> </li>
             <li class="lista_menu nav__sub_menu__item"><a href="dhcp.html" target="_blank">Checklist</a> </li>
           </ul>
-          
+
         </li>
 
-        <li class="nav__menu__item"><a href="./transporte.html" target="_blank" >Transporte</a> </li>
+        <li class="nav__menu__item"><a href="./transporte.html" target="_blank">Transporte</a> </li>
         <li class="nav__menu__item"><a
-            href="https://grupogtdlatam.sharepoint.com/sites/centrosdeoperacion/Documentos%20compartidos/Forms/AllItems.aspx?ct=1693426762763&or=OWA%2DNT&cid=30c19d50%2Dd684%2Dc019%2Dd5f2%2De42cec2dcc23&originalPath=aHR0cHM6Ly9ncnVwb2d0ZGxhdGFtLnNoYXJlcG9pbnQuY29tLzpmOi9zL2NlbnRyb3NkZW9wZXJhY2lvbi9FaE52bmNwb3loRkFwUFVqZ0dnMVMxMEJXYTFDcXMyY01jdGNxOGhBMTQ3aUZBP3J0aW1lPWFjOWxvekNBMkVn&isAscending=false&WSL=1&id=%2Fsites%2Fcentrosdeoperacion%2FDocumentos%20compartidos%2FPautas%20Zabbix&sortField=Modified&viewid=5e2553dd%2Db242%2D4d74%2D8d20%2Da72ff650eaf5" target="_blank">Pautas</a>
+            href="https://grupogtdlatam.sharepoint.com/sites/centrosdeoperacion/Documentos%20compartidos/Forms/AllItems.aspx?ct=1693426762763&or=OWA%2DNT&cid=30c19d50%2Dd684%2Dc019%2Dd5f2%2De42cec2dcc23&originalPath=aHR0cHM6Ly9ncnVwb2d0ZGxhdGFtLnNoYXJlcG9pbnQuY29tLzpmOi9zL2NlbnRyb3NkZW9wZXJhY2lvbi9FaE52bmNwb3loRkFwUFVqZ0dnMVMxMEJXYTFDcXMyY01jdGNxOGhBMTQ3aUZBP3J0aW1lPWFjOWxvekNBMkVn&isAscending=false&WSL=1&id=%2Fsites%2Fcentrosdeoperacion%2FDocumentos%20compartidos%2FPautas%20Zabbix&sortField=Modified&viewid=5e2553dd%2Db242%2D4d74%2D8d20%2Da72ff650eaf5"
+            target="_blank">Pautas</a>
         </li>
       </ul>
     </nav>
@@ -40,6 +42,7 @@
           <label for="buscar__texto">Buscar:</label>
           <input me="" id="buscar__canal" class="form__input" placeholder="Nombre o número de canal">
           <span class="form__input-error"></span>
+
           <div class="resultado">
             <div class="card">
               <div class="main">
@@ -52,10 +55,28 @@
               </div>
             </div>
           </div>
+
+          <section class="popup">
+
+            <div class="popup__card__info">
+              <div class="popup__card__header">
+                <p class="popup__card__numero">26</p>
+                <img class="popup__card__logo" src="https://brandemia.org/sites/default/files/sites/default/files/logo_mega-despues.jpg" alt="">
+                <p class="popup__card__nombre">MEGAVISION</p>
+                
+              </div>
+              <div class="popup__card__main">
+                
+
+              </div>
+
+            </div>
+          </section>
+
       </section>
     </main>
   </div>
-  <script src="./js/index.js"></script>
+  <script type="module" src="./pages/index.js"></script>
   <script src="./js/canales.js"></script>
   <script src="./js/filtrar.js"></script>
 </body>
