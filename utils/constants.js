@@ -16,12 +16,12 @@ export const channel = [
     categoria: "Nacional",
     contacto: [
       {
-        contacto1: "Joaquin Rafael Phoenix",
+        contacto: "Joaquin Rafael Phoenix",
         correo: "jphoenix@gmail.com",
         fono: "988773456"
       },
       {
-        contacto2: "Heath Ledger",
+        contacto: "Heath Ledger",
         correo: "hledger@gmail.com",
         fono: "911998877"
       }
@@ -30,3 +30,16 @@ export const channel = [
 
   }
 ]
+
+
+const logo = document.querySelector('.header__logo')
+const popupChannel = document.querySelector('.popup')
+const cerrarPopup = document.querySelector('.popup__card__close');
+
+logo.addEventListener('click', () =>{
+  popupChannel.classList.add('popup-show')
+})
+
+cerrarPopup.addEventListener('click', () =>{
+  popupChannel.classList.remove('popup-show')
+})
