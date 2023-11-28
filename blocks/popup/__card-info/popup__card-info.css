@@ -17,6 +17,7 @@
 
 .popup-show{
   opacity:1;
+  position:fixed;
   pointer-events: unset;
   transition:opacity .6s;
   --transform:translateX(0);
