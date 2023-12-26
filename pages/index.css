@@ -9,12 +9,12 @@
 @import url(../blocks/header/__title/header__title.css);
 
 /* Navbar */
-@import url(../blocks/navbar/navbar.css);
+/* @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__menu/navbar__menu.css);
 @import url(../blocks/navbar/__menu/__item/navbar__menu__item.css);
 @import url(../blocks/navbar/__submenu/navbar__submenu.css);
 @import url(../blocks/navbar/__submenu/__item/navbar__submenu__item.css);
-@import url(../blocks/navbar/__submenu/__item/navbar__submenu__item.css);
+@import url(../blocks/navbar/__submenu/__item/navbar__submenu__item.css); */
 
 
 @import url(../blocks/popup/__card-info/popup__card-info.css)
