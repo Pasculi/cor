@@ -5,192 +5,207 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
   <link rel="stylesheet" href="transporte.css">
-  <link rel="stylesheet" href="css/estilos.css"/>
+  <link rel="stylesheet" href="css/estilos.css" />
   <title>Transporte</title>
 </head>
 
-<body>
+<body class="root">
   <div class="container">
-      <header class="header">
-        <img
-          class="header__logo"
-          src="images/Telsur_logo_2019.png"
-          alt="Logo GTD Telsur"
-        />
-        <h1 class="header__title">Sitema de gestión Monitoreo y control</h1>
-      </header>
-      <nav class="nav">
-        <ul class="nav__menu">
-          <li class="nav__menu__item">Datos Internet</li>          
-          <li class="nav__menu__item">Televisión
-            <ul class="sub_menu nav__menu__item">
-              <li class="lista_menu" ><a class="lista_menu__link" href="dhcp.html">Checklist</a> </li>
-            </ul>
-          </li>
-          
-          <li class="nav__menu__item"><a href="./transporte.html">Transporte</a> </li>
-          
-        </ul>
-      </nav>
-      <main class="main">
-
-
-        <div class="dwdm">
-          <h3>DWDM PRAT</h3>
-          <ul>
-            <li>Anydesk COR (en puesto 2) ID 956683736 / clave: telsur2020</li>
-            <li>Gestor prat escritorio remoto (172.19.12.202) / TELEDUCTOS\cor2020, pass: Passw0rd / Gestor TNMS /
-              cor2/Part.2021</li>
+    <header class="header">
+      <img class="header__logo" src="images/Telsur_logo_2019.png" alt="Logo GTD Telsur" />
+      <h1 class="header__title">Monitoreo y control</h1>
+    </header>
+    <nav class="nav">
+      <ul class="nav__menu">
+        <li class="nav__menu__item">Datos</li>
+        <li class="nav__menu__item">Televisión
+          <ul class="nav__menu sub_menu">
+            <li class="lista_menu nav__sub_menu__item"><a href="dhcp.html" target="_blank">Checklist</a> </li>
           </ul>
-          ************************************************************************************************
-    
-        </div>
-        <div class="pwmanager">
-          <h3>Infraestructura Escritorio remoto PowerManager2</h3>
-          <p>172.19.32.5</p>
-          <p>MVCFIBERHOME\COR / cor2020</p>
-          <p>Escritorio remoto
-Cheroque 172.19.32.5
-cor
-cor2020
-administrator
-telsur</p>
-<p>Harris
-172.19.19.10
-administrador
-telsur
-admin admin </p>
-<p>Display transporte
-IP 172.19.5.11
-Gtd.2021</p>
-        </div>
-        <div class="dwdm-prat">
-          Zabbixs para DWDM Larga Distancia y PRAT
-          ZBB01http://zbb01.server.cl/zabbix/zabbix.php?action=dashboard.view
-          coringenieros/Cor.2020
-        </div>
-        <div class="prat">
-          DWDM PRAT
-        </div>
-        <div class="dwdmHuawei">
-          <h3>DWDM Huawei</h3>
-          <a href="https://172.27.49.18:31943/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252Fnmsnetworkmgrwebsite%252Fv1%252Fwebswing%252Findexforwebswing.html#page=QWN0aW9uJTNEY29tLmh1YXdlaS51MjAwMC51bml0ZWRtZ3IudG9wby5hY3Rpb24uRG9XZWJUb3BvQWN0aW9u/"
-            target="_blank">Red DWDM Huawei</a>
-        </div>
-        <p>OperadorCor / Gtd_2023_#cor</p>
-    
-        <div class="broker">
-          <h3>SERVICE BROKER</h3>
-          <p>Configurar Putty</p>
-          <img src="./images/service_broker/01_putty.jpg" alt="" srcset="">
-          sesión ssh: 172.60.0.73 <br>
-          <img src="./images/service_broker/02_putty.jpg" alt="">
-          puerto: 127.0.0.1:1234 |
-          destino: Localhost:28484 <br>
-         <p>Esperar 15 minutos y abrir el enlace web</p>
-          <a href="http://127.0.0.1:1234/" target="_blank">http://127.0.0.1:1234/</a>
-          <br>
-          guest/(sin password) <br>
-          
-          <img src="./images/service_broker/03_putty.jpg" alt="">
-          root/ Br^k3r14 <br>
-          <img src="./images/service_broker/04_putty.jpg" alt="">
-          <img src="./images/service_broker/05_putty.jpg" alt="">
-          <img src="./images/service_broker/06_putty.jpg" alt="">
-          <img src="./images/service_broker/07_putty.jpg" alt=""><br>
-        </div>
-        <div class="ewsd">
-          <h3>Aplicativo EWSD
-            RADMIN</h3>
-            <h3>Revisar un DLU</h3>
-        <p>STATDLU:DLU=40; </p>
-        <p>dispalarm; < permite ver las alarmas de la central</p>
-        <p>STATDLUMOD:DLU=40,MOD=X-X;</p>
-        <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=MBL; => con ese comando se baja el modulo</p>
-        <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=ACT ;  => con este se sube</p>
-        <p>CONFDLUMOD:DLU=40,OST=MBL/ACT => ese comando permite bajar la DLU, pero en ese caso es más complejo, porque hay que corroborar que aplique o no, sino se afectarían los servicios</p>
-        <div class="ama">
+
+        </li>
+
+        <li class="nav__menu__item"><a href="./transporte.html" target="_blank">Transporte</a> </li>
+        <li class="nav__menu__item"><a
+            href="https://grupogtdlatam.sharepoint.com/sites/centrosdeoperacion/Documentos%20compartidos/Forms/AllItems.aspx?ct=1693426762763&or=OWA%2DNT&cid=30c19d50%2Dd684%2Dc019%2Dd5f2%2De42cec2dcc23&originalPath=aHR0cHM6Ly9ncnVwb2d0ZGxhdGFtLnNoYXJlcG9pbnQuY29tLzpmOi9zL2NlbnRyb3NkZW9wZXJhY2lvbi9FaE52bmNwb3loRkFwUFVqZ0dnMVMxMEJXYTFDcXMyY01jdGNxOGhBMTQ3aUZBP3J0aW1lPWFjOWxvekNBMkVn&isAscending=false&WSL=1&id=%2Fsites%2Fcentrosdeoperacion%2FDocumentos%20compartidos%2FPautas%20Zabbix&sortField=Modified&viewid=5e2553dd%2Db242%2D4d74%2D8d20%2Da72ff650eaf5"
+            target="_blank">Pautas</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="dwdm">
+      <h3>DWDM PRAT</h3>
+      <ul>
+        <li>Anydesk COR (en puesto 2) ID 956683736 / clave: telsur2020</li>
+        <li>Gestor prat escritorio remoto (172.19.12.202) / TELEDUCTOS\cor2020, pass: Passw0rd / Gestor TNMS /
+          cor2/Part.2021</li>
+      </ul>
+      ************************************************************************************************
+
+    </div>
+    <div class="pwmanager">
+      <h3>Infraestructura Escritorio remoto PowerManager2</h3>
+      <p>172.19.32.5</p>
+      <p>MVCFIBERHOME\COR / cor2020</p>
+      <p>Escritorio remoto
+        Cheroque 172.19.32.5
+        cor
+        cor2020
+        administrator
+        telsur</p>
+      <p>Harris
+        172.19.19.10
+        administrador
+        telsur
+        admin admin </p>
+      <p>Display transporte
+        IP 172.19.5.11
+        Gtd.2021</p>
+    </div>
+    <div class="dwdm-prat">
+      Zabbixs para DWDM Larga Distancia y PRAT
+      ZBB01http://zbb01.server.cl/zabbix/zabbix.php?action=dashboard.view
+      coringenieros/Cor.2020
+    </div>
+    <div class="prat">
+      DWDM PRAT
+    </div>
+    <div class="dwdmHuawei">
+      <h3>DWDM Huawei</h3>
+      <a href="https://172.27.49.18:31943/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252Fnmsnetworkmgrwebsite%252Fv1%252Fwebswing%252Findexforwebswing.html#page=QWN0aW9uJTNEY29tLmh1YXdlaS51MjAwMC51bml0ZWRtZ3IudG9wby5hY3Rpb24uRG9XZWJUb3BvQWN0aW9u/"
+        target="_blank">Red DWDM Huawei</a>
+    </div>
+    <p>OperadorCor / Gtd_2023_#cor</p>
+
+    <div class="broker">
+      <h3>SERVICE BROKER</h3>
+      <p>Configurar Putty</p>
+      <img src="./images/service_broker/01_putty.jpg" alt="" srcset="">
+      sesión ssh: 172.60.0.73 <br>
+      <img src="./images/service_broker/02_putty.jpg" alt="">
+      puerto: 127.0.0.1:1234 |
+      destino: Localhost:28484 <br>
+
+
+      <img src="./images/service_broker/03_putty.jpg" alt="">
+      root/ Br^k3r14 <br>
+      <img src="./images/service_broker/04_putty.jpg" alt="">
+      <img src="./images/service_broker/05_putty.jpg" alt="">
+      <img src="./images/service_broker/06_putty.jpg" alt="">
+      <img src="./images/service_broker/07_putty.jpg" alt=""><br>
+      <p>Esperar 15 minutos y abrir el enlace web</p>
+      <a href="http://127.0.0.1:1234/" target="_blank">http://127.0.0.1:1234/</a>
+      <br>
+      guest/(sin password) <br>
+      <img src="./images/service_broker/01_service_broker.jpg" alt="" srcset="">
+      <img src="./images/service_broker/02_service_broker.jpg" alt="" srcset="">
+      <img src="./images/service_broker/03_service_broker.jpg" alt="" srcset="">
+      <h3>Si se registra alguna alarma, escalar a Especialista de Telefonía</h3>
+    </div>
+    <div class="ewsd">
+      <h3>Aplicativo EWSD
+        RADMIN</h3>
+      <h3>Revisar un DLU</h3>
+      <p>STATDLU:DLU=40; </p>
+      <p>dispalarm; < permite ver las alarmas de la central</p>
+          <p>STATDLUMOD:DLU=40,MOD=X-X;</p>
+          <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=MBL; => con ese comando se baja el modulo</p>
+          <p>CONFDLUMOD:DLU=40,MOD=1-11,OST=ACT ; => con este se sube</p>
+          <p>CONFDLUMOD:DLU=40,OST=MBL/ACT => ese comando permite bajar la DLU, pero en ese caso es más complejo, porque
+            hay que corroborar que aplique o no, sino se afectarían los servicios</p>
+          <div class="ama">
             <h4>Ingresar en comndo: OMT0 y ↲ enter </h4>
             <p>admin/123456</p>
-          <ul>
-            <li>CNCP - 172.19.5.117 => cncp*2023#</li>
-            <li>CSTR - 172.19.5.116 => cstr*2023#</li>
-            <li>CYHQ - 172.19.5.115 => cyhq*2023#</li>
-            <li>OSRN - 172.19.5.113 => osrn*2023#</li>
-            <li>PMTT - 172.19.5.114 => pmtt*2023#</li>
-            <li>TMCO - 172.19.5.112 => tmco*2023#</li>
-            <li>VLDV - 172.19.5.111 => vldv*2023#</li>
-          </ul>
-        </div>
-        
+            <ul>
+              <li>CNCP - 172.19.5.117 => cncp*2023#</li>
+              <li>CSTR - 172.19.5.116 => cstr*2023#</li>
+              <li>CYHQ - 172.19.5.115 => cyhq*2023#</li>
+              <li>OSRN - 172.19.5.113 => osrn*2023#</li>
+              <li>PMTT - 172.19.5.114 => pmtt*2023#</li>
+              <li>TMCO - 172.19.5.112 => tmco*2023#</li>
+              <li>VLDV - 172.19.5.111 => vldv*2023#</li>
+            </ul>
+          </div>
+
           <h4>Realizar el AMA</h4>
           <h4>Limpiar páginas de centrales ESWD, esto se hace todas las mañanas:</h4>  
           <code>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>verificar que el IA.ICAMA fue liberado o no.> ver "copyarea
               bytes=0"</span>
           </code>
           <p>DISPFILE:FILE=AMA.; <span>EL VALOR DE LAS PAGINAS COPIADAS DEBE COINCIDIR CON EL IA.ICAMA</span> </p>
-            <p></p> RELCYCFILE:FILE=IA.ICAMA; <span>liberar AMA</span>  </p>
-            <!-- Proceso AMA en la Tarde -->
-            <a href="https://teams.microsoft.com/_#/FileBrowserTabApp/General?threadId=19:c39b2e86d7504cbfbe580d3099b08677@thread.skype&ctx=channel">Registro AMA</a>
-            <h4>Proceso del AMA, esto se hace todas las tardes:</h4>
-            <p>equipos/archivos/RESUMEN_AMA_mes_año <span>sacar datos de la correlación por cada día y zona, para ordenarse. Ver que disco este liberado</span>  </p>
-            <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>los 2 copyarea pages y bytes en 0 </span> </p>
-            <h4>Ver disco montado en centrales</h4> <span>de no ser así se deberá montar</span>        <p>DISPMO:MOD=0; <span>nombre (AMADIA) y estado NORM=1</span>  </p>
-            <p><h4>Revisar estado de los discos</h4>  <br>STATSSP;<span>MOD-0 y 1 en ACT</span> </p>
-            <p><h4>Revisar secuencia de los archivos</h4><br>DISPFILE:FILE=AMA.; <span>para ve si corresponde la numeración de orden del archivo de teams, debe ser el siguiente</span> </p>
-            <h4>Iniciaizacion de disco</h4> <br>
-            INITMO<br>
-            VSN=AMADIA<br>
-            CD=EBC<br>
-            MOD=0; <span>Iniciar y que se ejecute el comando</span> </p>
-            <br>
-            <h4>Sacar el Ama</h4>
-            <p>TRANSFILE:FILE=AMA.649.PMTT/IA.ICAMA,VSNR=AMADIA;<span> saca el archivo AMA, comando debe ser aceptado. Se debe anotar el registro  y hora del RECORDS.</span> </p>
-            <p>TRANSFILE:FILE=AMA.649.PMTT,VSNS=AMADIA,MODE=CRD;<span>comando debe ser aceptado, archivo AMA se paso al disco</span> </p>
-            <h4>En caso que el disco este montado en "otro"</h4>
-            <p>CONFMOD:MOD=0,OST=MBL;</p>
-            <p>CONFMOD:MOD=0,OST=ACT;</p>
-            <p>INITMO</p>
-            <p>VSN=AMADIA</p>
-            <p>CD=EBC</p>
-            <p>MOD=0;</p>
-    
-          <h3>Aplicativos AMA</h3>
-            <p>Escritorio Remoto:172.16.67.252 => userewsd / Passw0rd </p>
-            <ul>
-              <li>FLASH2 GUI:</li>
-              <ul>
-                <li>crear los respaldos -dejar online (presionar botón gris)</li>
-                <li>crear los backup (presionar botón "create backup" y guardar con el archivo del día anterior cambiando solo el número de registro al actual)
-                </li>
-              </ul><br>
-            <li>Arsenal Image mountaner</li>
-                <ul>
-                  <li>escoger "mount image", aplicar "ver todos los archivos" y escoger uno por uno los archivos de los sitios.</li>
-                  <li>marcar 512, write original y removable</li>
-                </ul><br>
-            <li> WINDISKUS</li>
-              <ul>
-                <li>
-                  escoger cada sitio
-                </li>
-                <li>file groups, archivo AMA</li>
-                <li>escoger y apretar file/copy/to pc y "yes all" Cambiar extensión de los archivos</li>
-                <li>disco C/usuarios/userewsd</li>
-                <li>dejarlos en "SRC"</li>
-              </ul><br>
-            <li>
-              LNP: <a href="http://lnpcp.cnt.telsur.cl/LNP/main.php">Acceder</a>
-            </li>
-            <ul>
-              <li>CDR/cargar archivos</li>
-              <li>cargar directo los archivos, copiar del escritorio remoto al local</li>
-              <li>ver traducidos y sacar datos del registro 84 y tasabilidad</li>
-            </ul>
-          </ul>
-        </div>
-      </main>
+          <p></p> RELCYCFILE:FILE=IA.ICAMA; <span>liberar AMA</span> </p>
+      <!-- Proceso AMA en la Tarde -->
+      <a
+        href="https://teams.microsoft.com/_#/FileBrowserTabApp/General?threadId=19:c39b2e86d7504cbfbe580d3099b08677@thread.skype&ctx=channel">Registro
+        AMA</a>
+      <h4>Proceso del AMA, esto se hace todas las tardes:</h4>
+      <p>equipos/archivos/RESUMEN_AMA_mes_año <span>sacar datos de la correlación por cada día y zona, para ordenarse.
+          Ver que disco este liberado</span> </p>
+      <p>DISPFILE:FILE=IA.ICAMA,ALL=YES; <span>los 2 copyarea pages y bytes en 0 </span> </p>
+      <h4>Ver disco montado en centrales</h4> <span>de no ser así se deberá montar</span>
+      <p>DISPMO:MOD=0; <span>nombre (AMADIA) y estado NORM=1</span> </p>
+      <p>
+      <h4>Revisar estado de los discos</h4> <br>STATSSP;<span>MOD-0 y 1 en ACT</span> </p>
+      <p>
+      <h4>Revisar secuencia de los archivos</h4><br>DISPFILE:FILE=AMA.; <span>para ve si corresponde la numeración de
+        orden del archivo de teams, debe ser el siguiente</span> </p>
+      <h4>Iniciaizacion de disco</h4> <br>
+      INITMO<br>
+      VSN=AMADIA<br>
+      CD=EBC<br>
+      MOD=0; <span>Iniciar y que se ejecute el comando</span> </p>
+      <br>
+      <h4>Sacar el Ama</h4>
+      <p>TRANSFILE:FILE=AMA.649.PMTT/IA.ICAMA,VSNR=AMADIA;<span> saca el archivo AMA, comando debe ser aceptado. Se debe
+          anotar el registro  y hora del RECORDS.</span> </p>
+      <p>TRANSFILE:FILE=AMA.649.PMTT,VSNS=AMADIA,MODE=CRD;<span>comando debe ser aceptado, archivo AMA se paso al
+          disco</span> </p>
+      <h4>En caso que el disco este montado en "otro"</h4>
+      <p>CONFMOD:MOD=0,OST=MBL;</p>
+      <p>CONFMOD:MOD=0,OST=ACT;</p>
+      <p>INITMO</p>
+      <p>VSN=AMADIA</p>
+      <p>CD=EBC</p>
+      <p>MOD=0;</p>
+
+      <h3>Aplicativos AMA</h3>
+      <p>Escritorio Remoto:172.16.67.252 => userewsd / Passw0rd </p>
+      <ul>
+        <li>FLASH2 GUI:</li>
+        <ul>
+          <li>crear los respaldos -dejar online (presionar botón gris)</li>
+          <li>crear los backup (presionar botón "create backup" y guardar con el archivo del día anterior cambiando solo
+            el número de registro al actual)
+          </li>
+        </ul><br>
+        <li>Arsenal Image mountaner</li>
+        <ul>
+          <li>escoger "mount image", aplicar "ver todos los archivos" y escoger uno por uno los archivos de los sitios.
+          </li>
+          <li>marcar 512, write original y removable</li>
+        </ul><br>
+        <li> WINDISKUS</li>
+        <ul>
+          <li>
+            escoger cada sitio
+          </li>
+          <li>file groups, archivo AMA</li>
+          <li>escoger y apretar file/copy/to pc y "yes all" Cambiar extensión de los archivos</li>
+          <li>disco C/usuarios/userewsd</li>
+          <li>dejarlos en "SRC"</li>
+        </ul><br>
+        <li>
+          LNP: <a href="http://lnpcp.cnt.telsur.cl/LNP/main.php">Acceder</a>
+        </li>
+        <ul>
+          <li>CDR/cargar archivos</li>
+          <li>cargar directo los archivos, copiar del escritorio remoto al local</li>
+          <li>ver traducidos y sacar datos del registro 84 y tasabilidad</li>
+        </ul>
+      </ul>
+    </div>
+    </main>
 </body>
 
 </html>
