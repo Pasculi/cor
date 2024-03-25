@@ -36,9 +36,13 @@ const logo = document.querySelector('.header__logo')
 const popupChannel = document.querySelector('.popup')
 const cerrarPopup = document.querySelector('.popup__card__close');
 
-logo.addEventListener('click', () =>{
-  popupChannel.classList.add('popup-show')
-})
+export const PopupInfo = ()=>{
+  logo.addEventListener('click', () =>{
+    popupChannel.classList.add('popup-show')
+  })
+  }
+
+
 
 cerrarPopup.addEventListener('click', () =>{
   popupChannel.classList.remove('popup-show')
